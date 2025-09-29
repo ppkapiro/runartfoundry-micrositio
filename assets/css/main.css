@@ -1263,3 +1263,97 @@ a[target="_blank"]:after {
         pointer-events: none;
     }
 }
+
+/* ============================================== */
+/* MENÚ RESPONSIVE - SOLUCIÓN DEFINITIVA */
+/* Mon Sep 29 16:41:44 EDT 2025 */
+/* ============================================== */
+
+/* ==============================================
+   MENÚ RESPONSIVE - SOLUCIÓN DEFINITIVA
+   ============================================== */
+
+/* RESETEAR ESTILOS PREVIOS DEL MENÚ */
+.nav-list {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    gap: 0.5rem !important;
+}
+
+.nav-link {
+    display: inline-block !important;
+    padding: 0.5rem 0.75rem !important;
+    text-decoration: none !important;
+    color: #333 !important;
+    font-size: 0.9rem !important;
+    font-weight: 500 !important;
+    border-radius: 6px !important;
+    transition: all 0.3s ease !important;
+    
+    /* SOLUCIÓN PARA NOMBRES LARGOS */
+    white-space: nowrap !important;
+    text-align: center !important;
+    max-width: 120px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+/* Estados hover y active */
+.nav-link:hover {
+    background-color: #f0f8ff !important;
+    color: #0066cc !important;
+    transform: translateY(-1px) !important;
+}
+
+.nav-link.active {
+    background-color: #0066cc !important;
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+/* RESPONSIVE BREAKPOINTS */
+@media (max-width: 991px) {
+    .nav-link {
+        max-width: 100px !important;
+        font-size: 0.85rem !important;
+        padding: 0.4rem 0.6rem !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav-list {
+        flex-direction: column !important;
+        gap: 0.3rem !important;
+    }
+    
+    .nav-link {
+        max-width: none !important;
+        width: 100% !important;
+        padding: 0.75rem 1rem !important;
+        font-size: 1rem !important;
+    }
+}
+
+/* TOOLTIPS PARA DESKTOP */
+@media (min-width: 768px) {
+    .nav-link[title]:hover::before {
+        content: attr(title) !important;
+        position: absolute !important;
+        bottom: -2.5rem !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        background: rgba(0, 0, 0, 0.8) !important;
+        color: white !important;
+        padding: 0.5rem !important;
+        border-radius: 4px !important;
+        font-size: 0.8rem !important;
+        white-space: nowrap !important;
+        z-index: 1001 !important;
+        pointer-events: none !important;
+    }
+}
