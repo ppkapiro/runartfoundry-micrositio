@@ -103,7 +103,7 @@
                 
                 <!-- Apariciones en Prensa -->
                 <div class="mt-xl" aria-labelledby="prensa-title">
-                    <h2 id="prensa-title">💡“° Apariciones en Prensa</h2>
+                    <h2 id="prensa-title">ðŸ“° Apariciones en Prensa</h2>
                     <div class="grid grid-2">
                         
                         <article class="card">
@@ -251,7 +251,7 @@
 
                 <!-- Métricas -->
                 <div class="mt-xxl" aria-labelledby="metricas-title">
-                    <h2 id="metricas-title">📊 Métricas y Datos Verificables</h2>
+                    <h2 id="metricas-title">ðŸ“Š Métricas y Datos Verificables</h2>
                     <div class="grid grid-4">
                         
                         <div class="card text-center">
@@ -340,7 +340,7 @@
 
             <!-- Pestaña solo Prensa -->
             <div class="tab-content" id="prensa" style="display: none;">
-                <h2>💡“° Cobertura en Medios Especializados</h2>
+                <h2>ðŸ“° Cobertura en Medios Especializados</h2>
                 <div class="callout callout-info">
                     <p><strong>Criterio de selección:</strong> Solo medios especializados en arte, escultura o fundición con audiencia verificable y reputación establecida.</p>
                 </div>
@@ -358,7 +358,7 @@
 
             <!-- Pestaña solo Métricas -->
             <div class="tab-content" id="metricas" style="display: none;">
-                <h2>📊 Datos y Métricas</h2>
+                <h2>ðŸ“Š Datos y Métricas</h2>
                 <div class="callout callout-warning">
                     <p><strong>Metodología:</strong> Todas las métricas son verificables y se actualizan trimestralmente. Fuentes disponibles bajo solicitud.</p>
                 </div>
@@ -388,7 +388,7 @@
 
                 <div>
                     <div class="card">
-                        <h3>💡” Cómo Verificar</h3>
+                        <h3>ðŸ” Cómo Verificar</h3>
                         <ol>
                             <li>Todos los enlaces externos son directos a fuentes originales</li>
                             <li>Los testimonios incluyen información de contacto cuando es posible</li>
@@ -399,7 +399,7 @@
                     </div>
 
                     <div class="card mt-lg">
-                        <h3>🔧 Solicitar Verificación</h3>
+                        <h3>ðŸ“§ Solicitar Verificación</h3>
                         <p>
                             Para verificación adicional de cualquier evidencia, contacta con nosotros. Proporcionamos:
                         </p>

@@ -160,7 +160,7 @@
                 <div class="process-step">
                     <div class="process-number">1</div>
                     <div class="process-content">
-                        <h3>💡“ Modelo Conceptual</h3>
+                        <h3>ðŸ“ Modelo Conceptual</h3>
                         <p>Creación de maqueta inicial de arcilla basada en el diseño gráfico existente de la mascota. Refinamiento de proporciones y características.</p>
                         <ul>
                             <li>Maqueta de arcilla 1:4</li>
@@ -173,7 +173,7 @@
                 <div class="process-step">
                     <div class="process-number">2</div>
                     <div class="process-content">
-                        <h3>💡” Escaneo 3D</h3>
+                        <h3>ðŸ” Escaneo 3D</h3>
                         <p>Primera aplicación de tecnología de escaneo 3D en nuestro taller. Captura digital completa de la maqueta aprobada.</p>
                         <ul>
                             <li>Escaneo de alta resolución</li>
@@ -186,7 +186,7 @@
                 <div class="process-step">
                     <div class="process-number">3</div>
                     <div class="process-content">
-                        <h3>💡’» Refinamiento Digital</h3>
+                        <h3>ðŸ’» Refinamiento Digital</h3>
                         <p>Trabajo en software 3D para perfeccionar detalles, corregir imperfecciones y optimizar para fundición.</p>
                         <ul>
                             <li>Limpieza de geometría</li>
@@ -212,7 +212,7 @@
                 <div class="process-step">
                     <div class="process-number">5</div>
                     <div class="process-content">
-                        <h3>💡º Moldeo y Fundición</h3>
+                        <h3>ðŸº Moldeo y Fundición</h3>
                         <p>Aplicación de técnicas tradicionales sobre el modelo impreso. Moldeo por secciones y fundición en bronce.</p>
                         <ul>
                             <li>Moldeo tradicional</li>
@@ -495,7 +495,7 @@
             
             <div class="grid grid-2">
                 <div>
-                    <h3>💡Ž“ Beneficios para los Estudiantes</h3>
+                    <h3>ðŸŽ“ Beneficios para los Estudiantes</h3>
                     <ul>
                         <li><strong>Proceso como aprendizaje:</strong> Los estudiantes pudieron observar y participar en diferentes etapas</li>
                         <li><strong>Integración STEAM:</strong> Conexión entre arte, tecnología y técnicas tradicionales</li>
@@ -503,7 +503,7 @@
                         <li><strong>Punto de encuentro:</strong> Nuevo espacio de reunión y fotografías</li>
                     </ul>
 
-                    <h3>💡‘¥ Participación Comunitaria</h3>
+                    <h3>ðŸ‘¥ Participación Comunitaria</h3>
                     <ul>
                         <li>15 estudiantes participaron en evaluación de maquetas</li>
                         <li>3 clases observaron el proceso de escaneo 3D</li>
@@ -514,7 +514,7 @@
 
                 <div>
                     <div class="card">
-                        <h3>📊 Métricas de Impacto</h3>
+                        <h3>ðŸ“Š Métricas de Impacto</h3>
                         <div class="metric-item">
                             <div class="metric-number">350+</div>
                             <div class="metric-label">Estudiantes interactúan diariamente</div>
@@ -623,7 +623,7 @@
                         <li><strong>Tiempos de producción:</strong> El proceso híbrido inicialmente tomó más tiempo</li>
                     </ul>
 
-                    <h3>📈 Mejoras Implementadas</h3>
+                    <h3>ðŸ“ˆ Mejoras Implementadas</h3>
                     <ul>
                         <li>Capacitación continua del equipo en tecnologías 3D</li>
                         <li>Protocolos estandarizados para proceso híbrido</li>

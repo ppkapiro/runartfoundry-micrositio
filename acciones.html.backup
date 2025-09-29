@@ -127,7 +127,7 @@
 
             <!-- 1. organización de Activos -->
             <div class="card mb-xl">
-                <h3>📂 1. organización de Activos</h3>
+                <h3>ðŸ“‚ 1. organización de Activos</h3>
                 
                 <div class="accordion-item">
                     <button class="accordion-header" aria-expanded="false">
@@ -254,7 +254,7 @@
                                 <div class="callout callout-info">
                                     <h4>Ejemplo de Post</h4>
                                     <p style="font-style: italic;">
-                                        "🔥 Hace 20 años en Pinar del Río, fundía con equipos básicos pero resultados sólidos. Hoy en Miami tengo tecnología avanzada, pero sigo aplicando las técnicas tradicionales que aprendí en Cuba. La tecnología amplifica la técnica, no la reemplaza. #Fundición #Arte #Cuba #Miami"
+                                        "ðŸ”¥ Hace 20 años en Pinar del Río, fundía con equipos básicos pero resultados sólidos. Hoy en Miami tengo tecnología avanzada, pero sigo aplicando las técnicas tradicionales que aprendí en Cuba. La tecnología amplifica la técnica, no la reemplaza. #Fundición #Arte #Cuba #Miami"
                                     </p>
                                 </div>
 
@@ -271,7 +271,7 @@
 
             <!-- 3. Narrativa y Portafolio -->
             <div class="card mb-xl">
-                <h3>💡“– 3. Narrativa y Portafolio</h3>
+                <h3>ðŸ“– 3. Narrativa y Portafolio</h3>
                 
                 <div class="accordion-item">
                     <button class="accordion-header" aria-expanded="false">
@@ -381,7 +381,7 @@
 
             <!-- 5. Estrategia de Marca Corporativa -->
             <div class="card mb-xl">
-                <h3>💡¢ 5. Estrategia de Marca Corporativa (RUN)</h3>
+                <h3>ðŸ¢ 5. Estrategia de Marca Corporativa (RUN)</h3>
                 
                 <div class="accordion-item">
                     <button class="accordion-header" aria-expanded="false">
@@ -466,10 +466,10 @@
                                     <h4>Panel Mensual Automático</h4>
                                     <p><strong>Métricas que se mostrarán:</strong></p>
                                     <ul style="font-size: 0.9rem;">
-                                        <li>📊 "Nuevas menciones/mes": 12</li>
-                                        <li>📈 "Engagement promedio Reel": 8.5%</li>
+                                        <li>ðŸ“Š "Nuevas menciones/mes": 12</li>
+                                        <li>ðŸ“ˆ "Engagement promedio Reel": 8.5%</li>
                                         <li>🌍 "Visitas web": 2,340</li>
-                                        <li>🔧 "Leads generados": 15</li>
+                                        <li>ðŸ“§ "Leads generados": 15</li>
                                         <li>🎯 "Proyectos cerrados": 3</li>
                                     </ul>
                                 </div>
@@ -495,7 +495,7 @@
             
             <div class="grid grid-2">
                 <div class="card">
-                    <h3>💡 Acciones Inmediatas (0-30 días)</h3>
+                    <h3>ðŸ Acciones Inmediatas (0-30 días)</h3>
                     <div style="max-height: 300px; overflow-y: auto;">
                         <label style="display: flex; align-items: flex-start; gap: var(--space-xs); margin-bottom: var(--space-sm); cursor: pointer;">
                             <input type="checkbox" style="margin-top: 4px;">
@@ -567,7 +567,7 @@
             <div class="grid grid-3">
                 
                 <div class="card">
-                    <h3>📊 KPIs Mensuales</h3>
+                    <h3>ðŸ“Š KPIs Mensuales</h3>
                     <ul>
                         <li><strong>Reels publicados:</strong> 4/mes</li>
                         <li><strong>Posts LinkedIn:</strong> 1/mes</li>
@@ -578,7 +578,7 @@
                 </div>
 
                 <div class="card">
-                    <h3>📈 KPIs Trimestrales</h3>
+                    <h3>ðŸ“ˆ KPIs Trimestrales</h3>
                     <ul>
                         <li><strong>Menciones en medios:</strong> 3/trimestre</li>
                         <li><strong>Nuevos backlinks:</strong> 5/trimestre</li>
@@ -589,7 +589,7 @@
                 </div>
 
                 <div class="card">
-                    <h3>💡† KPIs Anuales</h3>
+                    <h3>ðŸ† KPIs Anuales</h3>
                     <ul>
                         <li><strong>Cobertura internacional:</strong> ≥1 medio</li>
                         <li><strong>Proyectos documentados:</strong> 30</li>

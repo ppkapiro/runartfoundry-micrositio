@@ -119,14 +119,14 @@
                     <div class="card">
                         <h3>Nuestros Temas</h3>
                         <ul style="list-style: none; padding: 0;">
-                            <li>🔥 <strong>Procesos de fundición</strong> - Técnicas tradicionales y modernas</li>
+                            <li>ðŸ”¥ <strong>Procesos de fundición</strong> - Técnicas tradicionales y modernas</li>
                             <li>🎨 <strong>Pátinas y Acabados</strong> - Química y aplicación</li>
-                            <li>💡—ï¸ <strong>Instalación de Esculturas</strong> - Ingeniería y logística</li>
+                            <li>ðŸ—ï¸ <strong>Instalación de Esculturas</strong> - Ingeniería y logística</li>
                             <li>âš™ï¸ <strong>Herramientas y Equipos</strong> - Reseñas y tips</li>
-                            <li>💡“ <strong>Modelado y Moldeo</strong> - Desde arcilla hasta 3D</li>
+                            <li>ðŸ“ <strong>Modelado y Moldeo</strong> - Desde arcilla hasta 3D</li>
                             <li>🌍 <strong>Sostenibilidad</strong> - Prácticas responsables</li>
                             <li>🎯 <strong>Casos Problemáticos</strong> - Soluciones reales</li>
-                            <li>📈 <strong>Tendencias de la Industria</strong> - Futuro del arte en metal</li>
+                            <li>ðŸ“ˆ <strong>Tendencias de la Industria</strong> - Futuro del arte en metal</li>
                         </ul>
                     </div>
                 </div>
@@ -286,7 +286,7 @@
             
             <div class="grid grid-4">
                 <div class="category-card">
-                    <div class="category-icon">🔥</div>
+                    <div class="category-icon">ðŸ”¥</div>
                     <h3>Procesos de fundición</h3>
                     <p>Técnicas tradicionales y modernas, desde preparación hasta acabado</p>
                     <div class="category-count">8 Artículos</div>
@@ -302,7 +302,7 @@
                 </div>
 
                 <div class="category-card">
-                    <div class="category-icon">💡—ï¸</div>
+                    <div class="category-icon">ðŸ—ï¸</div>
                     <h3>Instalación</h3>
                     <p>Ingeniería, logística y consideraciones estructurales</p>
                     <div class="category-count">4 Artículos</div>
@@ -325,7 +325,7 @@
             
             <div class="grid grid-2">
                 <div class="card">
-                    <h3>💡Ž“ "fundición 101"</h3>
+                    <h3>ðŸŽ“ "fundición 101"</h3>
                     <p>Serie educativa para principiantes que cubre los fundamentos de la fundición artística desde cero.</p>
                     <ul>
                         <li>Capítulo 1: Materiales y Herramientas Básicas</li>
@@ -337,7 +337,7 @@
                 </div>
 
                 <div class="card">
-                    <h3>💡”¬ "Casos Problemáticos"</h3>
+                    <h3>ðŸ”¬ "Casos Problemáticos"</h3>
                     <p>Análisis de proyectos que presentaron desafíos únicos y cómo los resolvimos.</p>
                     <ul>
                         <li>Caso 1: Grietas en fundición Grande</li>
