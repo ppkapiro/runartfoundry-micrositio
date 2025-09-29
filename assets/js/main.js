@@ -908,79 +908,12 @@ window.RunArtFoundry = {
   Navigation,
   Search,
   Components,
-  Forms,
-  Analytics
-};
-/* ============================================== */
-/* MENÚ RESPONSIVE - AGREGADO Mon Sep 29 16:34:50 EDT 2025 */
-/* ============================================== */
 
-/* ==============================================
-   MENÚ RESPONSIVE - JavaScript
-   ============================================== */
+/* ===============================================
+   MENÚ PRINCIPAL - FUNCIONALIDAD LIMPIA
+   =============================================== */
 
-// Toggle del menú móvil
-function toggleMenu() {
-    const navList = document.getElementById("nav-list");
-    const navToggle = document.querySelector(".nav-toggle");
-    
-    if (navList && navToggle) {
-        navList.classList.toggle("active");
-        
-        // Cambiar icono del botón
-        const icon = navToggle.querySelector("span");
-        if (icon) {
-            icon.textContent = navList.classList.contains("active") ? "✕" : "☰";
-        }
-        
-        // Actualizar aria-label
-        navToggle.setAttribute("aria-label", 
-            navList.classList.contains("active") ? "Cerrar menú" : "Abrir menú"
-        );
-    }
-}
-
-// Cerrar menú al hacer clic en un enlace (móvil)
-document.addEventListener("DOMContentLoaded", function() {
-    const navLinks = document.querySelectorAll(".nav-link");
-    const navList = document.getElementById("nav-list");
-    
-    navLinks.forEach(link => {
-        link.addEventListener("click", function() {
-            if (window.innerWidth <= 767) {
-                navList.classList.remove("active");
-                const navToggle = document.querySelector(".nav-toggle span");
-                if (navToggle) {
-                    navToggle.textContent = "☰";
-                }
-            }
-        });
-    });
-    
-    // Cerrar menú al redimensionar ventana
-    window.addEventListener("resize", function() {
-        if (window.innerWidth > 767) {
-            navList.classList.remove("active");
-            const navToggle = document.querySelector(".nav-toggle span");
-            if (navToggle) {
-                navToggle.textContent = "☰";
-            }
-        }
-    });
-});
-
-// Navegación con teclado
-document.addEventListener("keydown", function(e) {
-    if (e.key === "Escape") {
-        const navList = document.getElementById("nav-list");
-        if (navList && navList.classList.contains("active")) {
-            toggleMenu();
-        }
-    }
-});
-
-/* MENÚ RESPONSIVE - RECONSTRUIDO */
-// Menú responsive - JavaScript
+// Toggle del menú móvil - ÚNICA VERSIÓN
 function toggleMenu() {
     const navList = document.getElementById('nav-list');
     const navToggle = document.querySelector('.nav-toggle');
@@ -988,30 +921,46 @@ function toggleMenu() {
     if (navList && navToggle) {
         navList.classList.toggle('active');
         navToggle.textContent = navList.classList.contains('active') ? '✕' : '☰';
+        
+        // Actualizar aria-expanded para accesibilidad
+        navToggle.setAttribute('aria-expanded', navList.classList.contains('active'));
     }
 }
 
-// Cerrar menú al hacer clic en enlace (móvil)
+// Inicialización cuando el DOM está listo
 document.addEventListener('DOMContentLoaded', function() {
-    const navLinks = document.querySelectorAll('.nav-list a');
+    const navLinks = document.querySelectorAll('.nav-link');
     const navList = document.getElementById('nav-list');
+    const navToggle = document.querySelector('.nav-toggle');
     
+    // Cerrar menú al hacer clic en un enlace (solo en móvil)
     navLinks.forEach(link => {
         link.addEventListener('click', function() {
-            if (window.innerWidth <= 768) {
+            if (window.innerWidth <= 768 && navList.classList.contains('active')) {
                 navList.classList.remove('active');
-                const navToggle = document.querySelector('.nav-toggle');
-                if (navToggle) navToggle.textContent = '☰';
+                if (navToggle) {
+                    navToggle.textContent = '☰';
+                    navToggle.setAttribute('aria-expanded', 'false');
+                }
             }
         });
     });
     
-    // Cerrar menú al redimensionar
+    // Cerrar menú al redimensionar ventana
     window.addEventListener('resize', function() {
-        if (window.innerWidth > 768) {
+        if (window.innerWidth > 768 && navList.classList.contains('active')) {
             navList.classList.remove('active');
-            const navToggle = document.querySelector('.nav-toggle');
-            if (navToggle) navToggle.textContent = '☰';
+            if (navToggle) {
+                navToggle.textContent = '☰';
+                navToggle.setAttribute('aria-expanded', 'false');
+            }
+        }
+    });
+    
+    // Cerrar menú con tecla Escape
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && navList.classList.contains('active')) {
+            toggleMenu();
         }
     });
 });
