@@ -922,3 +922,36 @@ a[target="_blank"]:after {
     break-inside: avoid;
   }
 }
+/* Mejoras para menú responsive */
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .nav-link {
+        padding: 0.75rem 1rem;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    .header-content {
+        flex-wrap: wrap;
+    }
+}
+
+/* Optimización para nombres largos */
+.nav-link {
+    max-width: 120px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media (min-width: 769px) {
+    .nav-link {
+        max-width: none;
+    }
+}
