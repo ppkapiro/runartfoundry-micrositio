@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uldis López - Biografía del maestro fundidor cubano-americano, fundador de RUN Art Foundry. Su trayectoria desde Pinar del Río hasta Miami.">
+    <meta name="keywords" content="Uldis López, fundidor, Cuba, Miami, biografía, arte, escultura, bronce">
+    <meta name="author" content="RUN Art Foundry">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Uldis López - Maestro Fundidor Cubano-Americano">
+    <meta property="og:description" content="Biografía completa de Uldis López, desde sus inicios en Pinar del Río hasta convertirse en referente de la fundición artística en Miami.">
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://runartfoundry.com/uldis.html">
+    <meta property="og:image" content="/assets/images/uldis-lopez-portrait.jpg">
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://runartfoundry.com/uldis.html">
+    <link rel="alternate" hreflang="en" href="https://runartfoundry.com/en/uldis.html">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    
+    <!-- Schema.org Person -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Uldis López",
+      "jobTitle": "Master Founder and Artist",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "RUN Art Foundry"
+      },
+      "nationality": "Cuban-American",
+      "birthPlace": {
+        "@type": "Place",
+        "name": "Pinar del Río, Cuba"
+      },
+      "knowsAbout": ["Bronze Casting", "Sculpture", "Art Foundry", "Patination"],
+      "description": "Maestro fundidor cubano-americano, fundador de RUN Art Foundry en Miami. Reconocido por su transparencia en procesos y excelencia técnica.",
+      "url": "https://runartfoundry.com/uldis.html"
+    }
+    </script>
+
+    <title>Uldis López - Maestro Fundidor | RUN Art Foundry</title>
+</head>
+
+<body>
+    <!-- Skip to content -->
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+    <!-- Header -->
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header-content">
+                <nav class="nav-main" role="navigation" aria-label="Navegación principal">
+                    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" onclick="toggleMenu()">
+                        ☰
+                    </button>
+                    
+                    <ul class="nav-list" id="nav-list">
+                        <li><a href="index.html" class="nav-link">Inicio</a></li>
+                        <li><a href="uldis.html" class="nav-link">Uldis López</a></li>
+                        <li><a href="run.html" class="nav-link" title="RUN Art Foundry - Fundición de Arte">RUN Art Foundry</a></li>
+                        <li><a href="cronologia.html" class="nav-link">Cronología</a></li>
+                        <li><a href="evidencias.html" class="nav-link">Evidencias</a></li>
+                        <li><a href="casos/index.html" class="nav-link">Casos</a></li>
+                        <li><a href="lab/index.html" class="nav-link" title="RUN Lab - Laboratorio de Innovación">RUN Lab</a></li>
+                        <li><a href="acciones.html" class="nav-link">Acciones</a></li>
+                        <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+                    </ul>
+                    
+                    <div class="locale-switch" role="group" aria-label="Cambiar idioma">
+                        <button class="locale-btn active" data-locale="es">ES</button>
+                        <button class="locale-btn" data-locale="en">EN</button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Main Content -->
+    <main class="main" id="main-content" role="main">
+        
+        <!-- Breadcrumb -->
+        <div class="container">
+            <nav class="breadcrumb" aria-label="Navegación de ruta">
+                <ol>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li>Uldis López</li>
+                </ol>
+            </nav>
+        </div>
+
+        <!-- Hero Section -->
+        <section class="hero" aria-labelledby="page-title">
+            <div class="container">
+                <h1 id="page-title" class="hero-title">Uldis López</h1>
+                <p class="hero-subtitle">
+                    Maestro Fundidor Cubano-Americano • Fundador de RUN Art Foundry • Referente en Transparencia de Procesos
+                </p>
+            </div>
+        </section>
+
+        <!-- Biography Section -->
+        <section class="container mt-xl" aria-labelledby="biography-title">
+            <div class="grid grid-2">
+                <div>
+                    <h2 id="biography-title">Biografía</h2>
+                    
+                    <h3>Orígenes en Cuba</h3>
+                    <p>
+                        Uldis López nació en <strong>Pinar del Río, Cuba</strong>, donde desarrolló sus primeras habilidades artísticas en un contexto de limitaciones materiales pero rica tradición cultural. Desde joven mostró una afinidad especial por el trabajo con metales y la creación tridimensional.
+                    </p>
+                    
+                    <div class="callout callout-info">
+                        <p><strong>Dato clave:</strong> Su primera exposición fue en el taller familiar de Pinar del Río, donde experimentó con técnicas de fundición artesanal usando recursos locales.</p>
+                    </div>
+
+                    <h3>Migración y Establecimiento en Miami</h3>
+                    <p>
+                        La migración de Uldis a Miami representó no solo un cambio geográfico, sino una transformación profesional completa. En Estados Unidos pudo acceder a tecnologías avanzadas de fundición y establecer contactos con artistas internacionales.
+                    </p>
+
+                    <p>
+                        Su adaptación al mercado americano se caracterizó por mantener la calidez y artesanía cubana, pero incorporando estándares de precisión y documentación que lo distinguirían en el sector.
+                    </p>
+
+                    <h3>Fundación de RUN Art Foundry</h3>
+                    <p>
+                        En <strong>2015</strong>, Uldis fundó RUN Art Foundry con una visión clara: crear la fundición más transparente de Miami. Su filosofía se basa en que los artistas y clientes puedan seguir cada etapa del proceso de fundición.
+                    </p>
+
+                    <div class="callout callout-success">
+                        <p><strong>Filosofía central:</strong> "El arte debe ser transparente desde la concepción hasta la instalación. Los artistas merecen conocer exactamente cómo se materializa su visión."</p>
+                    </div>
+
+                </div>
+
+                <div>
+                    <!-- Image placeholder -->
+                    <div style="background: var(--color-light); height: 400px; border-radius: 8px; display: flex; align-items: center; justify-content: center; margin-bottom: var(--space-lg);">
+                        <span style="color: var(--color-gray);">[Foto: Uldis López en su taller]</span>
+                    </div>
+
+                    <div class="card">
+                        <h3>Datos Personales</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li><strong>Nombre:</strong> Uldis López</li>
+                            <li><strong>Origen:</strong> Pinar del Río, Cuba</li>
+                            <li><strong>Residencia:</strong> Miami, Florida</li>
+                            <li><strong>Especialidad:</strong> Fundición en Bronce</li>
+                            <li><strong>Fundación RUN:</strong> 2015</li>
+                            <li><strong>Proyectos:</strong> 30+ documentados</li>
+                        </ul>
+                    </div>
+
+                    <div class="card mt-lg">
+                        <h3>Reconocimientos</h3>
+                        <ul>
+                            <li>Fundidor del Año - Miami Art Week 2023</li>
+                            <li>Mención en Sculpture Magazine</li>
+                            <li>Colaborador en The Art Newspaper</li>
+                            <li>15+ artistas internacionales</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Personal -->
+        <section class="container mt-xxl" aria-labelledby="timeline-title">
+            <h2 id="timeline-title">Cronología Personal</h2>
+            <div class="timeline">
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">1980s</div>
+                    <h3>Primeros Años en Pinar del Río</h3>
+                    <p>Nacimiento y formación inicial en Cuba. Primeros experimentos con técnicas de fundición artesanal en el entorno familiar.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">1990s</div>
+                    <h3>Desarrollo Técnico</h3>
+                    <p>Perfeccionamiento de técnicas de trabajo con metales. Primera exposición local con piezas fundidas en bronce.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2005</div>
+                    <h3>Migración a Estados Unidos</h3>
+                    <p>Llegada a Miami. Período de adaptación y estudio del mercado americano de fundición artística.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2010-2014</div>
+                    <h3>Experiencia en Fundiciones Locales</h3>
+                    <p>Trabajo en diversas fundiciones de Miami. Desarrollo de redes profesionales y estudio de la competencia.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2015</div>
+                    <h3>Fundación de RUN Art Foundry</h3>
+                    <p>Establecimiento de su propia fundición con enfoque en transparencia de procesos y calidad técnica.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2018-2020</div>
+                    <h3>Consolidación y Crecimiento</h3>
+                    <p>Expansión del taller, incorporación de nuevas tecnologías y establecimiento de colaboraciones con artistas reconocidos.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2021-2024</div>
+                    <h3>Reconocimiento y Proyección</h3>
+                    <p>Proyectos emblemáticos como el Monumento Mons. Agustín Román. Apariciones en medios especializados.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">2025</div>
+                    <h3>Estrategia Digital y Expansión</h3>
+                    <p>Desarrollo de presencia digital, documentación sistemática de procesos y estrategia de posicionamiento internacional.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Obras Destacadas -->
+        <section class="container mt-xxl" aria-labelledby="works-title">
+            <h2 id="works-title">Obras Personales Destacadas</h2>
+            <div class="grid grid-3">
+                
+                <div class="card">
+                    <div style="background: var(--color-light); height: 200px; border-radius: 4px; margin-bottom: var(--space-md); display: flex; align-items: center; justify-content: center;">
+                        <span style="color: var(--color-gray);">[Imagen: Obra 1]</span>
+                    </div>
+                    <h3 class="card-title">"Memoria de Pinar"</h3>
+                    <p class="card-content">
+                        Escultura en bronce que representa sus raíces cubanas. Técnica de cera perdida con pátina verde natural.
+                    </p>
+                    <div class="card-meta">
+                        <strong>Año:</strong> 2016 • <strong>Técnica:</strong> Bronce fundido • <strong>Medidas:</strong> 80cm x 60cm
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div style="background: var(--color-light); height: 200px; border-radius: 4px; margin-bottom: var(--space-md); display: flex; align-items: center; justify-content: center;">
+                        <span style="color: var(--color-gray);">[Imagen: Obra 2]</span>
+                    </div>
+                    <h3 class="card-title">"Transición"</h3>
+                    <p class="card-content">
+                        Serie de tres piezas que simbolizan el proceso migratorio. Combinación de texturas rugosas y pulidas.
+                    </p>
+                    <div class="card-meta">
+                        <strong>Año:</strong> 2018 • <strong>Técnica:</strong> Bronce patinado • <strong>Medidas:</strong> Variable
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div style="background: var(--color-light); height: 200px; border-radius: 4px; margin-bottom: var(--space-md); display: flex; align-items: center; justify-content: center;">
+                        <span style="color: var(--color-gray);">[Imagen: Obra 3]</span>
+                    </div>
+                    <h3 class="card-title">"Miami Contemporáneo"</h3>
+                    <p class="card-content">
+                        Escultura urbana que integra elementos arquitectónicos de Miami con formas orgánicas cubanas.
+                    </p>
+                    <div class="card-meta">
+                        <strong>Año:</strong> 2020 • <strong>Técnica:</strong> Bronce y acero • <strong>Medidas:</strong> 2m x 1.5m
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div style="background: var(--color-light); height: 200px; border-radius: 4px; margin-bottom: var(--space-md); display: flex; align-items: center; justify-content: center;">
+                        <span style="color: var(--color-gray);">[Imagen: Obra 4]</span>
+                    </div>
+                    <h3 class="card-title">"Herramientas del Oficio"</h3>
+                    <p class="card-content">
+                        Homenaje a las herramientas tradicionales de fundición. Pieza conceptual sobre la preservación técnica.
+                    </p>
+                    <div class="card-meta">
+                        <strong>Año:</strong> 2021 • <strong>Técnica:</strong> Bronce bruñido • <strong>Medidas:</strong> 90cm x 70cm
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div style="background: var(--color-light); height: 200px; border-radius: 4px; margin-bottom: var(--space-md); display: flex; align-items: center; justify-content: center;">
+                        <span style="color: var(--color-gray);">[Imagen: Obra 5]</span>
+                    </div>
+                    <h3 class="card-title">"Diálogo de Metales"</h3>
+                    <p class="card-content">
+                        Instalación interactiva que muestra diferentes tipos de pátina y acabados sobre la misma forma base.
+                    </p>
+                    <div class="card-meta">
+                        <strong>Año:</strong> 2022 • <strong>Técnica:</strong> Múltiple bronce • <strong>Medidas:</strong> Instalación
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div style="background: var(--color-light); height: 200px; border-radius: 4px; margin-bottom: var(--space-md); display: flex; align-items: center; justify-content: center;">
+                        <span style="color: var(--color-gray);">[Imagen: Obra 6]</span>
+                    </div>
+                    <h3 class="card-title">"Futuro Fundido"</h3>
+                    <p class="card-content">
+                        Su obra más reciente, que integra técnicas tradicionales con elementos de diseño contemporáneo.
+                    </p>
+                    <div class="card-meta">
+                        <strong>Año:</strong> 2024 • <strong>Técnica:</strong> Bronce y titanio • <strong>Medidas:</strong> 1.8m x 1.2m
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Filosofía y Approach -->
+        <section class="container mt-xxl" aria-labelledby="philosophy-title">
+            <h2 id="philosophy-title">Filosofía y Enfoque</h2>
+            <div class="grid grid-2">
+                
+                <div>
+                    <h3>Transparencia como Diferencial</h3>
+                    <p>
+                        Para Uldis, la transparencia no es solo una estrategia de marketing, sino una convicción profunda. Cada cliente puede visitar el taller, conocer el proceso paso a paso y entender exactamente cómo se materializará su proyecto.
+                    </p>
+                    
+                    <blockquote class="testimonial-quote">
+                        "Un artista que confía su obra a una fundición merece conocer cada detalle del proceso. No hay secretos industriales que justifiquen la opacidad."
+                    </blockquote>
+
+                    <h3>Integración Cultural</h3>
+                    <p>
+                        Su enfoque combina la artesanía tradicional cubana con los estándares técnicos americanos. Esta síntesis cultural se refleja tanto en sus obras personales como en los servicios de RUN Art Foundry.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Innovación Técnica</h3>
+                    <p>
+                        Uldis se mantiene constantemente actualizado en nuevas técnicas de fundición, tipos de pátina y métodos de instalación. Su laboratorio incluye equipos de última generación junto con herramientas tradicionales.
+                    </p>
+
+                    <h3>Compromiso Educativo</h3>
+                    <p>
+                        A través del blog RUN Lab, Uldis comparte conocimientos técnicos con la comunidad artística. Su objetivo es elevar el nivel general de la fundición artística en Miami.
+                    </p>
+
+                    <div class="callout callout-warning">
+                        <p><strong>Próximo proyecto:</strong> Uldis está desarrollando un programa de mentoría para jóvenes fundidores latinos en Miami.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="hero mt-xxl" style="padding: var(--space-xl) 0;">
+            <div class="container text-center">
+                <h2>Conoce el Trabajo Corporativo</h2>
+                <p>
+                    Descubre cómo la visión personal de Uldis se traduce en la excelencia operativa de RUN Art Foundry
+                </p>
+                <div class="btn-group mt-lg">
+                    <a href="run.html" class="btn">Explorar RUN Art Foundry</a>
+                    <a href="casos/index.html" class="btn btn-secondary">Ver Casos de Estudio</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sobre Uldis López</h3>
+                    <p>
+                        Maestro fundidor cubano-americano con más de 15 años de experiencia en Miami. Fundador de RUN Art Foundry y referente en transparencia de procesos de fundición artística.
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Enlaces Relacionados</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="run.html">RUN Art Foundry</a></li>
+                        <li><a href="casos/index.html">Casos de Estudio</a></li>
+                        <li><a href="evidencias.html">Testimonios</a></li>
+                        <li><a href="lab/index.html">Blog Técnico</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Recursos</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="assets/pdf/uldis-lopez-portfolio.pdf" target="_blank">Portfolio (PDF)</a></li>
+                        <li><a href="assets/pdf/press-kit.pdf" target="_blank">Press Kit</a></li>
+                        <li><a href="cronologia.html">Cronología Completa</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p>
+                        <a href="mailto:uldis@runartfoundry.com">uldis@runartfoundry.com</a><br>
+                        <a href="contacto.html">Formulario de Contacto</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    © 2025 Uldis López - RUN Art Foundry. Todos los derechos reservados.
+                    | <a href="/privacidad.html">Política de Privacidad</a>
+                    | <a href="/accesibilidad.html">Accesibilidad</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js" defer></script>
+
+    <!-- Schema.org BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://runartfoundry.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Uldis López",
+          "item": "https://runartfoundry.com/uldis.html"
+        }
+      ]
+    }
+    </script>
+
+</body>
+</html>
+
+
+

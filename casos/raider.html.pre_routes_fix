@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Caso de estudio: Ransom Everglades Raider. Escultura de mascota escolar con técnicas mixtas tradicionales y digitales. Documentación completa del proceso.">
+    <meta name="keywords" content="Ransom Everglades, Raider, mascota, escultura, 3D, fundición, bronce, Coconut Grove">
+    <meta name="author" content="RUN Art Foundry">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Ransom Everglades Raider - Caso de Estudio | RUN Art Foundry">
+    <meta property="og:description" content="Documentación del proceso de creación de la escultura Raider para Ransom Everglades School. Técnicas mixtas tradicionales y digitales.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://runartfoundry.com/casos/raider.html">
+    <meta property="og:image" content="/assets/images/casos/raider-hero.jpg">
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://runartfoundry.com/casos/raider.html">
+    <link rel="alternate" hreflang="en" href="https://runartfoundry.com/en/casos/raider.html">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    
+    <title>Ransom Everglades Raider - Caso de Estudio | RUN Art Foundry</title>
+</head>
+
+<body>
+    <!-- Skip to content -->
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+    <!-- Header -->
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header-content">
+                <nav class="nav-main" role="navigation" aria-label="Navegación principal">
+                    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" onclick="toggleMenu()">
+                        ☰
+                    </button>
+                    
+                    <ul class="nav-list" id="nav-list">
+                        <li><a href="index.html" class="nav-link">Inicio</a></li>
+                        <li><a href="uldis.html" class="nav-link">Uldis López</a></li>
+                        <li><a href="run.html" class="nav-link" title="RUN Art Foundry - Fundición de Arte">RUN Art Foundry</a></li>
+                        <li><a href="cronologia.html" class="nav-link">Cronología</a></li>
+                        <li><a href="evidencias.html" class="nav-link">Evidencias</a></li>
+                        <li><a href="casos/index.html" class="nav-link">Casos</a></li>
+                        <li><a href="lab/index.html" class="nav-link" title="RUN Lab - Laboratorio de Innovación">RUN Lab</a></li>
+                        <li><a href="acciones.html" class="nav-link">Acciones</a></li>
+                        <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+                    </ul>
+                    
+                    <div class="locale-switch" role="group" aria-label="Cambiar idioma">
+                        <button class="locale-btn active" data-locale="es">ES</button>
+                        <button class="locale-btn" data-locale="en">EN</button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Main Content -->
+    <main class="main" id="main-content" role="main">
+        
+        <!-- Breadcrumb -->
+        <div class="container">
+            <nav class="breadcrumb" aria-label="Navegación de ruta">
+                <ol>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="index.html">Casos de Estudio</a></li>
+                    <li>Ransom Everglades Raider</li>
+                </ol>
+            </nav>
+        </div>
+
+        <!-- Hero Section -->
+        <section class="hero" aria-labelledby="page-title">
+            <div class="container">
+                <div class="case-hero">
+                    <div class="case-hero-content">
+                        <div class="case-badge">Proyecto Educativo</div>
+                        <h1 id="page-title" class="hero-title">Ransom Everglades "Raider"</h1>
+                        <p class="hero-subtitle">
+                            Coconut Grove, Florida • 2021 • Innovación en técnicas mixtas tradicionales y digitales
+                        </p>
+                    </div>
+                    <div class="case-hero-image">
+                        <img src="../assets/images/casos/raider-hero.jpg" alt="Escultura Raider instalada en Ransom Everglades School" loading="eager">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resumen Ejecutivo -->
+        <section class="container mt-xl" aria-labelledby="resumen">
+            <div class="grid grid-2">
+                <div>
+                    <h2 id="resumen">Resumen del Proyecto</h2>
+                    <p>
+                        La escultura del <strong>"Raider"</strong> para Ransom Everglades School representó un hito técnico para RUN Art Foundry: fue nuestro primer proyecto donde combinamos <strong>modelado 3D digital</strong> con técnicas tradicionales de fundición en bronce.
+                    </p>
+                    
+                    <p>
+                        Este proyecto no solo requería precisión técnica extrema para capturar la identidad de la mascota escolar, sino que también debía resistir el uso intensivo de estudiantes y visitantes, además de las condiciones climáticas del sur de Florida.
+                    </p>
+                    
+                    <div class="callout callout-info">
+                        <p><strong>Innovación Clave:</strong> Primer uso de escaneo 3D de maqueta original seguido de refinamiento digital antes de la impresión 3D del modelo final para fundición.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="card">
+                        <h3>Especificaciones Técnicas</h3>
+                        <div class="spec-grid">
+                            <div class="spec-item">
+                                <strong>Material Principal</strong>
+                                <span>Bronce fundido con aleación especial</span>
+                            </div>
+                            <div class="spec-item">
+                                <strong>Altura Total</strong>
+                                <span>1.8 metros</span>
+                            </div>
+                            <div class="spec-item">
+                                <strong>Peso Total</strong>
+                                <span>680 kilogramos</span>
+                            </div>
+                            <div class="spec-item">
+                                <strong>Base</strong>
+                                <span>Piedra caliza de Florida</span>
+                            </div>
+                            <div class="spec-item">
+                                <strong>Pátina</strong>
+                                <span>Verde oscuro con protección UV</span>
+                            </div>
+                            <div class="spec-item">
+                                <strong>Tecnología</strong>
+                                <span>Modelado 3D + fundición tradicional</span>
+                            </div>
+                            <div class="spec-item">
+                                <strong>Ubicación</strong>
+                                <span>Campus principal, Coconut Grove</span>
+                            </div>
+                            <div class="spec-item">
+                                <strong>Instalación</strong>
+                                <span>Octubre 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proceso Híbrido: Digital + Tradicional -->
+        <section class="container mt-xxl" aria-labelledby="proceso" id="proceso">
+            <h2 id="proceso">Proceso Híbrido: Digital + Tradicional</h2>
+            
+            <div class="process-flow">
+                <div class="process-step">
+                    <div class="process-number">1</div>
+                    <div class="process-content">
+                        <h3>💡“ Modelo Conceptual</h3>
+                        <p>Creación de maqueta inicial de arcilla basada en el diseño gráfico existente de la mascota. Refinamiento de proporciones y características.</p>
+                        <ul>
+                            <li>Maqueta de arcilla 1:4</li>
+                            <li>Estudio de proporciones</li>
+                            <li>Aprobación de concepto</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="process-number">2</div>
+                    <div class="process-content">
+                        <h3>💡” Escaneo 3D</h3>
+                        <p>Primera aplicación de tecnología de escaneo 3D en nuestro taller. Captura digital completa de la maqueta aprobada.</p>
+                        <ul>
+                            <li>Escaneo de alta resolución</li>
+                            <li>Procesamiento de nube de puntos</li>
+                            <li>Creación de malla 3D</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="process-number">3</div>
+                    <div class="process-content">
+                        <h3>💡’» Refinamiento Digital</h3>
+                        <p>Trabajo en software 3D para perfeccionar detalles, corregir imperfecciones y optimizar para fundición.</p>
+                        <ul>
+                            <li>Limpieza de geometría</li>
+                            <li>Optimización de espesores</li>
+                            <li>Preparación para impresión</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="process-number">4</div>
+                    <div class="process-content">
+                        <h3>🖨️ Impresión 3D</h3>
+                        <p>Impresión del modelo final en secciones para posterior ensamblaje y preparación para moldeo.</p>
+                        <ul>
+                            <li>Impresión por secciones</li>
+                            <li>Material PLA resistente</li>
+                            <li>Ensamblaje y acabado</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="process-number">5</div>
+                    <div class="process-content">
+                        <h3>💡º Moldeo y Fundición</h3>
+                        <p>Aplicación de técnicas tradicionales sobre el modelo impreso. Moldeo por secciones y fundición en bronce.</p>
+                        <ul>
+                            <li>Moldeo tradicional</li>
+                            <li>Fundición en 8 secciones</li>
+                            <li>Ensamblaje final</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="process-step">
+                    <div class="process-number">6</div>
+                    <div class="process-content">
+                        <h3>🎨 Acabados y Pátina</h3>
+                        <p>Aplicación de pátina verde oscuro especialmente diseñada para ambiente escolar con alta resistencia al desgaste.</p>
+                        <ul>
+                            <li>Pátina anti-vandálica</li>
+                            <li>Protección UV mejorada</li>
+                            <li>Acabado mate no reflectante</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Retos Técnicos Específicos -->
+        <section class="container mt-xxl" aria-labelledby="retos-tecnicos">
+            <h2 id="retos-tecnicos">Retos Técnicos Únicos</h2>
+            
+            <div class="grid grid-2">
+                <div>
+                    <div class="challenge-item">
+                        <h3>⚙️ Integración Digital-Tradicional</h3>
+                        <div class="challenge-content">
+                            <p><strong>Reto:</strong> Combinar precisión digital con la calidez artesanal de la fundición tradicional.</p>
+                            <p><strong>Solución:</strong> Desarrollamos un flujo de trabajo híbrido que preserva la precisión digital mientras permite intervención artística manual.</p>
+                            <p><strong>Resultado:</strong> Modelo final con precisión digital y calidad artesanal característica.</p>
+                        </div>
+                    </div>
+
+                    <div class="challenge-item">
+                        <h3>🛡️ Resistencia al Vandalismo</h3>
+                        <div class="challenge-content">
+                            <p><strong>Reto:</strong> Escultura en ambiente escolar requiere resistencia extrema a manipulación y posible vandalismo.</p>
+                            <p><strong>Solución:</strong> Aleación especial más dura, anclaje reforzado y pátina anti-grafiti.</p>
+                            <p><strong>Resultado:</strong> Después de 3 años, mantiene apariencia original sin daños significativos.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="challenge-item">
+                        <h3>🎭 Expresión de Mascota</h3>
+                        <div class="challenge-content">
+                            <p><strong>Reto:</strong> Traducir un diseño gráfico 2D en escultura 3D manteniendo la personalidad de la mascota.</p>
+                            <p><strong>Solución:</strong> Múltiples iteraciones digitales probando diferentes ángulos y proporciones antes de la impresión final.</p>
+                            <p><strong>Resultado:</strong> Escultura que captura perfectamente el espíritu de la mascota gráfica.</p>
+                        </div>
+                    </div>
+
+                    <div class="challenge-item">
+                        <h3>🌍± Integración Paisajística</h3>
+                        <div class="challenge-content">
+                            <p><strong>Reto:</strong> Integrar la escultura en el paisaje existente sin alterar la armonía del campus.</p>
+                            <p><strong>Solución:</strong> Base de piedra caliza local y ubicación estratégica que complementa la arquitectura existente.</p>
+                            <p><strong>Resultado:</strong> La escultura parece haber sido parte del campus desde siempre.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Detallado -->
+        <section class="container mt-xxl" aria-labelledby="timeline">
+            <h2 id="timeline">Timeline del Proyecto</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Enero 2021</div>
+                    <div class="timeline-content">
+                        <h3>Briefing y Concepto</h3>
+                        <p>Reunión inicial con directivos de Ransom Everglades para definir objetivos y restricciones del proyecto.</p>
+                        <ul>
+                            <li>Análisis del diseño gráfico existente</li>
+                            <li>Definición de ubicación y tamaño</li>
+                            <li>Establecimiento de presupuesto</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Feb-Mar 2021</div>
+                    <div class="timeline-content">
+                        <h3>Desarrollo de Maqueta</h3>
+                        <p>Creación de múltiples maquetas de arcilla para encontrar la proporción y expresión perfectas.</p>
+                        <ul>
+                            <li>3 propuestas de maqueta inicial</li>
+                            <li>Sesiones de feedback con estudiantes</li>
+                            <li>Refinamiento basado en comentarios</li>
+                            <li>Aprobación de concepto final</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Abril 2021</div>
+                    <div class="timeline-content">
+                        <h3>Innovación: Escaneo 3D</h3>
+                        <p>Primera implementación de tecnología de escaneo 3D en nuestro proceso. Aprendizaje de nuevas herramientas.</p>
+                        <ul>
+                            <li>Adquisición de escáner 3D profesional</li>
+                            <li>Capacitación del equipo</li>
+                            <li>Primeras pruebas de escaneo</li>
+                            <li>Escaneo final de maqueta aprobada</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Mayo 2021</div>
+                    <div class="timeline-content">
+                        <h3>Trabajo Digital</h3>
+                        <p>Refinamiento del modelo 3D, optimización para impresión y preparación de archivos finales.</p>
+                        <ul>
+                            <li>Limpieza de malla 3D</li>
+                            <li>Optimización de geometría</li>
+                            <li>Preparación para impresión</li>
+                            <li>Simulación de fundición digital</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Jun-Jul 2021</div>
+                    <div class="timeline-content">
+                        <h3>Impresión y Preparación</h3>
+                        <p>Impresión 3D del modelo final y preparación para el proceso tradicional de moldeo.</p>
+                        <ul>
+                            <li>Impresión por secciones (48 horas total)</li>
+                            <li>Ensamblaje de secciones</li>
+                            <li>Acabado de superficies</li>
+                            <li>Preparación para moldeo</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Agosto 2021</div>
+                    <div class="timeline-content">
+                        <h3>Moldeo y Fundición</h3>
+                        <p>Aplicación de técnicas tradicionales sobre el modelo impreso. Moldeo por secciones y fundición.</p>
+                        <ul>
+                            <li>Moldeo en 8 secciones principales</li>
+                            <li>Fundición en bronce</li>
+                            <li>Ensamblaje mediante soldadura</li>
+                            <li>Primera aplicación de pátina</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Sept 2021</div>
+                    <div class="timeline-content">
+                        <h3>Acabados Especiales</h3>
+                        <p>Desarrollo y aplicación de pátina anti-vandálica específica para ambiente escolar.</p>
+                        <ul>
+                            <li>Desarrollo de fórmula de pátina especial</li>
+                            <li>Pruebas de resistencia</li>
+                            <li>Aplicación de capas protectoras</li>
+                            <li>Inspección final de calidad</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Octubre 2021</div>
+                    <div class="timeline-content">
+                        <h3>Instalación e Inauguración</h3>
+                        <p>Instalación en campus y ceremonia de inauguración con estudiantes, profesores y familias.</p>
+                        <ul>
+                            <li>Preparación del sitio</li>
+                            <li>Instalación con participación estudiantil</li>
+                            <li>Ceremonia de inauguración</li>
+                            <li>Sesión fotográfica oficial</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galería del Proceso -->
+        <section class="container mt-xxl" aria-labelledby="galeria">
+            <h2 id="galeria">Galería del Proceso</h2>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="../assets/images/casos/raider-maqueta-inicial.jpg" alt="Maquetas iniciales del Raider" loading="lazy">
+                    <div class="gallery-caption">
+                        <h4>Maquetas Iniciales</h4>
+                        <p>Febrero 2021 - Tres propuestas de diseño con diferentes expresiones</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="../assets/images/casos/raider-feedback-estudiantes.jpg" alt="Sesión de feedback con estudiantes" loading="lazy">
+                    <div class="gallery-caption">
+                        <h4>Feedback Estudiantil</h4>
+                        <p>Marzo 2021 - Los estudiantes evaluando las maquetas propuestas</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="../assets/images/casos/raider-escaneo-3d.jpg" alt="Proceso de escaneo 3D" loading="lazy">
+                    <div class="gallery-caption">
+                        <h4>Escaneo 3D</h4>
+                        <p>Abril 2021 - Primera implementación de tecnología de escaneo</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="../assets/images/casos/raider-modelo-digital.jpg" alt="Modelo 3D digital refinado" loading="lazy">
+                    <div class="gallery-caption">
+                        <h4>Modelo Digital</h4>
+                        <p>Mayo 2021 - Refinamiento digital del modelo escaneado</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="../assets/images/casos/raider-impresion-3d.jpg" alt="Impresión 3D del modelo" loading="lazy">
+                    <div class="gallery-caption">
+                        <h4>Impresión 3D</h4>
+                        <p>Junio 2021 - Impresión del modelo final por secciones</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="../assets/images/casos/raider-moldeo.jpg" alt="Proceso de moldeo tradicional" loading="lazy">
+                    <div class="gallery-caption">
+                        <h4>Moldeo Tradicional</h4>
+                        <p>Agosto 2021 - Aplicación de técnicas tradicionales sobre modelo impreso</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="../assets/images/casos/raider-fundicion.jpg" alt="Process de fundición" loading="lazy">
+                    <div class="gallery-caption">
+                        <h4>Fundición</h4>
+                        <p>Agosto 2021 - Fundición de las secciones principales</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="../assets/images/casos/raider-patina-especial.jpg" alt="Aplicación de pátina anti-vandálica" loading="lazy">
+                    <div class="gallery-caption">
+                        <h4>Pátina Anti-Vandálica</h4>
+                        <p>Septiembre 2021 - Aplicación de tratamiento especial resistente</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="../assets/images/casos/raider-instalacion.jpg" alt="Instalación con participación estudiantil" loading="lazy">
+                    <div class="gallery-caption">
+                        <h4>Instalación Participativa</h4>
+                        <p>Octubre 2021 - Estudiantes participando en la instalación</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="../assets/images/casos/raider-inauguracion.jpg" alt="Ceremonia de inauguración" loading="lazy">
+                    <div class="gallery-caption">
+                        <h4>Inauguración</h4>
+                        <p>Octubre 2021 - Ceremonia con estudiantes, profesores y familias</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impacto Educativo -->
+        <section class="container mt-xxl" aria-labelledby="impacto-educativo">
+            <h2 id="impacto-educativo">Impacto Educativo del Proyecto</h2>
+            
+            <div class="grid grid-2">
+                <div>
+                    <h3>💾“ Beneficios para los Estudiantes</h3>
+                    <ul>
+                        <li><strong>Proceso como aprendizaje:</strong> Los estudiantes pudieron observar y participar en diferentes etapas</li>
+                        <li><strong>Integración STEAM:</strong> Conexión entre arte, tecnología y técnicas tradicionales</li>
+                        <li><strong>Orgullo institucional:</strong> Fortalecimiento de la identidad escolar</li>
+                        <li><strong>Punto de encuentro:</strong> Nuevo espacio de reunión y fotografías</li>
+                    </ul>
+
+                    <h3>💡‘¥ Participación Comunitaria</h3>
+                    <ul>
+                        <li>15 estudiantes participaron en evaluación de maquetas</li>
+                        <li>3 clases observaron el proceso de escaneo 3D</li>
+                        <li>Toda la comunidad escolar asistió a la inauguración</li>
+                        <li>Proyecto documentado en anuario escolar</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="card">
+                        <h3>📊 Métricas de Impacto</h3>
+                        <div class="metric-item">
+                            <div class="metric-number">350+</div>
+                            <div class="metric-label">Estudiantes interactúan diariamente</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-number">95%</div>
+                            <div class="metric-label">Aprobación en encuesta estudiantil</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-number">1,200+</div>
+                            <div class="metric-label">Fotos compartidas en redes sociales</div>
+                        </div>
+                        <div class="metric-item">
+                            <div class="metric-number">0</div>
+                            <div class="metric-label">Incidentes de vandalismo reportados</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonios -->
+        <section class="container mt-xxl" aria-labelledby="testimonios">
+            <h2 id="testimonios">Testimonios del Proyecto</h2>
+            
+            <div class="grid grid-2">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>
+                            "Ver cómo Uldis combinó tecnología moderna con técnicas tradicionales fue fascinante. Los estudiantes aprendieron tanto del proceso como del resultado final."
+                        </p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Dr. Patricia Morrison</strong>
+                        <span>Directora, Ransom Everglades School</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>
+                            "Es increíble cómo el Raider se ve exactamente como esperábamos, pero mejor. La tecnología 3D permitió una precisión que no habríamos logrado de otra manera."
+                        </p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Michael Chen</strong>
+                        <span>Coordinador de Arte y Tecnología</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>
+                            "Mis estudiantes quedaron fascinados viendo el escaneo 3D. Fue una lección perfecta de cómo el arte y la tecnología trabajan juntos."
+                        </p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Jennifer Rodriguez</strong>
+                        <span>Profesora de Arte Digital</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>
+                            "Tres años después, la escultura sigue perfecta. Es sorprendente cómo resistió todo el uso y el clima de Miami sin ningún daño visible."
+                        </p>
+                    </div>
+                    <div class="testimonial-author">
+                        <strong>Carlos Mendez</strong>
+                        <span>Director de Mantenimiento</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lecciones Aprendidas -->
+        <section class="container mt-xxl" aria-labelledby="lecciones">
+            <h2 id="lecciones">Lecciones Aprendidas e Innovaciones</h2>
+            
+            <div class="grid grid-2">
+                <div>
+                    <h3>✅ Innovaciones Exitosas</h3>
+                    <ul>
+                        <li><strong>Flujo híbrido:</strong> La combinación digital-tradicional resultó en eficiencia y calidad superiores</li>
+                        <li><strong>Participación educativa:</strong> Involucrar a estudiantes enriqueció el proceso y el resultado</li>
+                        <li><strong>Pátina anti-vandálica:</strong> Desarrollo de tratamiento especial para ambientes escolares</li>
+                        <li><strong>Precisión digital:</strong> El escaneo 3D permitió reproducir exactamente la visión del cliente</li>
+                    </ul>
+
+                    <h3>🚀 Aplicaciones Futuras</h3>
+                    <ul>
+                        <li>Proceso híbrido ahora estándar para proyectos complejos</li>
+                        <li>Pátina anti-vandálica aplicada en proyectos públicos</li>
+                        <li>Metodología educativa replicada en otros centros</li>
+                        <li>Portfolio digital para aprobaciones más eficientes</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>âš ï¸ Desafíos Superados</h3>
+                    <ul>
+                        <li><strong>Curva de aprendizaje:</strong> Dominar nuevas tecnologías requirió inversión en tiempo y capacitación</li>
+                        <li><strong>Integración de procesos:</strong> Encontrar el balance perfecto entre digital y tradicional</li>
+                        <li><strong>Expectativas altas:</strong> Los estudiantes esperaban perfección desde el primer día</li>
+                        <li><strong>Tiempos de producción:</strong> El proceso híbrido inicialmente tomó más tiempo</li>
+                    </ul>
+
+                    <h3>📈 Mejoras Implementadas</h3>
+                    <ul>
+                        <li>Capacitación continua del equipo en tecnologías 3D</li>
+                        <li>Protocolos estandarizados para proceso híbrido</li>
+                        <li>Comunicación más clara sobre tiempos de proceso</li>
+                        <li>Sistema de backup para archivos digitales</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="hero mt-xxl" style="padding: var(--space-xl) 0;">
+            <div class="container text-center">
+                <h2>¿Tu Institución Necesita una Escultura Icónica?</h2>
+                <p>
+                    Combinamos lo mejor de la tecnología moderna con la tradición artesanal 
+                    para crear esculturas que definan la identidad de tu institución.
+                </p>
+                <div class="btn-group mt-lg">
+                    <a href="../contacto.html" class="btn">Iniciar Mi Proyecto</a>
+                    <a href="/casos/roman.html" class="btn btn-secondary">Ver Otro Caso</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ransom Everglades Raider</h3>
+                    <p>
+                        <strong>Ubicación:</strong> Coconut Grove, Florida<br>
+                        <strong>Completado:</strong> Octubre 2021<br>
+                        <strong>Altura:</strong> 1.8 metros<br>
+                        <strong>Tecnología:</strong> Híbrida 3D + Tradicional
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Proceso Híbrido</h3>
+                    <p>
+                        Primer proyecto combinando escaneo 3D, modelado digital e impresión 3D con técnicas tradicionales de fundición en bronce.
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Otros Casos</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="/casos/roman.html">Monumento Agustín Román</a></li>
+                        <li><a href="/casos/memoria-colectiva.html">Serie Memoria Colectiva</a></li>
+                        <li><a href="index.html">Ver Todos los Casos</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Proyectos Educativos</h3>
+                    <p>
+                        Especializados en proyectos para instituciones educativas con participación estudiantil y resistencia especial.
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    © 2025 RUN Art Foundry. Documentación autorizada por Ransom Everglades School.
+                    | <a href="/privacidad.html">Política de Privacidad</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../assets/js/main.js" defer></script>
+
+    <!-- Schema.org CreativeWork -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "name": "Ransom Everglades Raider",
+      "description": "Escultura de mascota escolar en bronce combinando técnicas digitales 3D con fundición tradicional.",
+      "creator": {
+        "@type": "Person",
+        "name": "Uldis López",
+        "url": "https://runartfoundry.com/uldis.html"
+      },
+      "dateCreated": "2021-01-01",
+      "datePublished": "2021-10-01",
+      "material": "Bronze",
+      "technique": "3D scanning, digital modeling, traditional bronze casting",
+      "locationCreated": {
+        "@type": "Place",
+        "name": "RUN Art Foundry",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Miami",
+          "addressRegion": "FL",
+          "addressCountry": "US"
+        }
+      },
+      "contentLocation": {
+        "@type": "Place",
+        "name": "Ransom Everglades School",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Coconut Grove",
+          "addressRegion": "FL",
+          "addressCountry": "US"
+        }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "RUN Art Foundry",
+        "url": "https://runartfoundry.com"
+      }
+    }
+    </script>
+
+</body>
+</html>
+
+
+
+
