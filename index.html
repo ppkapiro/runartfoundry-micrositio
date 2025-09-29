@@ -44,6 +44,12 @@
     
     <!-- DNS prefetch for external resources -->
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    
+    <!-- Google Fonts - Demo-venta optimized typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
     
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/main.css">
@@ -171,9 +177,10 @@
         </section>
 
         <!-- Featured Sections -->
-        <section class="container mt-xxl" aria-labelledby="sections-title">
-            <h2 id="sections-title">Secciones Destacadas</h2>
-            <div class="grid grid-3">
+        <section class="demo-section" aria-labelledby="sections-title">
+            <div class="container">
+                <h2 id="sections-title">Explora el Potencial de RUN Art Foundry</h2>
+                <div class="grid grid-3">
                 
                 <!-- Uldis López -->
                 <article class="card">
@@ -253,39 +260,67 @@
                     </div>
                 </article>
 
+                </div>
             </div>
         </section>
 
         <!-- Key Statistics -->
-        <section class="container mt-xxl" aria-labelledby="stats-title">
-            <h2 id="stats-title">Indicadores Clave</h2>
-            <div class="grid grid-4">
-                <div class="card text-center">
-                    <h3 class="card-title" style="color: var(--color-primary); font-size: var(--text-3xl);">30+</h3>
-                    <p class="card-content">Proyectos Documentados</p>
+        <section class="demo-section premium-bg" aria-labelledby="stats-title">
+            <div class="container">
+                <h2 id="stats-title">Números que Hablan por Sí Solos</h2>
+                <div class="grid grid-4">
+                    <div class="demo-stat">
+                        <span class="demo-stat-number">50+</span>
+                        <span class="demo-stat-label">Proyectos Completados</span>
+                    </div>
+                    <div class="demo-stat">
+                        <span class="demo-stat-number">25+</span>
+                        <span class="demo-stat-label">Artistas Colaboradores</span>
+                    </div>
+                    <div class="demo-stat">
+                        <span class="demo-stat-number">8</span>
+                        <span class="demo-stat-label">Países de Alcance</span>
+                    </div>
                 </div>
-                <div class="card text-center">
-                    <h3 class="card-title" style="color: var(--color-primary); font-size: var(--text-3xl);">15+</h3>
-                    <p class="card-content">Artistas Colaboradores</p>
-                </div>
-                <div class="card text-center">
-                    <h3 class="card-title" style="color: var(--color-primary); font-size: var(--text-3xl);">12</h3>
-                    <p class="card-content">Apariciones en Prensa</p>
-                </div>
-                <div class="card text-center">
-                    <h3 class="card-title" style="color: var(--color-primary); font-size: var(--text-3xl);">100%</h3>
-                    <p class="card-content">Transparencia de Proceso</p>
+                
+                <!-- Trust indicators -->
+                <div style="text-align: center; margin-top: var(--space-xl);">
+                    <div class="trust-indicator">
+                        <span class="metallic-icon">🏆</span>
+                        <span>Reconocimiento Internacional</span>
+                    </div>
+                    <div class="trust-indicator">
+                        <span class="metallic-icon">🎯</span>
+                        <span>100% Transparencia</span>
+                    </div>
+                    <div class="trust-indicator">
+                        <span class="metallic-icon">⚡</span>
+                        <span>Proceso Documentado</span>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Testimonial Highlight -->
-        <section class="container mt-xxl" aria-labelledby="testimonial-title">
-            <h2 id="testimonial-title">Testimonio Destacado</h2>
-            <div class="testimonial">
-                <blockquote class="testimonial-quote">
-                    La transparencia y profesionalismo de Uldis en RUN Art Foundry es incomparable. Poder seguir cada etapa del proceso de fundición me dio total confianza en el resultado final de mi obra.
-                </blockquote>
+        <section class="demo-section" aria-labelledby="testimonial-title">
+            <div class="container">
+                <div class="demo-quote">
+                    Del taller de Pinar del Río a convertirse en el referente de la fundición artística en Miami. RUN Art Foundry no es solo una empresa, es la consolidación de décadas de maestría en el arte del bronce.
+                </div>
+                <div style="text-align: center; margin-top: var(--space-lg);">
+                    <a href="uldis.html" class="btn demo-cta">Conoce la Historia Completa</a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Original Testimonial -->
+        <section class="demo-section premium-bg" aria-labelledby="testimonial-title">
+            <div class="container">
+                <h2 id="testimonial-title">Lo Que Dicen Nuestros Artistas</h2>
+                <div class="demo-highlight">
+                    <blockquote class="demo-quote" style="margin: 0; padding: var(--space-lg);">
+                        La transparencia y profesionalismo de Uldis en RUN Art Foundry es incomparable. Poder seguir cada etapa del proceso de fundición me dio total confianza en el resultado final de mi obra.
+                    </blockquote>
                 <div class="testimonial-author">
                     <img src="assets/images/williams-carmona.svg" alt="Williams Carmona" class="testimonial-avatar" loading="lazy">
                     <div class="testimonial-info">

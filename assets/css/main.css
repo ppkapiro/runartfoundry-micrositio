@@ -83,9 +83,9 @@ body {
   --space-xl: 3rem;
   --space-xxl: 4rem;
   
-  /* Tipografías */
-  --font-primary: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif;
-  --font-heading: 'Spectral', Georgia, 'Times New Roman', serif;
+  /* Tipografías - Demo-venta optimized */
+  --font-primary: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: 'Playfair Display', Georgia, 'Times New Roman', serif;
   --font-mono: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', monospace;
   
   /* Tamaños de fuente */
@@ -128,9 +128,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
   font-weight: 600;
-  line-height: 1.3;
-  margin-bottom: var(--space-sm);
+  line-height: 1.25;
+  margin-bottom: var(--space-md);
   color: var(--color-dark);
+  letter-spacing: -0.01em;
 }
 
 h1 { font-size: var(--text-4xl); }
@@ -141,8 +142,12 @@ h5 { font-size: var(--text-lg); }
 h6 { font-size: var(--text-base); }
 
 p {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  line-height: 1.7;
   margin-bottom: var(--space-md);
   max-width: 65ch; /* Legibilidad óptima */
+  color: var(--color-gray-dark);
 }
 
 a {
@@ -372,19 +377,26 @@ a[target="_blank"]:after {
 }
 
 .hero-title {
+  font-family: var(--font-heading);
   font-size: var(--text-5xl);
+  font-weight: 600;
+  line-height: 1.2;
   margin-bottom: var(--space-md);
   background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  letter-spacing: -0.02em;
 }
 
 .hero-subtitle {
+  font-family: var(--font-primary);
   font-size: var(--text-xl);
+  font-weight: 400;
+  line-height: 1.5;
   color: var(--color-gray);
   margin-bottom: var(--space-xl);
-  max-width: 600px;
+  max-width: 650px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -394,26 +406,28 @@ a[target="_blank"]:after {
   display: inline-flex;
   align-items: center;
   gap: var(--space-xs);
-  padding: var(--space-sm) var(--space-lg);
-  background: var(--color-primary);
+  padding: var(--space-md) var(--space-xl);
+  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
   color: var(--color-white);
   text-decoration: none;
-  border-radius: 6px;
+  border-radius: 8px;
+  font-family: var(--font-primary);
   font-weight: 600;
   font-size: var(--text-base);
-  border: 2px solid var(--color-primary);
+  border: none;
   cursor: pointer;
-  transition: all var(--transition-fast);
+  transition: all var(--transition-normal);
   text-align: center;
+  letter-spacing: 0.025em;
+  box-shadow: var(--shadow-sm);
 }
 
 .btn:hover,
 .btn:focus {
-  background: var(--color-primary-dark);
-  border-color: var(--color-primary-dark);
+  background: linear-gradient(135deg, var(--color-primary-dark), var(--color-primary));
   color: var(--color-white);
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
 }
 
 .btn:focus {
@@ -1473,5 +1487,161 @@ header.header .nav-main .nav-list li a.nav-link.active {
     .nav-toggle {
         display: block !important;
     }
+}
+
+/* === ESTILOS DEMO-VENTA ESPECÍFICOS === */
+
+/* Mejoras visuales para presentación comercial */
+.demo-highlight {
+  background: linear-gradient(120deg, rgba(184, 134, 11, 0.1) 0%, rgba(212, 175, 55, 0.1) 100%);
+  border-left: 4px solid var(--color-primary);
+  padding: var(--space-lg);
+  border-radius: 8px;
+  margin: var(--space-xl) 0;
+}
+
+.demo-stat {
+  text-align: center;
+  padding: var(--space-lg);
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-normal);
+}
+
+.demo-stat:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+}
+
+.demo-stat-number {
+  font-family: var(--font-heading);
+  font-size: var(--text-4xl);
+  font-weight: 700;
+  color: var(--color-primary);
+  display: block;
+  margin-bottom: var(--space-xs);
+}
+
+.demo-stat-label {
+  font-family: var(--font-primary);
+  font-size: var(--text-sm);
+  color: var(--color-gray);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+/* Elementos de confianza y credibilidad */
+.trust-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  background: rgba(184, 134, 11, 0.1);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: 20px;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-primary);
+  margin: var(--space-xs);
+}
+
+/* Secciones con mayor espacio en blanco */
+.demo-section {
+  padding: var(--space-xxl) 0;
+  background: var(--color-white);
+}
+
+.demo-section:nth-child(even) {
+  background: rgba(248, 249, 250, 0.5);
+}
+
+.demo-section h2 {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+  position: relative;
+}
+
+.demo-section h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+  margin: var(--space-md) auto 0;
+  border-radius: 2px;
+}
+
+/* Gradientes sutiles para elementos premium */
+.premium-bg {
+  background: linear-gradient(135deg, 
+    rgba(255, 255, 255, 1) 0%,
+    rgba(248, 249, 250, 1) 50%,
+    rgba(244, 245, 247, 1) 100%);
+}
+
+/* Iconografía metálica */
+.metallic-icon {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 600;
+}
+
+/* Quotes y testimoniales mejorados */
+.demo-quote {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  font-style: italic;
+  color: var(--color-gray-dark);
+  text-align: center;
+  position: relative;
+  padding: var(--space-xl);
+  margin: var(--space-xl) 0;
+}
+
+.demo-quote::before {
+  content: '"';
+  font-size: 4rem;
+  color: var(--color-primary);
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  opacity: 0.3;
+}
+
+/* Botones de acción mejorados */
+.demo-cta {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  padding: var(--space-lg) var(--space-xxl);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 50px;
+  box-shadow: 0 8px 25px rgba(184, 134, 11, 0.25);
+  transition: all var(--transition-normal);
+}
+
+.demo-cta:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 35px rgba(184, 134, 11, 0.35);
+}
+
+/* Mejoras responsivas para demo */
+@media (max-width: 768px) {
+  .demo-section {
+    padding: var(--space-xl) 0;
+  }
+  
+  .demo-stat-number {
+    font-size: var(--text-3xl);
+  }
+  
+  .demo-quote {
+    font-size: var(--text-lg);
+    padding: var(--space-lg);
+  }
 }
 /* Cache busting: 1759178911 */
