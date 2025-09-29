@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RUN Lab - Blog técnico sobre fundición artística, procesos, Técnicas y conocimiento especializado en bronce y metales. Artículos por Uldis López y equipo.">
+    <meta name="keywords" content="blog, fundición, Técnicas, bronce, procesos, artístico, conocimiento, tutorial, RUN Lab">
+    <meta name="author" content="RUN Art Foundry">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="RUN Lab - Blog técnico de fundición artística | RUN Art Foundry">
+    <meta property="og:description" content="Conocimiento especializado en fundición artística. Técnicas, procesos, tips y experiencias compartidas por expertos en bronce y metales.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://runartfoundry.com/lab/">
+    <meta property="og:image" content="/assets/images/lab-cover.jpg">
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://runartfoundry.com/lab/">
+    <link rel="alternate" hreflang="en" href="https://runartfoundry.com/en/lab/">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    
+    <title>RUN Lab - Blog técnico de fundición artística | RUN Art Foundry</title>
+</head>
+
+<body>
+    <!-- Skip to content -->
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header-content">
+
+                <nav class="nav-main" role="navigation" aria-label="Navegación principal">
+                    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">☰</button>
+                    
+                    <ul class="nav-list" id="nav-list">
+                        <li><a href="../index.html" class="nav-link">Inicio</a></li>
+                        <li><a href="../uldis.html" class="nav-link">Uldis López</a></li>
+                        <li><a href="../run.html" class="nav-link">RUN Art Foundry</a></li>
+                        <li><a href="../cronologia.html" class="nav-link">Cronología</a></li>
+                        <li><a href="../evidencias.html" class="nav-link">Evidencias</a></li>
+                        <li><a href="../casos/index.html" class="nav-link">Casos</a></li>
+                        <li><a href="index.html" class="nav-link active" aria-current="page">RUN Lab</a></li>
+                        <li><a href="../acciones.html" class="nav-link">Acciones</a></li>
+                        <li><a href="../contacto.html" class="nav-link">Contacto</a></li>
+                    </ul>
+                    
+                    <div class="locale-switch">
+                        <button class="locale-btn active" data-locale="es">ES</button>
+                        <button class="locale-btn" data-locale="en">EN</button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main" id="main-content" role="main">
+        
+        <!-- Breadcrumb -->
+        <div class="container">
+            <nav class="breadcrumb" aria-label="Navegación de ruta">
+                <ol>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li>RUN Lab</li>
+                </ol>
+            </nav>
+        </div>
+
+        <!-- Hero Section -->
+        <section class="hero" aria-labelledby="page-title">
+            <div class="container">
+                <h1 id="page-title" class="hero-title">RUN Lab</h1>
+                <p class="hero-subtitle">
+                    Blog técnico • Conocimiento Especializado • fundición artística • Procesos y Técnicas
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <strong>25+</strong>
+                        <span>Artículos técnicos</span>
+                    </div>
+                    <div class="stat">
+                        <strong>3 años</strong>
+                        <span>Compartiendo conocimiento</span>
+                    </div>
+                    <div class="stat">
+                        <strong>2 idiomas</strong>
+                        <span>ES • EN</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Propósito del Blog -->
+        <section class="container mt-xl" aria-labelledby="proposito">
+            <div class="grid grid-2">
+                <div>
+                    <h2 id="proposito">¿Por qué RUN Lab?</h2>
+                    <p>
+                        <strong>RUN Lab</strong> nace de nuestro compromiso con la <strong>transparencia</strong> y la educación en fundición artística. Aquí compartimos el conocimiento técnico que hemos acumulado a lo largo de décadas de experiencia.
+                    </p>
+
+                    <p>
+                        Cada artículo documenta procesos reales, comparte soluciones a problemas comunes, y explora innovaciones que pueden beneficiar a toda la comunidad artística y de fundición.
+                    </p>
+
+                    <div class="callout callout-info">
+                        <p><strong>Filosofía:</strong> "El conocimiento que no se comparte, se pierde. La técnica que no se documenta, desaparece."</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="card">
+                        <h3>Nuestros Temas</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li>🔥 <strong>Procesos de fundición</strong> - Técnicas tradicionales y modernas</li>
+                            <li>🎨 <strong>Pátinas y Acabados</strong> - Química y aplicación</li>
+                            <li>💡—ï¸ <strong>Instalación de Esculturas</strong> - Ingeniería y logística</li>
+                            <li>⚙️ <strong>Herramientas y Equipos</strong> - Reseñas y tips</li>
+                            <li>💡“ <strong>Modelado y Moldeo</strong> - Desde arcilla hasta 3D</li>
+                            <li>🌍 <strong>Sostenibilidad</strong> - Prácticas responsables</li>
+                            <li>🎯 <strong>Casos Problemáticos</strong> - Soluciones reales</li>
+                            <li>📈 <strong>Tendencias de la Industria</strong> - Futuro del arte en metal</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Artículos Destacados -->
+        <section class="container mt-xxl" aria-labelledby="destacados">
+            <h2 id="destacados">Artículos Destacados</h2>
+            
+            <div class="grid grid-3">
+                
+                <!-- Artículo 1 -->
+                <article class="card-blog">
+                    <div class="blog-image">
+                        <img src="../assets/images/lab/contraccion-metal.jpg" alt="Estudio de contracción del metal durante fundición" loading="lazy">
+                        <div class="blog-badge">técnico</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">15 Dic 2024</span>
+                            <span class="blog-author">Por Uldis López</span>
+                        </div>
+                        <h3><a href="/lab/contraccion-metal-fundicion.html">Cómo la Contracción del Metal Influye en el Acabado Final</a></h3>
+                        <p>
+                            Análisis detallado de cómo diferentes aleaciones se contraen durante el enfriamiento y cómo anticipar estos cambios para lograr dimensiones precisas.
+                        </p>
+                        <div class="blog-tags">
+                            <span class="tag">fundición</span>
+                            <span class="tag">Aleaciones</span>
+                            <span class="tag">Precisión</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Artículo 2 -->
+                <article class="card-blog">
+                    <div class="blog-image">
+                        <img src="../assets/images/lab/patina-quimica-natural.jpg" alt="Comparación entre pátina química y natural" loading="lazy">
+                        <div class="blog-badge">Popular</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">28 Nov 2024</span>
+                            <span class="blog-author">Por Uldis López</span>
+                        </div>
+                        <h3><a href="/lab/patina-quimica-vs-natural.html">Diferencias entre Pátina Química y Natural</a></h3>
+                        <p>
+                            Guía completa sobre cuándo usar cada tipo de pátina, ventajas, desventajas, y Técnicas de aplicación para cada ambiente y uso.
+                        </p>
+                        <div class="blog-tags">
+                            <span class="tag">Pátina</span>
+                            <span class="tag">Acabados</span>
+                            <span class="tag">Conservación</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Artículo 3 -->
+                <article class="card-blog">
+                    <div class="blog-image">
+                        <img src="../assets/images/lab/instalacion-estructural.jpg" alt="Instalación de escultura monumental con consideraciones estructurales" loading="lazy">
+                        <div class="blog-badge">Ingeniería</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">10 Nov 2024</span>
+                            <span class="blog-author">Por Carlos Mendoza</span>
+                        </div>
+                        <h3><a href="/lab/instalacion-consideraciones-estructurales.html">Instalación de Esculturas: Consideraciones Estructurales</a></h3>
+                        <p>
+                            Todo lo que necesitas saber sobre cimientos, anclajes, fuerzas sísmicas y de viento para instalaciones permanentes seguras.
+                        </p>
+                        <div class="blog-tags">
+                            <span class="tag">Instalación</span>
+                            <span class="tag">Ingeniería</span>
+                            <span class="tag">Seguridad</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Artículo 4 -->
+                <article class="card-blog">
+                    <div class="blog-image">
+                        <img src="../assets/images/lab/moldeo-formas-complejas.jpg" alt="Técnicas de moldeo para geometrías complejas" loading="lazy">
+                        <div class="blog-badge">Avanzado</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">22 Oct 2024</span>
+                            <span class="blog-author">Por Uldis López</span>
+                        </div>
+                        <h3><a href="/lab/moldeo-formas-complejas.html">Técnicas de Moldeo para Formas Complejas</a></h3>
+                        <p>
+                            Estrategias avanzadas para moldear geometrías difíciles, incluyendo moldeo por secciones, canales de colada, y respiraderos.
+                        </p>
+                        <div class="blog-tags">
+                            <span class="tag">Moldeo</span>
+                            <span class="tag">Técnicas</span>
+                            <span class="tag">Geometría</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Artículo 5 -->
+                <article class="card-blog">
+                    <div class="blog-image">
+                        <img src="../assets/images/lab/mantenimiento-exterior.jpg" alt="Mantenimiento de esculturas en ambiente exterior" loading="lazy">
+                        <div class="blog-badge">Mantenimiento</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">05 Oct 2024</span>
+                            <span class="blog-author">Por María Rodríguez</span>
+                        </div>
+                        <h3><a href="/lab/mantenimiento-esculturas-exterior.html">Mantenimiento de Esculturas en Exterior</a></h3>
+                        <p>
+                            Protocolos de mantenimiento preventivo y correctivo para esculturas expuestas a intemperie, especialmente en clima tropical.
+                        </p>
+                        <div class="blog-tags">
+                            <span class="tag">Mantenimiento</span>
+                            <span class="tag">Conservación</span>
+                            <span class="tag">Clima</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Artículo 6 -->
+                <article class="card-blog">
+                    <div class="blog-image">
+                        <img src="../assets/images/lab/historia-fundicion-cuba.jpg" alt="Historia de la fundición artística en Cuba" loading="lazy">
+                        <div class="blog-badge">Historia</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">18 Sep 2024</span>
+                            <span class="blog-author">Por Uldis López</span>
+                        </div>
+                        <h3><a href="/lab/historia-fundicion-cuba.html">Historia de la fundición artística en Cuba</a></h3>
+                        <p>
+                            Recorrido por la tradición de fundición en Cuba, desde los maestros españoles hasta las innovaciones de los artistas contemporáneos.
+                        </p>
+                        <div class="blog-tags">
+                            <span class="tag">Historia</span>
+                            <span class="tag">Cuba</span>
+                            <span class="tag">Tradición</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Categorías -->
+        <section class="container mt-xxl" aria-labelledby="categorias">
+            <h2 id="categorias">Explora por Categorías</h2>
+            
+            <div class="grid grid-4">
+                <div class="category-card">
+                    <div class="category-icon">🔥</div>
+                    <h3>Procesos de fundición</h3>
+                    <p>Técnicas tradicionales y modernas, desde preparación hasta acabado</p>
+                    <div class="category-count">8 Artículos</div>
+                    <a href="/lab/categoria/procesos-fundicion.html" class="btn btn-sm">Explorar</a>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-icon">🎨</div>
+                    <h3>Pátinas y Acabados</h3>
+                    <p>Química, aplicación y mantenimiento de acabados en metal</p>
+                    <div class="category-count">6 Artículos</div>
+                    <a href="/lab/categoria/patinas-acabados.html" class="btn btn-sm">Explorar</a>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-icon">💡—ï¸</div>
+                    <h3>Instalación</h3>
+                    <p>Ingeniería, logística y consideraciones estructurales</p>
+                    <div class="category-count">4 Artículos</div>
+                    <a href="/lab/categoria/instalacion.html" class="btn btn-sm">Explorar</a>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-icon">⚙️</div>
+                    <h3>Herramientas</h3>
+                    <p>Equipos, reseñas y tips para fundición artística</p>
+                    <div class="category-count">5 Artículos</div>
+                    <a href="/lab/categoria/herramientas.html" class="btn btn-sm">Explorar</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Series Especiales -->
+        <section class="container mt-xxl" aria-labelledby="series">
+            <h2 id="series">Series Especiales</h2>
+            
+            <div class="grid grid-2">
+                <div class="card">
+                    <h3>💾“ "fundición 101"</h3>
+                    <p>Serie educativa para principiantes que cubre los fundamentos de la fundición artística desde cero.</p>
+                    <ul>
+                        <li>Capítulo 1: Materiales y Herramientas Básicas</li>
+                        <li>Capítulo 2: Tu Primera fundición</li>
+                        <li>Capítulo 3: Acabados Básicos</li>
+                        <li>Capítulo 4: Seguridad en el Taller</li>
+                    </ul>
+                    <a href="/lab/serie/fundicion-101.html" class="btn">Ver Serie Completa</a>
+                </div>
+
+                <div class="card">
+                    <h3>💡”¬ "Casos Problemáticos"</h3>
+                    <p>Análisis de proyectos que presentaron desafíos únicos y cómo los resolvimos.</p>
+                    <ul>
+                        <li>Caso 1: Grietas en fundición Grande</li>
+                        <li>Caso 2: Pátina que No Adhiere</li>
+                        <li>Caso 3: Instalación en Suelo Inestable</li>
+                        <li>Caso 4: Reparación de Escultura Histórica</li>
+                    </ul>
+                    <a href="/lab/serie/casos-problematicos.html" class="btn">Ver Casos</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter y Suscripción -->
+        <section class="container mt-xxl" aria-labelledby="newsletter">
+            <div class="card newsletter-card">
+                <div class="grid grid-2">
+                    <div>
+                        <h2 id="newsletter">Mantente Actualizado</h2>
+                        <p>
+                            Recibe los nuevos Artículos técnicos directamente en tu email. Sin spam, solo conocimiento especializado una vez por semana.
+                        </p>
+                        <ul>
+                            <li>✅ Artículos nuevos cada semana</li>
+                            <li>✅ Tips exclusivos para suscriptores</li>
+                            <li>✅ Aviso de talleres y eventos</li>
+                            <li>✅ Descarga gratuita: "Guía de Pátinas"</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <form class="newsletter-form" id="newsletter-form">
+                            <h3>Suscríbete a RUN Lab</h3>
+                            <div class="form-group">
+                                <label for="newsletter-email" class="form-label">Email</label>
+                                <input 
+                                    type="email" 
+                                    id="newsletter-email" 
+                                    name="email" 
+                                    class="form-input" 
+                                    required
+                                    placeholder="tu@email.com"
+                                >
+                            </div>
+                            <div class="form-group">
+                                <label for="newsletter-nombre" class="form-label">Nombre (opcional)</label>
+                                <input 
+                                    type="text" 
+                                    id="newsletter-nombre" 
+                                    name="nombre" 
+                                    class="form-input"
+                                    placeholder="Tu nombre"
+                                >
+                            </div>
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" required>
+                                    <span class="checkbox-mark"></span>
+                                    Acepto recibir emails con contenido técnico de RUN Lab
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-full">Suscribirme Gratis</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Colaboradores -->
+        <section class="container mt-xxl" aria-labelledby="colaboradores">
+            <h2 id="colaboradores">Nuestros Colaboradores</h2>
+            <p>RUN Lab es un esfuerzo colaborativo con expertos de diferentes disciplinas:</p>
+            
+            <div class="grid grid-3">
+                <div class="author-card">
+                    <div class="author-avatar">
+                        <img src="../assets/images/authors/uldis-lopez.jpg" alt="Uldis López" loading="lazy">
+                    </div>
+                    <div class="author-info">
+                        <h3>Uldis López</h3>
+                        <p class="author-title">Fundador y Maestro Fundidor</p>
+                        <p>35+ años de experiencia en fundición artística. Especialista en Técnicas tradicionales cubanas y innovaciones modernas.</p>
+                        <div class="author-stats">
+                            <span>15 Artículos publicados</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="author-card">
+                    <div class="author-avatar">
+                        <img src="../assets/images/authors/carlos-mendoza.jpg" alt="Carlos Mendoza" loading="lazy">
+                    </div>
+                    <div class="author-info">
+                        <h3>Carlos Mendoza</h3>
+                        <p class="author-title">Ingeniero Estructural</p>
+                        <p>Especialista en instalaciones monumentales y consideraciones sísmicas para esculturas públicas.</p>
+                        <div class="author-stats">
+                            <span>4 Artículos publicados</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="author-card">
+                    <div class="author-avatar">
+                        <img src="../assets/images/authors/maria-rodriguez.jpg" alt="María Rodríguez" loading="lazy">
+                    </div>
+                    <div class="author-info">
+                        <h3>María Rodríguez</h3>
+                        <p class="author-title">Especialista en Conservación</p>
+                        <p>Química especializada en tratamientos de conservación y mantenimiento de esculturas en exterior.</p>
+                        <div class="author-stats">
+                            <span>3 Artículos publicados</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="hero mt-xxl" style="padding: var(--space-xl) 0;">
+            <div class="container text-center">
+                <h2>¿Tienes una Pregunta Técnica?</h2>
+                <p>
+                    Si hay algún tema específico que te gustaría que cubramos en RUN Lab, 
+                    no dudes en contactarnos. Tu pregunta podría convertirse en nuestro próximo artículo.
+                </p>
+                <div class="btn-group mt-lg">
+                    <a href="../contacto.html" class="btn">Hacer Pregunta</a>
+                    <a href="/lab/sugerir-tema.html" class="btn btn-secondary">Sugerir Tema</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>RUN Lab</h3>
+                    <p>
+                        Blog técnico sobre fundición artística con conocimiento especializado, casos reales y Técnicas innovadoras.
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Categorías Principales</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="/lab/categoria/procesos-fundicion.html">Procesos de fundición</a></li>
+                        <li><a href="/lab/categoria/patinas-acabados.html">Pátinas y Acabados</a></li>
+                        <li><a href="/lab/categoria/instalacion.html">Instalación</a></li>
+                        <li><a href="/lab/categoria/herramientas.html">Herramientas</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Series Especiales</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="/lab/serie/fundicion-101.html">fundición 101</a></li>
+                        <li><a href="/lab/serie/casos-problematicos.html">Casos Problemáticos</a></li>
+                        <li><a href="/lab/archivo.html">Archivo Completo</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Participar</h3>
+                    <p>
+                        <a href="#newsletter">Suscribirse al Newsletter</a><br>
+                        <a href="/lab/sugerir-tema.html">Sugerir Tema</a><br>
+                        <a href="../contacto.html">Hacer Pregunta</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    © 2025 RUN Art Foundry Lab. Conocimiento compartido bajo Creative Commons.
+                    | <a href="/privacidad.html">Política de Privacidad</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../assets/js/main.js" defer></script>
+
+    <!-- Script específico para newsletter -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('newsletter-form');
+            
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Simular suscripción
+                const email = form.querySelector('#newsletter-email').value;
+                const nombre = form.querySelector('#newsletter-nombre').value;
+                
+                // Mostrar mensaje de éxito
+                const mensaje = document.createElement('div');
+                mensaje.className = 'callout callout-success';
+                mensaje.innerHTML = `
+                    <p><strong>¡Suscripción exitosa!</strong></p>
+                    <p>Recibirás nuestro próximo artículo en ${email}</p>
+                    <p>Revisa tu email para confirmar la suscripción y descargar la "Guía de Pátinas" gratuita.</p>
+                `;
+                
+                form.parentNode.replaceChild(mensaje, form);
+                
+                // En implementación real, enviar datos al servidor
+                console.log('Suscripción:', { email, nombre });
+            });
+        });
+    </script>
+
+    <!-- Schema.org Blog -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "name": "RUN Lab - Blog técnico de fundición artística",
+      "description": "Blog especializado en Técnicas, procesos y conocimiento sobre fundición artística en bronce y metales.",
+      "url": "https://runartfoundry.com/lab/",
+      "publisher": {
+        "@type": "Organization",
+        "name": "RUN Art Foundry",
+        "url": "https://runartfoundry.com"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Uldis López",
+        "url": "https://runartfoundry.com/uldis.html"
+      },
+      "inLanguage": "es",
+      "blogPost": [
+        {
+          "@type": "BlogPosting",
+          "headline": "Cómo la Contracción del Metal Influye en el Acabado Final",
+          "url": "https://runartfoundry.com/lab/contraccion-metal-fundicion.html",
+          "datePublished": "2024-12-15"
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Diferencias entre Pátina Química y Natural",
+          "url": "https://runartfoundry.com/lab/patina-quimica-vs-natural.html",
+          "datePublished": "2024-11-28"
+        }
+      ]
+    }
+    </script>
+
+</body>
+</html>
+
+
+
+

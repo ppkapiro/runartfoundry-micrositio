@@ -911,3 +911,70 @@ window.RunArtFoundry = {
   Forms,
   Analytics
 };
+/* ============================================== */
+/* MENÚ RESPONSIVE - AGREGADO Mon Sep 29 16:34:50 EDT 2025 */
+/* ============================================== */
+
+/* ==============================================
+   MENÚ RESPONSIVE - JavaScript
+   ============================================== */
+
+// Toggle del menú móvil
+function toggleMenu() {
+    const navList = document.getElementById("nav-list");
+    const navToggle = document.querySelector(".nav-toggle");
+    
+    if (navList && navToggle) {
+        navList.classList.toggle("active");
+        
+        // Cambiar icono del botón
+        const icon = navToggle.querySelector("span");
+        if (icon) {
+            icon.textContent = navList.classList.contains("active") ? "✕" : "☰";
+        }
+        
+        // Actualizar aria-label
+        navToggle.setAttribute("aria-label", 
+            navList.classList.contains("active") ? "Cerrar menú" : "Abrir menú"
+        );
+    }
+}
+
+// Cerrar menú al hacer clic en un enlace (móvil)
+document.addEventListener("DOMContentLoaded", function() {
+    const navLinks = document.querySelectorAll(".nav-link");
+    const navList = document.getElementById("nav-list");
+    
+    navLinks.forEach(link => {
+        link.addEventListener("click", function() {
+            if (window.innerWidth <= 767) {
+                navList.classList.remove("active");
+                const navToggle = document.querySelector(".nav-toggle span");
+                if (navToggle) {
+                    navToggle.textContent = "☰";
+                }
+            }
+        });
+    });
+    
+    // Cerrar menú al redimensionar ventana
+    window.addEventListener("resize", function() {
+        if (window.innerWidth > 767) {
+            navList.classList.remove("active");
+            const navToggle = document.querySelector(".nav-toggle span");
+            if (navToggle) {
+                navToggle.textContent = "☰";
+            }
+        }
+    });
+});
+
+// Navegación con teclado
+document.addEventListener("keydown", function(e) {
+    if (e.key === "Escape") {
+        const navList = document.getElementById("nav-list");
+        if (navList && navList.classList.contains("active")) {
+            toggleMenu();
+        }
+    }
+});
