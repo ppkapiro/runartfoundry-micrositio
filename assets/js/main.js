@@ -978,3 +978,40 @@ document.addEventListener("keydown", function(e) {
         }
     }
 });
+
+/* MENÚ RESPONSIVE - RECONSTRUIDO */
+// Menú responsive - JavaScript
+function toggleMenu() {
+    const navList = document.getElementById('nav-list');
+    const navToggle = document.querySelector('.nav-toggle');
+    
+    if (navList && navToggle) {
+        navList.classList.toggle('active');
+        navToggle.textContent = navList.classList.contains('active') ? '✕' : '☰';
+    }
+}
+
+// Cerrar menú al hacer clic en enlace (móvil)
+document.addEventListener('DOMContentLoaded', function() {
+    const navLinks = document.querySelectorAll('.nav-list a');
+    const navList = document.getElementById('nav-list');
+    
+    navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            if (window.innerWidth <= 768) {
+                navList.classList.remove('active');
+                const navToggle = document.querySelector('.nav-toggle');
+                if (navToggle) navToggle.textContent = '☰';
+            }
+        });
+    });
+    
+    // Cerrar menú al redimensionar
+    window.addEventListener('resize', function() {
+        if (window.innerWidth > 768) {
+            navList.classList.remove('active');
+            const navToggle = document.querySelector('.nav-toggle');
+            if (navToggle) navToggle.textContent = '☰';
+        }
+    });
+});
