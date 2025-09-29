@@ -10,8 +10,9 @@
 6. [Páginas de Desarrollo](#páginas-de-desarrollo)
 7. [Estructura Técnica](#estructura-técnica)
 8. [Funcionalidades](#funcionalidades)
-9. [Deployment y Hosting](#deployment-y-hosting)
-10. [Mantenimiento y Desarrollo](#mantenimiento-y-desarrollo)
+9. [Sistema de Ramas y Deployment](#sistema-de-ramas-y-deployment)
+10. [Deployment y Hosting](#deployment-y-hosting)
+11. [Mantenimiento y Desarrollo](#mantenimiento-y-desarrollo)
 
 ---
 
@@ -732,6 +733,159 @@ Esta página humaniza la marca y establece la confianza del cliente al mostrar l
 - **Color Contrast:** Ratios de contraste apropiados
 - **Alt Text:** Descripciones de imágenes
 - **Semantic HTML:** Estructura semántica correcta
+
+---
+
+## 🌳 Sistema de Ramas y Deployment
+
+### 📋 Arquitectura de Ramas
+
+El proyecto utiliza un **workflow de dos ramas** para garantizar estabilidad y permitir desarrollo continuo:
+
+**🌿 MAIN (Producción):**
+- **Propósito:** Código estable en producción
+- **URL:** https://runartfoundry-micrositio-ubuntu.surge.sh
+- **Protección:** Solo cambios via merge desde development
+- **Deploy:** Manual con verificaciones completas
+
+**🔬 DEVELOPMENT (Staging):**
+- **Propósito:** Desarrollo y testing
+- **URL:** https://runartfoundry-micrositio-dev.surge.sh
+- **Flexibilidad:** Commits directos permitidos
+- **Deploy:** Automatizado con commits
+
+### 🛠️ Herramientas de Gestión
+
+**Scripts Automatizados Disponibles:**
+
+**1. dev-tools.sh - Herramienta Principal**
+```bash
+./dev-tools.sh                # Menú interactivo completo
+./dev-tools.sh status         # Estado completo del proyecto
+./dev-tools.sh deploy-staging # Deploy rápido a staging
+```
+
+**Funcionalidades del Menú Interactivo:**
+- 📊 Estado completo del proyecto (ramas, commits, URLs)
+- 🔄 Cambio de ramas con verificaciones
+- 🚀 Deploy rápido a producción/staging
+- 🔗 Verificación automática de conectividad
+- 📝 Gestión de Pull Requests
+- 💾 Sistema de backups automático
+
+**2. branch_manager.sh - Gestión de Ramas**
+```bash
+./branch_manager.sh main      # Cambiar a rama main
+./branch_manager.sh dev       # Cambiar a rama development
+./branch_manager.sh sync      # Sincronizar development con main
+```
+
+**3. deploy-production.sh - Deploy a Producción**
+```bash
+./deploy-production.sh        # Deploy seguro a producción
+```
+
+**Verificaciones Automáticas:**
+- ✅ Verificar que estás en rama 'main'
+- ✅ No hay cambios sin commitear
+- ✅ Está sincronizado con origin
+- ✅ Push exitoso a GitHub
+- ✅ Deploy exitoso a Surge
+- ✅ Verificación HTTP 200
+
+**4. deploy-staging.sh - Deploy a Staging**
+```bash
+./deploy-staging.sh           # Deploy flexible a staging
+```
+
+**Características Especiales:**
+- 💾 Auto-commit de cambios pendientes
+- 🔄 Push automático a GitHub
+- 🧪 Deploy a URL de testing
+- ✅ Verificación de disponibilidad
+
+### 🔄 Workflow de Desarrollo
+
+**Flujo Estándar Recomendado:**
+
+**1. Desarrollo en Staging:**
+```bash
+git checkout development      # Cambiar a rama development
+# ... hacer cambios ...
+./deploy-staging.sh          # Deploy a staging para testing
+```
+
+**2. Testing en Staging:**
+- 🧪 Probar en: https://runartfoundry-micrositio-dev.surge.sh
+- ✅ Validar funcionalidades
+- 🐛 Corregir issues si es necesario
+
+**3. Merge a Producción:**
+```bash
+git checkout main            # Cambiar a rama main
+git merge development        # Mergear cambios validados
+./deploy-production.sh       # Deploy a producción
+```
+
+### 🔍 Monitoreo y Verificación
+
+**Estados de Sitios en Tiempo Real:**
+```bash
+./dev-tools.sh status
+```
+
+**Información Mostrada:**
+- 🌐 Rama actual y disponibles
+- 📝 Últimos commits
+- 🔄 Estado de archivos
+- 🔗 URLs de ambos ambientes
+- ✅ Status HTTP de ambos sitios
+
+**Verificación Manual:**
+```bash
+curl -I https://runartfoundry-micrositio-ubuntu.surge.sh   # Producción
+curl -I https://runartfoundry-micrositio-dev.surge.sh      # Staging
+```
+
+### 📚 URLs de Referencia
+
+**Ambientes de Deployment:**
+- 📱 **Producción:** https://runartfoundry-micrositio-ubuntu.surge.sh
+- 🧪 **Staging:** https://runartfoundry-micrositio-dev.surge.sh
+
+**GitHub:**
+- 🔧 **Repositorio:** https://github.com/ppkapiro/runartfoundry-micrositio
+- 📝 **Pull Requests:** https://github.com/ppkapiro/runartfoundry-micrositio/pulls
+- 🌿 **Ramas:** main, development
+
+### 🚨 Solución de Problemas
+
+**Problemas Comunes y Soluciones:**
+
+**Error: "No estás en la rama correcta"**
+```bash
+git branch --show-current    # Ver rama actual
+./dev-tools.sh              # Cambiar rama interactivamente
+```
+
+**Error: "Hay cambios sin commitear"**
+```bash
+git status                  # Ver cambios pendientes
+git add . && git commit -m "mensaje"  # Commitear cambios
+```
+
+**Error: "Deploy falló"**
+```bash
+surge login                 # Verificar login en Surge
+surge list                  # Ver dominios disponibles
+```
+
+**Rollback de Emergencia:**
+```bash
+git checkout main
+git reset --hard HEAD~1     # Volver al commit anterior
+./deploy-production.sh      # Re-deploy versión anterior
+```
 
 ---
 
