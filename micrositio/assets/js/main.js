@@ -313,7 +313,7 @@ const Search = {
   // Cargar índice de búsqueda
   async loadSearchIndex() {
     try {
-      const response = await fetch('/assets/data/search-index.json');
+      const response = await fetch('./assets/data/search-index.json');
       CONFIG.searchData = await response.json();
       console.log('Índice de búsqueda cargado:', CONFIG.searchData.length, 'elementos');
     } catch (error) {
@@ -881,7 +881,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   // Configurar service worker si está disponible
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js')
+    navigator.serviceWorker.register('./sw.js')
       .then(() => console.log('Service Worker registrado'))
       .catch(err => console.log('Error en Service Worker:', err));
   }
