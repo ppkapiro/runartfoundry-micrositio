@@ -32,12 +32,14 @@
     <header class="header" role="banner">
         <div class="container">
             <div class="header-content">
+                <a href="../index.html" class="logo" aria-label="RUN Art Foundry - Inicio">
+                    <span>RUN</span> Art Foundry
+                </a>
 
                 <nav class="nav-main" role="navigation" aria-label="Navegación principal">
                     <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">☰</button>
                     
                     <ul class="nav-list" id="nav-list">
-                        <li><a href="../index.html" class="nav-link">Inicio</a></li>
                         <li><a href="../uldis.html" class="nav-link">Uldis López</a></li>
                         <li><a href="../run.html" class="nav-link">RUN Art Foundry</a></li>
                         <li><a href="../cronologia.html" class="nav-link">Cronología</a></li>
