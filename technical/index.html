@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Documentación técnica completa del micrositio RUN Art Foundry - Acceso interno para desarrollo y mantenimiento">
+    <meta name="robots" content="noindex, nofollow">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    
+    <title>📋 Documentación Técnica | RUN Art Foundry</title>
+    
+    <style>
+        .tech-header {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: white;
+            padding: 3rem 0;
+            margin-bottom: 3rem;
+        }
+        
+        .tech-header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        
+        .tech-subtitle {
+            font-size: 1.3rem;
+            opacity: 0.9;
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .tech-card {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 2rem;
+            border-left: 4px solid #b8860b;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .tech-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .tech-card h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
+        }
+        
+        .tech-card p {
+            color: #666;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+        
+        .tech-link {
+            display: inline-block;
+            background: #b8860b;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+        
+        .tech-link:hover {
+            background: #9a7209;
+        }
+        
+        .back-to-demo {
+            text-align: center;
+            margin: 3rem 0;
+            padding: 2rem;
+            background: #e8f4f8;
+            border-radius: 8px;
+        }
+        
+        .demo-link {
+            display: inline-block;
+            background: #d4af37;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: background 0.3s ease;
+        }
+        
+        .demo-link:hover {
+            background: #b8860b;
+        }
+        
+        .warning-box {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .warning-box h4 {
+            color: #856404;
+            margin-bottom: 0.5rem;
+        }
+        
+        .warning-box p {
+            color: #856404;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Skip to content -->
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+    <!-- Technical Header -->
+    <div class="tech-header">
+        <div class="container">
+            <h1>📋 Documentación Técnica</h1>
+            <p class="tech-subtitle">
+                Acceso interno para desarrollo, mantenimiento y documentación completa del micrositio RUN Art Foundry
+            </p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content" class="container">
+        <!-- Warning -->
+        <div class="warning-box">
+            <h4>⚠️ Acceso Interno</h4>
+            <p>Esta sección contiene documentación técnica y herramientas de desarrollo. No está visible en el demo de venta principal.</p>
+        </div>
+
+        <!-- Technical Resources Grid -->
+        <div class="tech-grid">
+            <!-- Development Tools -->
+            <div class="tech-card">
+                <h3>🛠️ Herramientas de Desarrollo</h3>
+                <p>Sitemap completo, herramientas de debugging, métricas de rendimiento y panel de desarrollo del micrositio.</p>
+                <a href="dev.html" class="tech-link">Acceder a Dev Tools</a>
+            </div>
+
+            <!-- Action Plan -->
+            <div class="tech-card">
+                <h3>📋 Plan de Acciones</h3>
+                <p>Roadmap operativo, acciones prácticas ejecutables y estrategia de implementación técnica.</p>
+                <a href="acciones.html" class="tech-link">Ver Roadmap</a>
+            </div>
+
+            <!-- Technical Documentation -->
+            <div class="tech-card">
+                <h3>📚 Documentación Completa</h3>
+                <p>Manual técnico completo del micrositio, especificaciones de implementación y guías de desarrollo.</p>
+                <a href="../docs/technical/DOCUMENTACION_COMPLETA_MICROSITIO.md" class="tech-link">Leer Docs</a>
+            </div>
+
+            <!-- Integration Instructions -->
+            <div class="tech-card">
+                <h3>⚙️ Instrucciones de Integración</h3>
+                <p>Guías para programadores, instrucciones de deployment y configuración del entorno de desarrollo.</p>
+                <a href="../docs/technical/instrucciones_de_integracion_para_programador_micrositio_run.md" class="tech-link">Ver Guías</a>
+            </div>
+
+            <!-- Copilot Instructions -->
+            <div class="tech-card">
+                <h3>🤖 Instrucciones para Copilot</h3>
+                <p>Configuración específica para GitHub Copilot y herramientas de desarrollo asistido por IA.</p>
+                <a href="../docs/technical/INSTRUCCIONES_PARA_COPILOT_UBUNTU.md" class="tech-link">Ver Config</a>
+            </div>
+
+            <!-- Scripts & Automation -->
+            <div class="tech-card">
+                <h3>🔧 Scripts y Automatización</h3>
+                <p>Scripts de deployment, automatización de procesos y herramientas de mantenimiento.</p>
+                <a href="../scripts/" class="tech-link">Ver Scripts</a>
+            </div>
+
+            <!-- Project Reports -->
+            <div class="tech-card">
+                <h3>📊 Reportes del Proyecto</h3>
+                <p>Análisis de rendimiento, métricas de desarrollo y reportes de estado del proyecto.</p>
+                <a href="../docs/reports/" class="tech-link">Ver Reportes</a>
+            </div>
+
+            <!-- Backup Management -->
+            <div class="tech-card">
+                <h3>💾 Gestión de Backups</h3>
+                <p>Sistema de backups automáticos, versionado de archivos y recuperación de emergencia.</p>
+                <a href="../backups/" class="tech-link">Acceder Backups</a>
+            </div>
+        </div>
+
+        <!-- Back to Demo -->
+        <div class="back-to-demo">
+            <h3>🎯 Volver al Demo de Venta</h3>
+            <p>Regresar a la presentación optimizada para Uldis López</p>
+            <a href="../index.html" class="demo-link">← Volver al Demo</a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" style="margin-top: 4rem; background: #2c3e50; color: white; padding: 2rem 0;">
+        <div class="container">
+            <div style="text-align: center;">
+                <p>&copy; 2024 RUN Art Foundry - Documentación Técnica Interna</p>
+                <p style="font-size: 0.9rem; opacity: 0.8;">Esta sección no es visible en el demo de venta principal</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
