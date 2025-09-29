@@ -182,34 +182,96 @@ done
    git status
    ```
 
-5. **Deployment a Surge.sh** (si Node.js disponible):
+5. **Deployment a Surge.sh**:
+
+   **MÉTODO A: Con Surge CLI (Recomendado)**
    ```bash
    # Verificar si surge está disponible
-   which surge || echo "Surge no disponible - usar método alternativo"
+   which surge || echo "Surge no disponible - instalar primero"
    
-   # Si surge disponible:
+   # Si surge no está disponible, instalar:
+   # npm install -g surge  # (requiere Node.js)
+   
+   # Login a Surge (solo primera vez)
+   surge login
+   
+   # Deployment directo al dominio configurado
    surge . runartfoundry-micrositio.surge.sh
    
-   # Si no, documentar cambios para deployment manual
-   echo "✅ Cambios listos para deployment manual a Surge.sh"
+   # Verificar deployment exitoso
+   curl -I https://runartfoundry-micrositio.surge.sh
    ```
 
-### VERIFICACIÓN FINAL:
+   **MÉTODO B: Deployment Manual (Si no hay Node.js)**
+   ```bash
+   # 1. Comprimir archivos para deployment manual
+   tar -czf micrositio-deployment.tar.gz *.html casos/ lab/ assets/ sw.js
+   
+   # 2. Documentar cambios para deployment manual
+   echo "📦 ARCHIVOS LISTOS PARA DEPLOYMENT MANUAL:"
+   echo "   - Archivo: micrositio-deployment.tar.gz"
+   echo "   - URL destino: https://runartfoundry-micrositio.surge.sh"
+   echo "   - Cambios: Correcciones tipográficas Unicode"
+   echo "   - Archivos modificados: $(git diff --name-only | wc -l)"
+   
+   # 3. Crear script de deployment para uso posterior
+   cat > deploy.sh << 'EOF'
+#!/bin/bash
+echo "🚀 Deploying to Surge.sh..."
+surge . runartfoundry-micrositio.surge.sh
+echo "✅ Deployment completed!"
+echo "🌐 Site: https://runartfoundry-micrositio.surge.sh"
+EOF
+   chmod +x deploy.sh
+   ```
+
+   **MÉTODO C: Via GitHub (Alternativo)**
+   ```bash
+   # Si Surge no funciona, los cambios en GitHub pueden activar 
+   # deployment automático si está configurado
+   echo "🔄 Cambios pusheados a GitHub"
+   echo "🌐 Verificar: https://runartfoundry-micrositio.surge.sh"
+   echo "📝 Si no se actualiza automáticamente, usar deployment manual"
+   ```
+
+### VERIFICACIÓN FINAL Y TESTING:
 ```bash
-# Confirmar estado limpio
+# 1. Confirmar estado limpio del repositorio
 git status
 
-# Verificar último commit
+# 2. Verificar último commit
 git log --oneline -n 1
 
-# Verificar conexión remota
+# 3. Verificar conexión remota
 git remote -v
 
-# Resumen final
+# 4. Test del sitio desplegado
+curl -I https://runartfoundry-micrositio.surge.sh
+echo "HTTP Status debe ser: 200 OK"
+
+# 5. Verificar páginas críticas
+echo "🔍 Verificando páginas críticas:"
+curl -s https://runartfoundry-micrositio.surge.sh/acciones.html | grep -c "Ã¡\|Ã©\|Ã³\|âœ"\|ðŸ"‚" || echo "✅ Sin errores tipográficos"
+curl -s https://runartfoundry-micrositio.surge.sh/cronologia.html | grep -c "Ã¹\|ðŸŒ" || echo "✅ Sin errores tipográficos"
+
+# 6. Resumen final completo
+echo ""
 echo "🎉 DEPLOYMENT PIPELINE COMPLETADO:"
-echo "📝 Cambios committed: $(git log --oneline -n 1)"
+echo "=============================================="
+echo "📝 Último commit: $(git log --oneline -n 1)"
 echo "🔗 Repositorio: $(git remote get-url origin)"
-echo "🌐 Sitio: https://runartfoundry-micrositio.surge.sh"
+echo "🌐 Sitio principal: https://runartfoundry-micrositio.surge.sh"
+echo "📊 Estado HTTP: $(curl -s -o /dev/null -w "%{http_code}" https://runartfoundry-micrositio.surge.sh)"
+echo "⚠️  Errores tipográficos restantes: $(grep -r "Ã¡\|Ã©\|Ã³\|âœ"\|ðŸ"‚\|ðŸŒ" *.html casos/*.html lab/*.html 2>/dev/null | wc -l)"
+echo "=============================================="
+
+# 7. URLs de verificación rápida
+echo "🔗 URLs para verificación manual:"
+echo "   • Principal: https://runartfoundry-micrositio.surge.sh"
+echo "   • Acciones: https://runartfoundry-micrositio.surge.sh/acciones.html"
+echo "   • Cronología: https://runartfoundry-micrositio.surge.sh/cronologia.html"
+echo "   • Casos: https://runartfoundry-micrositio.surge.sh/casos/"
+echo "   • RUN Lab: https://runartfoundry-micrositio.surge.sh/lab/"
 ```
 
 ## COMANDOS IMPORTANTES DE VERIFICACIÓN
@@ -342,24 +404,155 @@ echo "⚠️  Errores tipográficos: $(grep -r "Ã¡\|Ã©\|Ã³\|âœ"\|ðŸ"�
 
 ---
 
-## INFORMACIÓN CRÍTICA DEL REPOSITORIO
+## INFORMACIÓN CRÍTICA DEL REPOSITORIO Y DEPLOYMENT
 
 ### CONFIGURACIÓN GITHUB:
 - **Repositorio**: https://github.com/ppkapiro/runartfoundry-micrositio
 - **Branch principal**: main
-- **URL de deployment**: https://runartfoundry-micrositio.surge.sh
-- **Último deployment**: Funcional con problemas tipográficos identificados
+- **Usuario GitHub**: ppkapiro
+- **Estado actual**: Repositório activo con cambios pendientes de push
+
+### DEPLOYMENT ACTUAL - SURGE.SH:
+- **URL ACTIVA**: https://runartfoundry-micrositio.surge.sh
+- **Estado**: ✅ FUNCIONAL - Sitio desplegado y accesible
+- **Último deployment**: Completado exitosamente con 37 archivos (417KB)
+- **Problemas conocidos**: Errores tipográficos Unicode pendientes de corrección
+
+### DETALLES DEL SITIO DESPLEGADO:
+```
+Sitio: RUN Art Foundry - Micrositio
+URL: https://runartfoundry-micrositio.surge.sh
+Archivos: 37 archivos totales
+Tamaño: 417.1 KB
+Estructura:
+├── index.html (página principal)
+├── uldis.html (biografía Uldis López)
+├── run.html (RUN Art Foundry corporativo)
+├── cronologia.html (cronología Q1-Q4)
+├── evidencias.html (evidencias y testimonios)
+├── acciones.html (acciones prácticas) ⚠️ 28+ errores
+├── contacto.html (contacto)
+├── casos/ (casos de estudio)
+│   ├── index.html ⚠️ 4 errores
+│   ├── raider.html
+│   └── roman.html
+├── lab/ (RUN Lab blog técnico)
+│   └── index.html
+└── assets/ (CSS, JS, imágenes)
+```
 
 ### CREDENCIALES Y ACCESO:
-- **Git debe estar configurado** con credenciales válidas
-- **Surge.sh**: Requiere login (si Node.js disponible)
-- **Permisos**: Acceso completo de escritura al repositorio
+- **Git**: Debe estar configurado con credenciales GitHub válidas
+- **Surge.sh**: 
+  - **Email**: ⚠️ [NECESARIO - El email usado para crear la cuenta Surge]
+  - **Contraseña**: ⚠️ [NECESARIO - La contraseña de la cuenta Surge]
+  - Login necesario: `surge login`
+  - Domain: `runartfoundry-micrositio.surge.sh` ya configurado
+- **Permisos**: Acceso completo de escritura al repositorio GitHub
+
+### ⚠️ CREDENCIALES ESPECÍFICAS REQUERIDAS:
+```bash
+# Para hacer deployment necesitas estas credenciales exactas:
+surge login
+# Email: [EL EMAIL ESPECÍFICO USADO ANTERIORMENTE]
+# Password: [LA CONTRASEÑA ESPECÍFICA USADA ANTERIORMENTE]
+
+# NOTA: Estas son las mismas credenciales que se usaron para:
+# - Crear el dominio runartfoundry-micrositio.surge.sh
+# - Hacer deployments anteriores exitosos
+# - El último deployment de 37 archivos (417KB)
+```
+
+### 🔍 CÓMO ENCONTRAR LAS CREDENCIALES:
+1. **Verificar si ya estás logueado**:
+   ```bash
+   surge whoami
+   # Si muestra un email, ese es el correcto
+   ```
+
+2. **Si no recuerdas las credenciales**:
+   - Revisar tu gestor de contraseñas
+   - Buscar emails de registro de Surge.sh
+   - Verificar en otro entorno donde funcione el deployment
+
+3. **Si tienes acceso desde otra máquina**:
+   ```bash
+   # En la máquina donde funciona el deployment:
+   surge whoami
+   # Esto te mostrará el email correcto
+   ```
+
+### ESTADO ACTUAL DEL DEPLOYMENT (29 Sep 2025):
+```
+✅ SITIO ACTIVO: https://runartfoundry-micrositio.surge.sh
+✅ Repositorio GitHub: Sincronizado y funcional
+✅ Estructura completa: 11+ páginas HTML funcionando
+⚠️  PROBLEMAS IDENTIFICADOS:
+   - acciones.html: 28+ errores tipográficos Unicode
+   - cronologia.html: 5 errores tipográficos
+   - casos/index.html: 4 errores tipográficos
+   - Emojis mal codificados: ðŸ"‚→📂, ðŸŒ→🌍
+   - Acentos mal codificados: Ã³→ó, Ã©→é, Ã¡→á
+   - Símbolos mal codificados: âœ"→✓
+
+🎯 OBJETIVO INMEDIATO:
+1. Corregir todos los errores tipográficos
+2. Hacer deployment con correcciones
+3. Verificar sitio actualizado sin errores
+```
 
 ### ARCHIVOS CRÍTICOS PARA EL PRÓXIMO COPILOT:
 1. `INSTRUCCIONES_PARA_COPILOT_UBUNTU.md` - Este archivo con instrucciones completas
 2. `validate-typography.sh` - Script bash para correcciones (crear si no existe)
 3. `.git/` - Repositorio completo con historial
 4. `*.html` - Archivos con errores tipográficos a corregir
+5. `deploy.sh` - Script de deployment automatizado (se creará)
+
+### COMANDOS DE EMERGENCIA PARA DEPLOYMENT:
+```bash
+# Si hay problemas con el deployment normal
+# 1. Verificar estado del sitio actual
+curl -I https://runartfoundry-micrositio.surge.sh
+
+# 2. Verificar credenciales actuales
+surge whoami
+# Si no muestra email: surge login y usar credenciales correctas
+
+# 3. Login forzado con credenciales correctas
+surge logout
+surge login
+# Ingresar EMAIL y PASSWORD específicos usados anteriormente
+
+# 4. Deployment forzado (después del login correcto)
+surge --domain runartfoundry-micrositio.surge.sh
+
+# 5. Rollback de emergencia (si es necesario)
+git reset --hard HEAD~1
+surge . runartfoundry-micrositio.surge.sh
+
+# 6. Verificación post-deployment
+curl https://runartfoundry-micrositio.surge.sh | head -20
+```
+
+### 🆘 TROUBLESHOOTING CREDENCIALES:
+```bash
+# PROBLEMA: "Not logged in" o "Authentication failed"
+# SOLUCIÓN:
+surge logout
+surge login
+# Usar las credenciales EXACTAS que funcionaron antes
+
+# PROBLEMA: "You do not have permission to deploy to this domain"
+# SOLUCIÓN: Verificar que el email de login sea el mismo que creó el dominio
+surge whoami  # Debe mostrar el email correcto
+surge list    # Debe mostrar runartfoundry-micrositio.surge.sh
+
+# PROBLEMA: No recuerdas las credenciales
+# SOLUCIÓN: Buscar en:
+# 1. Historial de comandos: history | grep surge
+# 2. Archivos de configuración: ~/.netrc o ~/.surge/
+# 3. Otro entorno donde funcione: surge whoami
+```
 
 ---
 
