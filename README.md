@@ -18,6 +18,7 @@
 ├── 📁 casos/                                 ← Casos de estudio (Raider, Roman)
 ├── 📁 lab/                                   ← Sección laboratorio
 ├── 📁 docs/                                  ← 📚 TODA LA DOCUMENTACIÓN
+│   ├── 📁 project/                           ← Especificaciones del proyecto
 │   ├── 📁 technical/                         ← Documentación técnica
 │   ├── 📁 guides/                            ← Guías de usuario/desarrollo
 │   └── 📁 reports/                           ← Reportes de estado
@@ -34,6 +35,11 @@
 ---
 
 ## 📖 DOCUMENTACIÓN ORGANIZADA
+
+### 📁 `/docs/project/` - Especificaciones del Proyecto
+| Archivo | Descripción | Estado |
+|---------|-------------|--------|
+| `REESTRUCTURACION_DEMO_VENTA.md` | 🎯 **Especificación demo-venta** para Uldis López | ✅ Activa |
 
 ### 📁 `/docs/technical/` - Documentación Técnica
 | Archivo | Descripción | Estado |
