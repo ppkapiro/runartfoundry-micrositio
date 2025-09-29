@@ -6,7 +6,7 @@
 Has sido llamado para continuar el trabajo en el **micrositio RUN Art Foundry** que previamente se desarrollaba en Windows PowerShell pero que **DEBE continuar EXCLUSIVAMENTE en Ubuntu WSL**.
 
 ### ESTADO DEL PROYECTO
-- **Micrositio completo**: Funcional y desplegado en https://runartfoundry-micrositio.surge.sh
+- **Micrositio completo**: Funcional y desplegado en https://runartfoundry-micrositio-ubuntu.surge.sh
 - **GitHub Repository**: https://github.com/ppkapiro/runartfoundry-micrositio
 - **Archivos migrados**: Todos los archivos están copiados en `\\wsl.localhost\Ubuntu\home\pepe\work\micrositio`
 
@@ -196,10 +196,10 @@ done
    surge login
    
    # Deployment directo al dominio configurado
-   surge . runartfoundry-micrositio.surge.sh
+   surge . runartfoundry-micrositio-ubuntu.surge.sh
    
    # Verificar deployment exitoso
-   curl -I https://runartfoundry-micrositio.surge.sh
+   curl -I https://runartfoundry-micrositio-ubuntu.surge.sh
    ```
 
    **MÉTODO B: Deployment Manual (Si no hay Node.js)**
@@ -210,7 +210,7 @@ done
    # 2. Documentar cambios para deployment manual
    echo "📦 ARCHIVOS LISTOS PARA DEPLOYMENT MANUAL:"
    echo "   - Archivo: micrositio-deployment.tar.gz"
-   echo "   - URL destino: https://runartfoundry-micrositio.surge.sh"
+   echo "   - URL destino: https://runartfoundry-micrositio-ubuntu.surge.sh"
    echo "   - Cambios: Correcciones tipográficas Unicode"
    echo "   - Archivos modificados: $(git diff --name-only | wc -l)"
    
@@ -218,9 +218,9 @@ done
    cat > deploy.sh << 'EOF'
 #!/bin/bash
 echo "🚀 Deploying to Surge.sh..."
-surge . runartfoundry-micrositio.surge.sh
+surge . runartfoundry-micrositio-ubuntu.surge.sh
 echo "✅ Deployment completed!"
-echo "🌐 Site: https://runartfoundry-micrositio.surge.sh"
+echo "🌐 Site: https://runartfoundry-micrositio-ubuntu.surge.sh"
 EOF
    chmod +x deploy.sh
    ```
@@ -230,7 +230,7 @@ EOF
    # Si Surge no funciona, los cambios en GitHub pueden activar 
    # deployment automático si está configurado
    echo "🔄 Cambios pusheados a GitHub"
-   echo "🌐 Verificar: https://runartfoundry-micrositio.surge.sh"
+   echo "🌐 Verificar: https://runartfoundry-micrositio-ubuntu.surge.sh"
    echo "📝 Si no se actualiza automáticamente, usar deployment manual"
    ```
 
@@ -246,13 +246,13 @@ git log --oneline -n 1
 git remote -v
 
 # 4. Test del sitio desplegado
-curl -I https://runartfoundry-micrositio.surge.sh
+curl -I https://runartfoundry-micrositio-ubuntu.surge.sh
 echo "HTTP Status debe ser: 200 OK"
 
 # 5. Verificar páginas críticas
 echo "🔍 Verificando páginas críticas:"
-curl -s https://runartfoundry-micrositio.surge.sh/acciones.html | grep -c "Ã¡\|Ã©\|Ã³\|âœ"\|ðŸ"‚" || echo "✅ Sin errores tipográficos"
-curl -s https://runartfoundry-micrositio.surge.sh/cronologia.html | grep -c "Ã¹\|ðŸŒ" || echo "✅ Sin errores tipográficos"
+curl -s https://runartfoundry-micrositio-ubuntu.surge.sh/acciones.html | grep -c "Ã¡\|Ã©\|Ã³\|âœ"\|ðŸ"‚" || echo "✅ Sin errores tipográficos"
+curl -s https://runartfoundry-micrositio-ubuntu.surge.sh/cronologia.html | grep -c "Ã¹\|ðŸŒ" || echo "✅ Sin errores tipográficos"
 
 # 6. Resumen final completo
 echo ""
@@ -260,18 +260,18 @@ echo "🎉 DEPLOYMENT PIPELINE COMPLETADO:"
 echo "=============================================="
 echo "📝 Último commit: $(git log --oneline -n 1)"
 echo "🔗 Repositorio: $(git remote get-url origin)"
-echo "🌐 Sitio principal: https://runartfoundry-micrositio.surge.sh"
-echo "📊 Estado HTTP: $(curl -s -o /dev/null -w "%{http_code}" https://runartfoundry-micrositio.surge.sh)"
+echo "🌐 Sitio principal: https://runartfoundry-micrositio-ubuntu.surge.sh"
+echo "📊 Estado HTTP: $(curl -s -o /dev/null -w "%{http_code}" https://runartfoundry-micrositio-ubuntu.surge.sh)"
 echo "⚠️  Errores tipográficos restantes: $(grep -r "Ã¡\|Ã©\|Ã³\|âœ"\|ðŸ"‚\|ðŸŒ" *.html casos/*.html lab/*.html 2>/dev/null | wc -l)"
 echo "=============================================="
 
 # 7. URLs de verificación rápida
 echo "🔗 URLs para verificación manual:"
-echo "   • Principal: https://runartfoundry-micrositio.surge.sh"
-echo "   • Acciones: https://runartfoundry-micrositio.surge.sh/acciones.html"
-echo "   • Cronología: https://runartfoundry-micrositio.surge.sh/cronologia.html"
-echo "   • Casos: https://runartfoundry-micrositio.surge.sh/casos/"
-echo "   • RUN Lab: https://runartfoundry-micrositio.surge.sh/lab/"
+echo "   • Principal: https://runartfoundry-micrositio-ubuntu.surge.sh"
+echo "   • Acciones: https://runartfoundry-micrositio-ubuntu.surge.sh/acciones.html"
+echo "   • Cronología: https://runartfoundry-micrositio-ubuntu.surge.sh/cronologia.html"
+echo "   • Casos: https://runartfoundry-micrositio-ubuntu.surge.sh/casos/"
+echo "   • RUN Lab: https://runartfoundry-micrositio-ubuntu.surge.sh/lab/"
 ```
 
 ## COMANDOS IMPORTANTES DE VERIFICACIÓN
@@ -413,7 +413,7 @@ echo "⚠️  Errores tipográficos: $(grep -r "Ã¡\|Ã©\|Ã³\|âœ"\|ðŸ"�
 - **Estado actual**: Repositório activo con cambios pendientes de push
 
 ### DEPLOYMENT ACTUAL - SURGE.SH:
-- **URL ACTIVA**: https://runartfoundry-micrositio.surge.sh
+- **URL ACTIVA**: https://runartfoundry-micrositio-ubuntu.surge.sh
 - **Estado**: ✅ FUNCIONAL - Sitio desplegado y accesible
 - **Último deployment**: Completado exitosamente con 37 archivos (417KB)
 - **Problemas conocidos**: Errores tipográficos Unicode pendientes de corrección
@@ -421,7 +421,7 @@ echo "⚠️  Errores tipográficos: $(grep -r "Ã¡\|Ã©\|Ã³\|âœ"\|ðŸ"�
 ### DETALLES DEL SITIO DESPLEGADO:
 ```
 Sitio: RUN Art Foundry - Micrositio
-URL: https://runartfoundry-micrositio.surge.sh
+URL: https://runartfoundry-micrositio-ubuntu.surge.sh
 Archivos: 37 archivos totales
 Tamaño: 417.1 KB
 Estructura:
@@ -447,7 +447,7 @@ Estructura:
   - **Email**: ⚠️ [NECESARIO - El email usado para crear la cuenta Surge]
   - **Contraseña**: ⚠️ [NECESARIO - La contraseña de la cuenta Surge]
   - Login necesario: `surge login`
-  - Domain: `runartfoundry-micrositio.surge.sh` ya configurado
+  - Domain: `runartfoundry-micrositio-ubuntu.surge.sh` ya configurado
 - **Permisos**: Acceso completo de escritura al repositorio GitHub
 
 ### ⚠️ CREDENCIALES ESPECÍFICAS REQUERIDAS:
@@ -458,7 +458,7 @@ surge login
 # Password: [LA CONTRASEÑA ESPECÍFICA USADA ANTERIORMENTE]
 
 # NOTA: Estas son las mismas credenciales que se usaron para:
-# - Crear el dominio runartfoundry-micrositio.surge.sh
+# - Crear el dominio runartfoundry-micrositio-ubuntu.surge.sh
 # - Hacer deployments anteriores exitosos
 # - El último deployment de 37 archivos (417KB)
 ```
@@ -484,7 +484,7 @@ surge login
 
 ### ESTADO ACTUAL DEL DEPLOYMENT (29 Sep 2025):
 ```
-✅ SITIO ACTIVO: https://runartfoundry-micrositio.surge.sh
+✅ SITIO ACTIVO: https://runartfoundry-micrositio-ubuntu.surge.sh
 ✅ Repositorio GitHub: Sincronizado y funcional
 ✅ Estructura completa: 11+ páginas HTML funcionando
 ⚠️  PROBLEMAS IDENTIFICADOS:
@@ -512,7 +512,7 @@ surge login
 ```bash
 # Si hay problemas con el deployment normal
 # 1. Verificar estado del sitio actual
-curl -I https://runartfoundry-micrositio.surge.sh
+curl -I https://runartfoundry-micrositio-ubuntu.surge.sh
 
 # 2. Verificar credenciales actuales
 surge whoami
@@ -524,14 +524,14 @@ surge login
 # Ingresar EMAIL y PASSWORD específicos usados anteriormente
 
 # 4. Deployment forzado (después del login correcto)
-surge --domain runartfoundry-micrositio.surge.sh
+surge --domain runartfoundry-micrositio-ubuntu.surge.sh
 
 # 5. Rollback de emergencia (si es necesario)
 git reset --hard HEAD~1
-surge . runartfoundry-micrositio.surge.sh
+surge . runartfoundry-micrositio-ubuntu.surge.sh
 
 # 6. Verificación post-deployment
-curl https://runartfoundry-micrositio.surge.sh | head -20
+curl https://runartfoundry-micrositio-ubuntu.surge.sh | head -20
 ```
 
 ### 🆘 TROUBLESHOOTING CREDENCIALES:
@@ -545,7 +545,7 @@ surge login
 # PROBLEMA: "You do not have permission to deploy to this domain"
 # SOLUCIÓN: Verificar que el email de login sea el mismo que creó el dominio
 surge whoami  # Debe mostrar el email correcto
-surge list    # Debe mostrar runartfoundry-micrositio.surge.sh
+surge list    # Debe mostrar runartfoundry-micrositio-ubuntu.surge.sh
 
 # PROBLEMA: No recuerdas las credenciales
 # SOLUCIÓN: Buscar en:
