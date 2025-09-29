@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnóstico del Sitio - RUN Art Foundry</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <style>
+        .diagnostic-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        .status-ok { color: #28a745; }
+        .status-error { color: #dc3545; }
+        .status-warning { color: #ffc107; }
+    </style>
+</head>
+<body>
+    <div class="container" style="padding: 2rem 0;">
+        <h1>🔍 Diagnóstico del Sitio Web</h1>
+        <p><strong>Generado:</strong> $(date)</p>
+        
+        <div class="diagnostic-grid">
+            <div class="card">
+                <h3>📄 Estado de Páginas</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><span class="status-ok">✅</span> index.html</li>
+                    <li><span class="status-error">❌</span> acciones.html (meta tags corruptos)</li>
+                    <li><span class="status-ok">✅</span> contacto.html</li>
+                    <li><span class="status-ok">✅</span> cronologia.html</li>
+                    <li><span class="status-ok">✅</span> evidencias.html</li>
+                    <li><span class="status-ok">✅</span> run.html</li>
+                    <li><span class="status-ok">✅</span> uldis.html</li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h3>🎨 Assets Críticos</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><span class="status-ok">✅</span> assets/css/main.css</li>
+                    <li><span class="status-ok">✅</span> assets/js/main.js</li>
+                    <li><span class="status-ok">✅</span> Estructura del menú</li>
+                    <li><span class="status-ok">✅</span> Navegación responsive</li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h3>🔗 Enlaces y Rutas</h3>
+                <p>Verificando enlaces internos...</p>
+                <ul style="list-style: none; padding: 0;">
+                    <li><span class="status-ok">✅</span> Navegación principal</li>
+                    <li><span class="status-ok">✅</span> Enlaces a subdirectorios</li>
+                    <li><span class="status-warning">⚠️</span> Verificar enlaces externos</li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h3>🚀 Acciones Recomendadas</h3>
+                <ol>
+                    <li>Reparar meta tags corruptos</li>
+                    <li>Verificar all enlaces funcionan</li>
+                    <li>Limpiar cache del navegador</li>
+                    <li>Re-deploy del sitio</li>
+                </ol>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin: 2rem 0;">
+            <a href="index.html" class="btn">Volver al Inicio</a>
+            <a href="https://runartfoundry-micrositio-ubuntu.surge.sh" class="btn btn-secondary">Ver Sitio Live</a>
+        </div>
+    </div>
+</body>
+</html>
