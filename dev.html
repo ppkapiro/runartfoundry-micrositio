@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de desarrollo y sitemap completo del micrositio RUN Art Foundry">
+    <meta name="robots" content="noindex, nofollow">
+    
+    <!-- Preloads críticos -->
+    <link rel="preload" href="assets/css/main.css" as="style">
+    <link rel="preload" href="assets/js/main.js" as="script">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    
+    <title>🛠️ Desarrollo & Sitemap | RUN Art Foundry</title>
+    
+    <style>
+        /* Estilos específicos para la página de desarrollo */
+        .dev-header {
+            background: linear-gradient(135deg, #b8860b, #d4af37);
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+        }
+        
+        .dev-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .dev-subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .sitemap-section {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .sitemap-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+        
+        .page-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .page-card h3 {
+            color: var(--color-primary);
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .page-url {
+            font-family: monospace;
+            background: #f1f1f1;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .page-description {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        
+        .stat-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--color-primary);
+        }
+        
+        .dev-tools {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .tool-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .tool-btn {
+            background: #6c757d;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        
+        .tool-btn:hover {
+            background: #495057;
+            color: white;
+        }
+        
+        .structure-tree {
+            font-family: monospace;
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            line-height: 1.4;
+            overflow-x: auto;
+        }
+        
+        .tree-folder {
+            color: #0066cc;
+            font-weight: bold;
+        }
+        
+        .tree-file {
+            color: #333;
+        }
+        
+        .tree-comment {
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Skip to content link for accessibility -->
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header-content">
+                <nav class="nav-main" role="navigation" aria-label="Navegación principal">
+                    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" onclick="toggleMenu()">
+                        ☰
+                    </button>
+                    
+                    <ul class="nav-list" id="nav-list">
+                        <li><a href="index.html" class="nav-link">Inicio</a></li>
+                        <li><a href="uldis.html" class="nav-link">Uldis López</a></li>
+                        <li><a href="run.html" class="nav-link">RUN Art Foundry</a></li>
+                        <li><a href="cronologia.html" class="nav-link">Cronología</a></li>
+                        <li><a href="evidencias.html" class="nav-link">Evidencias</a></li>
+                        <li><a href="casos/index.html" class="nav-link">Casos</a></li>
+                        <li><a href="lab/index.html" class="nav-link">RUN Lab</a></li>
+                        <li><a href="acciones.html" class="nav-link">Acciones</a></li>
+                        <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+                        <li><a href="dev.html" class="nav-link active">🛠️ Dev</a></li>
+                    </ul>
+                    
+                    <div class="locale-switch" role="group" aria-label="Cambiar idioma">
+                        <button class="locale-btn active" data-locale="es">ES</button>
+                        <button class="locale-btn" data-locale="en">EN</button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Dev Header -->
+    <section class="dev-header">
+        <div class="container">
+            <h1>🛠️ Página de Desarrollo</h1>
+            <p class="dev-subtitle">Herramientas, sitemap completo y documentación técnica del micrositio</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main" id="main-content" role="main">
+        <div class="container">
+
+            <!-- Herramientas de Desarrollo -->
+            <section class="dev-tools">
+                <h2>🔧 Herramientas de Desarrollo</h2>
+                <p>Enlaces rápidos para desarrollo y mantenimiento del sitio.</p>
+                <div class="tool-links">
+                    <a href="https://github.com/ppkapiro/runartfoundry-micrositio" target="_blank" class="tool-btn">📚 GitHub Repository</a>
+                    <a href="https://runartfoundry-micrositio-ubuntu.surge.sh" target="_blank" class="tool-btn">🌐 Sitio en Vivo</a>
+                    <a href="diagnostico_sitio.html" class="tool-btn">🔍 Diagnóstico</a>
+                    <a href="menu_demo.html" class="tool-btn">🎮 Demo Menú</a>
+                    <a href="#sitemap" class="tool-btn">🗺️ Ver Sitemap</a>
+                    <a href="#estructura" class="tool-btn">📁 Estructura</a>
+                </div>
+            </section>
+
+            <!-- Estadísticas del Sitio -->
+            <section class="sitemap-section">
+                <h2>📊 Estadísticas del Sitio</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">14</div>
+                        <div>Páginas HTML</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">3</div>
+                        <div>Secciones Principales</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">2</div>
+                        <div>Subdirectorios</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">244</div>
+                        <div>Líneas CSS</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">966</div>
+                        <div>Líneas JavaScript</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div>Responsive</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sitemap Completo -->
+            <section class="sitemap-section" id="sitemap">
+                <h2>🗺️ Sitemap Completo del Micrositio</h2>
+                <p>Mapa detallado de todas las páginas, enlaces y contenido del sitio.</p>
+                
+                <div class="sitemap-grid">
+                    <!-- Página Principal -->
+                    <div class="page-card">
+                        <h3>🏠 Página Principal</h3>
+                        <div class="page-url">/index.html</div>
+                        <div class="page-description">
+                            <strong>Función:</strong> Landing page principal<br>
+                            <strong>Contenido:</strong> Hero section, búsqueda, resumen ejecutivo, enlaces principales<br>
+                            <strong>SEO:</strong> Título principal, meta description optimizada<br>
+                            <strong>Funcionalidad:</strong> Buscador interno, navegación principal
+                        </div>
+                    </div>
+
+                    <!-- Uldis López -->
+                    <div class="page-card">
+                        <h3>👨‍🎨 Uldis López</h3>
+                        <div class="page-url">/uldis.html</div>
+                        <div class="page-description">
+                            <strong>Función:</strong> Perfil del fundador<br>
+                            <strong>Contenido:</strong> Biografía, experiencia, filosofía artística, trayectoria<br>
+                            <strong>Multimedia:</strong> Fotos del artista, galería de trabajos<br>
+                            <strong>Datos:</strong> Nacionalidad, especialidades, reconocimientos
+                        </div>
+                    </div>
+
+                    <!-- RUN Art Foundry -->
+                    <div class="page-card">
+                        <h3>🏭 RUN Art Foundry</h3>
+                        <div class="page-url">/run.html</div>
+                        <div class="page-description">
+                            <strong>Función:</strong> Presentación de la fundición<br>
+                            <strong>Contenido:</strong> Historia, servicios, procesos, instalaciones<br>
+                            <strong>Técnico:</strong> Técnicas de fundición, materiales, equipos<br>
+                            <strong>Ubicación:</strong> Miami, Florida - Información de contacto
+                        </div>
+                    </div>
+
+                    <!-- Cronología -->
+                    <div class="page-card">
+                        <h3>📅 Cronología</h3>
+                        <div class="page-url">/cronologia.html</div>
+                        <div class="page-description">
+                            <strong>Función:</strong> Timeline estratégico Q1-Q4<br>
+                            <strong>Contenido:</strong> Plan de desarrollo, hitos, metas trimestrales<br>
+                            <strong>Estructura:</strong> Línea de tiempo interactiva<br>
+                            <strong>Datos:</strong> Fechas, objetivos, métricas, entregables
+                        </div>
+                    </div>
+
+                    <!-- Evidencias -->
+                    <div class="page-card">
+                        <h3>📋 Evidencias</h3>
+                        <div class="page-url">/evidencias.html</div>
+                        <div class="page-description">
+                            <strong>Función:</strong> Documentación y pruebas<br>
+                            <strong>Contenido:</strong> Certificaciones, testimonios, trabajos realizados<br>
+                            <strong>Multimedia:</strong> Galería de proyectos, antes/después<br>
+                            <strong>Validación:</strong> Credenciales, referencias, portfolio
+                        </div>
+                    </div>
+
+                    <!-- Casos de Estudio -->
+                    <div class="page-card">
+                        <h3>📚 Casos de Estudio</h3>
+                        <div class="page-url">/casos/index.html</div>
+                        <div class="page-description">
+                            <strong>Función:</strong> Índice de casos prácticos<br>
+                            <strong>Contenido:</strong> Lista de proyectos, metodología, resultados<br>
+                            <strong>Navegación:</strong> Enlaces a casos específicos<br>
+                            <strong>Subcasos:</strong> Roman, Raider (proyectos detallados)
+                        </div>
+                    </div>
+
+                    <!-- Caso: Roman -->
+                    <div class="page-card">
+                        <h3>🏛️ Caso: Roman</h3>
+                        <div class="page-url">/casos/roman.html</div>
+                        <div class="page-description">
+                            <strong>Función:</strong> Caso de estudio específico<br>
+                            <strong>Contenido:</strong> Proyecto de escultura romana<br>
+                            <strong>Proceso:</strong> Metodología, técnicas, resultados<br>
+                            <strong>Multimedia:</strong> Fotos del proceso, resultado final
+                        </div>
+                    </div>
+
+                    <!-- Caso: Raider -->
+                    <div class="page-card">
+                        <h3>⚔️ Caso: Raider</h3>
+                        <div class="page-url">/casos/raider.html</div>
+                        <div class="page-description">
+                            <strong>Función:</strong> Caso de estudio específico<br>
+                            <strong>Contenido:</strong> Proyecto de figura de acción<br>
+                            <strong>Proceso:</strong> Diseño, moldeo, fundición, acabado<br>
+                            <strong>Técnica:</strong> Fundición en bronce, patinado artístico
+                        </div>
+                    </div>
+
+                    <!-- RUN Lab -->
+                    <div class="page-card">
+                        <h3>🔬 RUN Lab</h3>
+                        <div class="page-url">/lab/index.html</div>
+                        <div class="page-description">
+                            <strong>Función:</strong> Laboratorio de innovación<br>
+                            <strong>Contenido:</strong> Experimentos, R&D, nuevas técnicas<br>
+                            <strong>Tecnología:</strong> Equipos avanzados, procesos innovadores<br>
+                            <strong>Futuro:</strong> Desarrollo de nuevas metodologías
+                        </div>
+                    </div>
+
+                    <!-- Acciones -->
+                    <div class="page-card">
+                        <h3>⚡ Acciones</h3>
+                        <div class="page-url">/acciones.html</div>
+                        <div class="page-description">
+                            <strong>Función:</strong> Plan de acción y estrategia<br>
+                            <strong>Contenido:</strong> Pasos concretos, implementación<br>
+                            <strong>Timeline:</strong> Cronograma de ejecución<br>
+                            <strong>Métricas:</strong> KPIs, objetivos measurables
+                        </div>
+                    </div>
+
+                    <!-- Contacto -->
+                    <div class="page-card">
+                        <h3>📞 Contacto</h3>
+                        <div class="page-url">/contacto.html</div>
+                        <div class="page-description">
+                            <strong>Función:</strong> Información de contacto<br>
+                            <strong>Contenido:</strong> Formulario, datos de contacto, ubicación<br>
+                            <strong>Formulario:</strong> Contacto directo, consultas<br>
+                            <strong>Ubicación:</strong> Dirección, horarios, mapa
+                        </div>
+                    </div>
+
+                    <!-- Páginas de Desarrollo -->
+                    <div class="page-card">
+                        <h3>🛠️ Desarrollo (Esta página)</h3>
+                        <div class="page-url">/dev.html</div>
+                        <div class="page-description">
+                            <strong>Función:</strong> Herramientas de desarrollo<br>
+                            <strong>Contenido:</strong> Sitemap, documentación técnica<br>
+                            <strong>Utilidad:</strong> Testing, debugging, documentación<br>
+                            <strong>Acceso:</strong> Solo para desarrollo (noindex)
+                        </div>
+                    </div>
+
+                    <!-- Páginas Auxiliares -->
+                    <div class="page-card">
+                        <h3>🔧 Páginas Auxiliares</h3>
+                        <div class="page-url">/diagnostico_sitio.html<br>/menu_demo.html<br>/redirect-index.html</div>
+                        <div class="page-description">
+                            <strong>Función:</strong> Herramientas de diagnóstico y testing<br>
+                            <strong>Diagnóstico:</strong> Análisis técnico del sitio<br>
+                            <strong>Demo:</strong> Pruebas de componentes<br>
+                            <strong>Redirect:</strong> Redirecciones y mantenimiento
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Estructura de Archivos -->
+            <section class="sitemap-section" id="estructura">
+                <h2>📁 Estructura Completa del Sitio</h2>
+                <div class="structure-tree">
+<span class="tree-folder">📁 runartfoundry-micrositio/</span>
+├── <span class="tree-file">📄 index.html</span> <span class="tree-comment"># Página principal</span>
+├── <span class="tree-file">📄 uldis.html</span> <span class="tree-comment"># Perfil del fundador</span>
+├── <span class="tree-file">📄 run.html</span> <span class="tree-comment"># Información de la fundición</span>
+├── <span class="tree-file">📄 cronologia.html</span> <span class="tree-comment"># Timeline estratégico</span>
+├── <span class="tree-file">📄 evidencias.html</span> <span class="tree-comment"># Documentación y pruebas</span>
+├── <span class="tree-file">📄 acciones.html</span> <span class="tree-comment"># Plan de acción</span>
+├── <span class="tree-file">📄 contacto.html</span> <span class="tree-comment"># Información de contacto</span>
+├── <span class="tree-file">📄 dev.html</span> <span class="tree-comment"># Esta página de desarrollo</span>
+├── <span class="tree-file">📄 diagnostico_sitio.html</span> <span class="tree-comment"># Herramientas de diagnóstico</span>
+├── <span class="tree-file">📄 menu_demo.html</span> <span class="tree-comment"># Demo del menú</span>
+├── <span class="tree-file">📄 redirect-index.html</span> <span class="tree-comment"># Redirecciones</span>
+├── <span class="tree-folder">📁 casos/</span> <span class="tree-comment"># Casos de estudio</span>
+│   ├── <span class="tree-file">📄 index.html</span> <span class="tree-comment"># Índice de casos</span>
+│   ├── <span class="tree-file">📄 roman.html</span> <span class="tree-comment"># Caso: Proyecto Romano</span>
+│   └── <span class="tree-file">📄 raider.html</span> <span class="tree-comment"># Caso: Proyecto Raider</span>
+├── <span class="tree-folder">📁 lab/</span> <span class="tree-comment"># Laboratorio de innovación</span>
+│   └── <span class="tree-file">📄 index.html</span> <span class="tree-comment"># RUN Lab</span>
+├── <span class="tree-folder">📁 assets/</span> <span class="tree-comment"># Recursos del sitio</span>
+│   ├── <span class="tree-folder">📁 css/</span>
+│   │   └── <span class="tree-file">🎨 main.css</span> <span class="tree-comment"># Estilos principales (244 líneas)</span>
+│   ├── <span class="tree-folder">📁 js/</span>
+│   │   └── <span class="tree-file">⚡ main.js</span> <span class="tree-comment"># JavaScript principal (966 líneas)</span>
+│   ├── <span class="tree-folder">📁 images/</span> <span class="tree-comment"># Imágenes y multimedia</span>
+│   └── <span class="tree-folder">📁 data/</span> <span class="tree-comment"># Datos estructurados</span>
+├── <span class="tree-file">📄 sw.js</span> <span class="tree-comment"># Service Worker</span>
+├── <span class="tree-file">📄 README.md</span> <span class="tree-comment"># Documentación del proyecto</span>
+└── <span class="tree-file">🚀 deploy.sh</span> <span class="tree-comment"># Script de deployment</span>
+                </div>
+            </section>
+
+            <!-- Información Técnica -->
+            <section class="sitemap-section">
+                <h2>⚙️ Información Técnica</h2>
+                <div class="sitemap-grid">
+                    <div class="page-card">
+                        <h3>🎨 CSS</h3>
+                        <div class="page-description">
+                            <strong>Archivo:</strong> assets/css/main.css<br>
+                            <strong>Tamaño:</strong> 244 líneas (80.9% reducción)<br>
+                            <strong>Características:</strong> Variables CSS, Flexbox, Grid, Responsive<br>
+                            <strong>Menú:</strong> Completamente reconstruido y optimizado
+                        </div>
+                    </div>
+
+                    <div class="page-card">
+                        <h3>⚡ JavaScript</h3>
+                        <div class="page-description">
+                            <strong>Archivo:</strong> assets/js/main.js<br>
+                            <strong>Tamaño:</strong> 966 líneas<br>
+                            <strong>Funcionalidad:</strong> Menú responsive, navegación, utilidades<br>
+                            <strong>Estado:</strong> Código limpio sin duplicaciones
+                        </div>
+                    </div>
+
+                    <div class="page-card">
+                        <h3>🚀 Deployment</h3>
+                        <div class="page-description">
+                            <strong>Repositorio:</strong> GitHub (ppkapiro/runartfoundry-micrositio)<br>
+                            <strong>Hosting:</strong> Surge.sh<br>
+                            <strong>URL:</strong> runartfoundry-micrositio-ubuntu.surge.sh<br>
+                            <strong>SSL:</strong> Certificado válido
+                        </div>
+                    </div>
+
+                    <div class="page-card">
+                        <h3>📱 Responsive</h3>
+                        <div class="page-description">
+                            <strong>Breakpoints:</strong> Mobile, Tablet, Desktop<br>
+                            <strong>Menú:</strong> Hamburger menu en móvil<br>
+                            <strong>Layout:</strong> Flexbox y CSS Grid<br>
+                            <strong>Testing:</strong> Todos los dispositivos
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Enlaces Rápidos -->
+            <section class="sitemap-section">
+                <h2>🔗 Enlaces Rápidos de Navegación</h2>
+                <div class="tool-links">
+                    <a href="index.html" class="tool-btn">🏠 Inicio</a>
+                    <a href="uldis.html" class="tool-btn">👨‍🎨 Uldis</a>
+                    <a href="run.html" class="tool-btn">🏭 RUN</a>
+                    <a href="cronologia.html" class="tool-btn">📅 Cronología</a>
+                    <a href="evidencias.html" class="tool-btn">📋 Evidencias</a>
+                    <a href="casos/index.html" class="tool-btn">📚 Casos</a>
+                    <a href="lab/index.html" class="tool-btn">🔬 Lab</a>
+                    <a href="acciones.html" class="tool-btn">⚡ Acciones</a>
+                    <a href="contacto.html" class="tool-btn">📞 Contacto</a>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 RUN Art Foundry - Uldis López. Página de desarrollo.</p>
+                <p>
+                    <a href="https://github.com/ppkapiro/runartfoundry-micrositio" target="_blank">GitHub</a> | 
+                    <a href="https://runartfoundry-micrositio-ubuntu.surge.sh" target="_blank">Sitio en Vivo</a> |
+                    <a href="#sitemap">Sitemap</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js" defer></script>
+</body>
+</html>
