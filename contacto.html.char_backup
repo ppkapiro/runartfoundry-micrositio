@@ -285,7 +285,7 @@
                     <div class="accordion-item">
                         <button class="accordion-header" aria-expanded="false">
                             <span>¿Cuánto tiempo toma recibir una cotización?</span>
-                            <span class="accordion-icon">▼</span>
+                            <span class="accordion-icon">â–¼</span>
                         </button>
                         <div class="accordion-content">
                             <p>
@@ -299,7 +299,7 @@
                     <div class="accordion-item">
                         <button class="accordion-header" aria-expanded="false">
                             <span>¿Qué Información debo incluir en mi consulta?</span>
-                            <span class="accordion-icon">▼</span>
+                            <span class="accordion-icon">â–¼</span>
                         </button>
                         <div class="accordion-content">
                             <p><strong>Información esencial:</strong></p>
@@ -317,7 +317,7 @@
                     <div class="accordion-item">
                         <button class="accordion-header" aria-expanded="false">
                             <span>¿Ofrecen consultas virtuales?</span>
-                            <span class="accordion-icon">▼</span>
+                            <span class="accordion-icon">â–¼</span>
                         </button>
                         <div class="accordion-content">
                             <p>
@@ -334,7 +334,7 @@
                     <div class="accordion-item">
                         <button class="accordion-header" aria-expanded="false">
                             <span>¿Trabajan con artistas internacionales?</span>
-                            <span class="accordion-icon">▼</span>
+                            <span class="accordion-icon">â–¼</span>
                         </button>
                         <div class="accordion-content">
                             <p>
@@ -349,7 +349,7 @@
                     <div class="accordion-item">
                         <button class="accordion-header" aria-expanded="false">
                             <span>¿Hay costo por la consulta inicial?</span>
-                            <span class="accordion-icon">▼</span>
+                            <span class="accordion-icon">â–¼</span>
                         </button>
                         <div class="accordion-content">
                             <p>
@@ -365,7 +365,7 @@
                     <div class="accordion-item">
                         <button class="accordion-header" aria-expanded="false">
                             <span>¿Pueden visitar mi estudio/ubicación?</span>
-                            <span class="accordion-icon">▼</span>
+                            <span class="accordion-icon">â–¼</span>
                         </button>
                         <div class="accordion-content">
                             <p>

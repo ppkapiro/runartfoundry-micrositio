@@ -212,12 +212,12 @@
                                     <h4>Ejemplo de Estructura</h4>
                                     <p><strong>uldislopez.com/</strong></p>
                                     <ul style="font-family: monospace;">
-                                        <li>├── Inicio (biografía + hero)</li>
-                                        <li>├── Obras (galería + fichas)</li>
-                                        <li>├── Trayectoria (timeline)</li>
-                                        <li>├── RUN Art Foundry (enlace)</li>
-                                        <li>├── Prensa (apariciones)</li>
-                                        <li>└── Contacto</li>
+                                        <li>â”œâ”€â”€ Inicio (biografía + hero)</li>
+                                        <li>â”œâ”€â”€ Obras (galería + fichas)</li>
+                                        <li>â”œâ”€â”€ Trayectoria (timeline)</li>
+                                        <li>â”œâ”€â”€ RUN Art Foundry (enlace)</li>
+                                        <li>â”œâ”€â”€ Prensa (apariciones)</li>
+                                        <li>â””â”€â”€ Contacto</li>
                                     </ul>
                                 </div>
 
