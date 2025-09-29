@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RUN Art Foundry - Fundición artística especializada en bronce con total transparencia de procesos. Servicios de Fundición, pátinas, instalación y restauración en Miami.">
+    <meta name="keywords" content="RUN Art Foundry, Fundición, bronce, pátinas, instalación, Miami, transparencia, arte, esculturas">
+    <meta name="author" content="RUN Art Foundry">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="RUN Art Foundry - Fundición artística Transparente">
+    <meta property="og:description" content="La Fundición más transparente de Miami. Servicios especializados en bronce, pátinas e instalación con total visibilidad del proceso.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://runartfoundry.com/run.html">
+    <meta property="og:image" content="/assets/images/run-foundry-workshop.jpg">
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://runartfoundry.com/run.html">
+    <link rel="alternate" hreflang="en" href="https://runartfoundry.com/en/run.html">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    
+    <!-- Schema.org Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "RUN Art Foundry",
+      "description": "Fundición artística especializada en bronce con total transparencia de procesos",
+      "url": "https://runartfoundry.com",
+      "logo": "https://runartfoundry.com/assets/images/run-logo.png",
+      "founder": {
+        "@type": "Person",
+        "name": "Uldis López"
+      },
+      "foundingDate": "2015",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Miami",
+        "addressRegion": "FL",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://www.instagram.com/runartfoundry",
+        "https://www.linkedin.com/company/run-art-foundry"
+      ],
+      "areaServed": "International",
+      "serviceType": ["Bronze Casting", "Patination", "Sculpture Installation", "Art Restoration"]
+    }
+    </script>
+
+    <title>RUN Art Foundry - Fundición artística Transparente | Miami</title>
+</head>
+
+<body>
+    <!-- Skip to content -->
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo" aria-label="RUN Art Foundry - Inicio">
+                    <span>RUN</span> Art Foundry
+                </a>
+
+                <nav class="nav-main" role="navigation" aria-label="Navegación principal">
+                    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">☰</button>
+                    
+                    <ul class="nav-list" id="nav-list">
+                        <li><a href="index.html" class="nav-link">Inicio</a></li>
+                        <li><a href="uldis.html" class="nav-link">Uldis López</a></li>
+                        <li><a href="run.html" class="nav-link active" aria-current="page">RUN Art Foundry</a></li>
+                        <li><a href="cronologia.html" class="nav-link">Cronología</a></li>
+                        <li><a href="evidencias.html" class="nav-link">Evidencias</a></li>
+                        <li><a href="casos/index.html" class="nav-link">Casos</a></li>
+                        <li><a href="lab/index.html" class="nav-link">RUN Lab</a></li>
+                        <li><a href="acciones.html" class="nav-link">Acciones</a></li>
+                        <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+                    </ul>
+                    
+                    <div class="locale-switch">
+                        <button class="locale-btn active" data-locale="es">ES</button>
+                        <button class="locale-btn" data-locale="en">EN</button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main" id="main-content" role="main">
+        
+        <!-- Breadcrumb -->
+        <div class="container">
+            <nav class="breadcrumb" aria-label="Navegación de ruta">
+                <ol>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li>RUN Art Foundry</li>
+                </ol>
+            </nav>
+        </div>
+
+        <!-- Hero Section -->
+        <section class="hero" aria-labelledby="page-title">
+            <div class="container">
+                <h1 id="page-title" class="hero-title">RUN Art Foundry</h1>
+                <p class="hero-subtitle">
+                    La Fundición Más Transparente de Miami • Especialistas en Bronce • Desde 2015
+                </p>
+                <div class="btn-group">
+                    <a href="#servicios" class="btn" aria-describedby="servicios">Ver Servicios</a>
+                    <a href="contacto.html" class="btn btn-secondary">Solicitar Presupuesto</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filosofía y Misión -->
+        <section class="container mt-xl" aria-labelledby="filosofia-title">
+            <div class="grid grid-2">
+                <div>
+                    <h2 id="filosofia-title">Nuestra Filosofía</h2>
+                    <h3>Transparencia Total</h3>
+                    <p>
+                        En RUN Art Foundry, creemos que <strong>los artistas merecen conocer exactamente cómo se materializa su visión</strong>. Por eso, ofrecemos transparencia total en cada etapa del proceso de Fundición.
+                    </p>
+
+                    <p>
+                        Nuestros clientes pueden visitar el taller en cualquier momento, observar el progreso de su obra y entender cada decisión técnica. No hay procesos ocultos ni "secretos industriales".
+                    </p>
+
+                    <div class="callout callout-success">
+                        <p><strong>Compromiso:</strong> Cada proyecto incluye documentación fotográfica completa del proceso, desde el molde inicial hasta la instalación final.</p>
+                    </div>
+
+                    <h3 id="transparencia">¿Por qué Transparencia?</h3>
+                    <ul>
+                        <li><strong>Confianza:</strong> Los artistas saben exactamente qué está sucediendo con su obra</li>
+                        <li><strong>Educación:</strong> Compartimos conocimiento para elevar el nivel del sector</li>
+                        <li><strong>Calidad:</strong> La supervisión constante garantiza los mejores resultados</li>
+                        <li><strong>Diferenciación:</strong> Nos distinguimos de fundiciones opacas</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <!-- Video placeholder -->
+                    <div style="background: var(--color-light); height: 300px; border-radius: 8px; display: flex; align-items: center; justify-content: center; margin-bottom: var(--space-lg);">
+                        <div style="text-align: center; color: var(--color-gray);">
+                            <div style="font-size: 3rem; margin-bottom: 1rem;">▶</div>
+                            <div>Video: "Transparencia en Acción"</div>
+                            <div style="font-size: 0.9rem;">Recorrido completo por nuestro proceso</div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>Datos de RUN Art Foundry</h3>
+                        <ul style="list-style: none; padding: 0;">
+                            <li><strong>Fundación:</strong> 2015</li>
+                            <li><strong>Fundador:</strong> Uldis López</li>
+                            <li><strong>Ubicación:</strong> Miami, Florida</li>
+                            <li><strong>Especialidad:</strong> Fundición en Bronce</li>
+                            <li><strong>Proyectos:</strong> 30+ completados</li>
+                            <li><strong>Artistas:</strong> 15+ colaboradores</li>
+                            <li><strong>Transparencia:</strong> 100% del proceso</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Servicios -->
+        <section class="container mt-xxl" aria-labelledby="servicios" id="servicios">
+            <h2 id="servicios-title">Nuestros Servicios</h2>
+            <div class="grid grid-2">
+                
+                <!-- Fundición -->
+                <div class="card">
+                    <h3 class="card-title">🔥 Fundición en Bronce</h3>
+                    <p class="card-content">
+                        Proceso completo de Fundición a la cera perdida con la más alta precisión técnica. Desde piezas pequeñas hasta monumentos de gran formato.
+                    </p>
+                    <h4>Incluye:</h4>
+                    <ul>
+                        <li>Análisis técnico del modelo original</li>
+                        <li>Creación de molde maestro</li>
+                        <li>Fundición a la cera perdida</li>
+                        <li>Control de calidad en cada etapa</li>
+                        <li>Documentación fotográfica completa</li>
+                    </ul>
+                </div>
+
+                <!-- pátinas -->
+                <div class="card">
+                    <h3 class="card-title">🎨 pátinas y Acabados</h3>
+                    <p class="card-content">
+                        Especialistas en Técnicas de patinado tradicionales y contemporáneas. Amplia gama de acabados para interior y exterior.
+                    </p>
+                    <h4>Tipos de Pátina:</h4>
+                    <ul>
+                        <li>Pátina verde tradicional (verdigris)</li>
+                        <li>Pátina marrón cálida</li>
+                        <li>Acabados pulidos y bruñidos</li>
+                        <li>Tratamientos especiales para exterior</li>
+                        <li>pátinas personalizadas según diseño</li>
+                    </ul>
+                </div>
+
+                <!-- Instalación -->
+                <div class="card">
+                    <h3 class="card-title">💡—ï¸ Instalación Especializada</h3>
+                    <p class="card-content">
+                        Servicio completo de instalación con ingeniería estructural. Especialistas en monumentos y esculturas de gran formato.
+                    </p>
+                    <h4>Servicios de Instalación:</h4>
+                    <ul>
+                        <li>Análisis estructural y cimentación</li>
+                        <li>Sistemas de anclaje especializados</li>
+                        <li>Instalación con grúas y equipo pesado</li>
+                        <li>Certificaciones de seguridad</li>
+                        <li>Mantenimiento post-instalación</li>
+                    </ul>
+                </div>
+
+                <!-- Restauración -->
+                <div class="card">
+                    <h3 class="card-title">💡”§ Restauración de Obras</h3>
+                    <p class="card-content">
+                        Restauración especializada de esculturas en bronce y otros metales. Conservación de patrimonio artístico con Técnicas tradicionales.
+                    </p>
+                    <h4>Servicios de Restauración:</h4>
+                    <ul>
+                        <li>Evaluación del estado de conservación</li>
+                        <li>Limpieza especializada de superficies</li>
+                        <li>Reparación de daños estructurales</li>
+                        <li>Renovación de pátinas originales</li>
+                        <li>Tratamientos de conservación preventiva</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Proceso de Trabajo -->
+        <section class="container mt-xxl" aria-labelledby="proceso-title">
+            <h2 id="proceso-title">Nuestro Proceso de Trabajo</h2>
+            <div class="timeline">
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">Paso 1</div>
+                    <h3>Consulta Inicial</h3>
+                    <p>Reunión con el artista o cliente para entender la visión, requerimientos técnicos y presupuesto. Evaluación del modelo original y planificación del proyecto.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Paso 2</div>
+                    <h3>Análisis Técnico</h3>
+                    <p>Estudio detallado del modelo, identificación de desafíos técnicos y desarrollo de estrategia de Fundición. Propuesta técnica con cronograma detallado.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Paso 3</div>
+                    <h3>Creación del Molde</h3>
+                    <p>Desarrollo del molde maestro con materiales especializados. El cliente puede supervisar y participar en este proceso crítico.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Paso 4</div>
+                    <h3>Fundición</h3>
+                    <p>Fundición a la cera perdida con bronce de la más alta calidad. Documentación fotográfica y videográfica de todo el proceso.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Paso 5</div>
+                    <h3>Acabados y Pátina</h3>
+                    <p>Aplicación de Técnicas de patinado según especificaciones. El cliente puede elegir el acabado final viendo muestras en vivo.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Paso 6</div>
+                    <h3>Control de Calidad</h3>
+                    <p>Inspección final completa, corrección de cualquier imperfección y preparación para entrega o instalación.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">Paso 7</div>
+                    <h3>Entrega/Instalación</h3>
+                    <p>Entrega de la obra o instalación profesional en el sitio final. Incluye certificación y documentación completa del proyecto.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Proyectos Destacados -->
+        <section class="container mt-xxl" aria-labelledby="proyectos-title">
+            <h2 id="proyectos-title">Proyectos Corporativos Destacados</h2>
+            <p style="text-align: center; margin-bottom: var(--space-xl); color: var(--color-gray);">
+                Una selección de nuestros trabajos más representativos con diferentes artistas y clientes institucionales
+            </p>
+            
+            <div class="grid grid-3">
+                
+                <div class="card">
+                    <div style="background: var(--color-light); height: 200px; border-radius: 4px; margin-bottom: var(--space-md); display: flex; align-items: center; justify-content: center;">
+                        <span style="color: var(--color-gray);">[Monumento Agustín Román]</span>
+                    </div>
+                    <h3 class="card-title">Monumento Mons. Agustín Román</h3>
+                    <p class="card-content">
+                        Proyecto emblemático en colaboración con la comunidad católica cubana. Bronce fundido con pátina tradicional verde.
+                    </p>
+                    <div class="card-meta">
+                        <strong>Cliente:</strong> Comunidad Católica • <strong>Año:</strong> 2023 • <strong>Material:</strong> Bronce
+                    </div>
+                    <a href="/casos/roman.html" class="btn btn-secondary mt-sm" style="width: 100%;">Ver Caso Completo</a>
+                </div>
+
+                <div class="card">
+                    <div style="background: var(--color-light); height: 200px; border-radius: 4px; margin-bottom: var(--space-md); display: flex; align-items: center; justify-content: center;">
+                        <span style="color: var(--color-gray);">[Ransom Raider]</span>
+                    </div>
+                    <h3 class="card-title">Ransom Everglades Raider</h3>
+                    <p class="card-content">
+                        Mascota escolar de 2.5m en bronce con pátina verde exterior. Sistema de anclajes especializados y cimentación reforzada.
+                    </p>
+                    <div class="card-meta">
+                        <strong>Cliente:</strong> Ransom Everglades School • <strong>Año:</strong> 2022 • <strong>Altura:</strong> 2.5m
+                    </div>
+                    <a href="/casos/raider.html" class="btn btn-secondary mt-sm" style="width: 100%;">Ver Caso Completo</a>
+                </div>
+
+                <div class="card">
+                    <div style="background: var(--color-light); height: 200px; border-radius: 4px; margin-bottom: var(--space-md); display: flex; align-items: center; justify-content: center;">
+                        <span style="color: var(--color-gray);">[Proyecto Williams Carmona]</span>
+                    </div>
+                    <h3 class="card-title">Serie "Metamorfosis" - Williams Carmona</h3>
+                    <p class="card-content">
+                        Colaboración con el reconocido escultor Williams Carmona. Serie de 5 piezas con diferentes Técnicas de patinado.
+                    </p>
+                    <div class="card-meta">
+                        <strong>Artista:</strong> Williams Carmona • <strong>Año:</strong> 2021 • <strong>Piezas:</strong> 5
+                    </div>
+                    <a href="/evidencias.html#williams-carmona" class="btn btn-secondary mt-sm" style="width: 100%;">Ver Testimonio</a>
+                </div>
+
+                <div class="card">
+                    <div style="background: var(--color-light); height: 200px; border-radius: 4px; margin-bottom: var(--space-md); display: flex; align-items: center; justify-content: center;">
+                        <span style="color: var(--color-gray);">[Instalación Corporativa]</span>
+                    </div>
+                    <h3 class="card-title">Escultura Corporativa Brickell</h3>
+                    <p class="card-content">
+                        Instalación corporativa para edificio de oficinas en Brickell. Diseño contemporáneo con elementos arquitectónicos integrados.
+                    </p>
+                    <div class="card-meta">
+                        <strong>Cliente:</strong> Corporativo • <strong>Año:</strong> 2020 • <strong>Ubicación:</strong> Brickell, Miami
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div style="background: var(--color-light); height: 200px; border-radius: 4px; margin-bottom: var(--space-md); display: flex; align-items: center; justify-content: center;">
+                        <span style="color: var(--color-gray);">[Restauración Histórica]</span>
+                    </div>
+                    <h3 class="card-title">Restauración Monumento Histórico</h3>
+                    <p class="card-content">
+                        Restauración completa de monumento del siglo XIX. Conservación de pátina original y reparación estructural.
+                    </p>
+                    <div class="card-meta">
+                        <strong>Tipo:</strong> Restauración • <strong>Año:</strong> 2019 • <strong>Período:</strong> Siglo XIX
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div style="background: var(--color-light); height: 200px; border-radius: 4px; margin-bottom: var(--space-md); display: flex; align-items: center; justify-content: center;">
+                        <span style="color: var(--color-gray);">[Proyecto Colaborativo]</span>
+                    </div>
+                    <h3 class="card-title">Instalación "Memoria Colectiva"</h3>
+                    <p class="card-content">
+                        Proyecto colaborativo con múltiples artistas cubano-americanos. Instalación permanente en espacio público.
+                    </p>
+                    <div class="card-meta">
+                        <strong>Tipo:</strong> Colaborativo • <strong>Año:</strong> 2018 • <strong>Artistas:</strong> 8
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Diferenciadores Competitivos -->
+        <section class="container mt-xxl" aria-labelledby="diferenciadores-title">
+            <h2 id="diferenciadores-title">¿Por qué Elegir RUN Art Foundry?</h2>
+            <div class="grid grid-2">
+                
+                <div>
+                    <h3>💡” Transparencia Total</h3>
+                    <p>
+                        A diferencia de otras fundiciones, en RUN no hay procesos ocultos. Los clientes pueden visitar el taller, observar el progreso y participar en decisiones clave.
+                    </p>
+
+                    <h3>💡“¸ Documentación Completa</h3>
+                    <p>
+                        Cada proyecto incluye documentación fotográfica y videográfica completa del proceso, desde el molde inicial hasta la instalación final.
+                    </p>
+
+                    <h3>🎯 Especialización Técnica</h3>
+                    <p>
+                        Nos enfocamos exclusivamente en Fundición artística de alta calidad. No somos una Fundición industrial - somos especialistas en arte.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>🤝 Relación Personalizada</h3>
+                    <p>
+                        Cada artista trabaja directamente con Uldis López, el fundador. No hay intermediarios ni procesos despersonalizados.
+                    </p>
+
+                    <h3>⚡ Flexibilidad de Cronograma</h3>
+                    <p>
+                        Entendemos que el arte no siempre sigue cronogramas rígidos. Ofrecemos flexibilidad mientras mantenemos la calidad.
+                    </p>
+
+                    <h3>🌍 Enfoque Cultural</h3>
+                    <p>
+                        Nuestra perspectiva cubano-americana aporta sensibilidad cultural única, especialmente valiosa para artistas latinos.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Comparación Competitiva -->
+        <section class="container mt-xxl" aria-labelledby="comparacion-title">
+            <h2 id="comparacion-title">Comparación con la Competencia</h2>
+            <div style="overflow-x: auto;">
+                <table style="width: 100%; border-collapse: collapse; margin: var(--space-lg) 0;">
+                    <thead>
+                        <tr style="background: var(--color-light);">
+                            <th style="padding: var(--space-sm); border: 1px solid var(--color-gray-light); text-align: left;">Característica</th>
+                            <th style="padding: var(--space-sm); border: 1px solid var(--color-gray-light); color: var(--color-primary); font-weight: bold;">RUN Art Foundry</th>
+                            <th style="padding: var(--space-sm); border: 1px solid var(--color-gray-light);">ASU Art Foundry</th>
+                            <th style="padding: var(--space-sm); border: 1px solid var(--color-gray-light);">American Bronze</th>
+                            <th style="padding: var(--space-sm); border: 1px solid var(--color-gray-light);">South Florida Bronze</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light); font-weight: 500;">Transparencia de Proceso</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light); color: var(--color-success); font-weight: bold;">100% Transparente âœ“</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light);">Limitada</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light);">Limitada</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light);">No</td>
+                        </tr>
+                        <tr style="background: rgba(248, 250, 252, 0.5);">
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light); font-weight: 500;">Visitas al Taller</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light); color: var(--color-success); font-weight: bold;">Ilimitadas âœ“</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light);">Restringidas</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light);">Con cita</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light);">No permitidas</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light); font-weight: 500;">Documentación Fotográfica</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light); color: var(--color-success); font-weight: bold;">Incluida âœ“</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light);">Costo adicional</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light);">Básica</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light);">No disponible</td>
+                        </tr>
+                        <tr style="background: rgba(248, 250, 252, 0.5);">
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light); font-weight: 500;">Escaneo 3D</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light); color: var(--color-warning);">En desarrollo</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light); color: var(--color-success);">Disponible âœ“</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light); color: var(--color-success);">Disponible âœ“</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light);">No</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light); font-weight: 500;">Atención Personalizada</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light); color: var(--color-success); font-weight: bold;">Directa con fundador âœ“</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light);">Gerentes de proyecto</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light);">Departamental</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light);">Limitada</td>
+                        </tr>
+                        <tr style="background: rgba(248, 250, 252, 0.5);">
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light); font-weight: 500;">Especialización artística</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light); color: var(--color-success); font-weight: bold;">100% Arte âœ“</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light);">Mixta (arte + industrial)</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light);">Mixta</td>
+                            <td style="padding: var(--space-sm); border: 1px solid var(--color-gray-light);">Principalmente industrial</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="callout callout-info">
+                <p><strong>Nota:</strong> Esta comparación se basa en información pública y experiencias reportadas por artistas. Para análisis detallado, consulte nuestra <a href="/competencia.html">guía completa de competencia</a>.</p>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="hero mt-xxl" style="padding: var(--space-xl) 0;">
+            <div class="container text-center">
+                <h2>¿Listo para Trabajar con Transparencia Total?</h2>
+                <p>
+                    Contacta con nosotros para discutir tu proyecto. Primera consulta gratuita y sin compromisos.
+                </p>
+                <div class="btn-group mt-lg">
+                    <a href="contacto.html" class="btn">Solicitar Consulta</a>
+                    <a href="casos/index.html" class="btn btn-secondary">Ver Casos de Estudio</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>RUN Art Foundry</h3>
+                    <p>
+                        La Fundición artística más transparente de Miami. Especialistas en bronce con enfoque en calidad, transparencia y relación personalizada con cada artista.
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Servicios</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="#servicios">Fundición en Bronce</a></li>
+                        <li><a href="#servicios">pátinas y Acabados</a></li>
+                        <li><a href="#servicios">Instalación Especializada</a></li>
+                        <li><a href="#servicios">Restauración</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Recursos</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="lab/index.html">Blog Técnico</a></li>
+                        <li><a href="casos/index.html">Casos de Estudio</a></li>
+                        <li><a href="evidencias.html">Testimonios</a></li>
+                        <li><a href="/competencia.html">Análisis Competitivo</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p>
+                        <strong>RUN Art Foundry</strong><br>
+                        Miami, Florida<br>
+                        <a href="mailto:info@runartfoundry.com">info@runartfoundry.com</a><br>
+                        <a href="tel:+1305XXX-XXXX">+1 (305) XXX-XXXX</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    © 2025 RUN Art Foundry. Todos los derechos reservados.
+                    | <a href="/privacidad.html">Política de Privacidad</a>
+                    | <a href="/accesibilidad.html">Accesibilidad</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js" defer></script>
+
+    <!-- Schema.org BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://runartfoundry.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "RUN Art Foundry",
+          "item": "https://runartfoundry.com/run.html"
+        }
+      ]
+    }
+    </script>
+
+</body>
+</html>
+
+
+
+
+
