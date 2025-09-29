@@ -32,21 +32,17 @@
     <header class="header" role="banner">
         <div class="container">
             <div class="header-content">
-                <a href="index.html" class="logo" aria-label="RUN Art Foundry - Inicio">
-                    <span>RUN</span> Art Foundry
-                </a>
 
                 <nav class="nav-main" role="navigation" aria-label="Navegación principal">
                     <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">☰</button>
                     
                     <ul class="nav-list" id="nav-list">
-                        <li><a href="index.html" class="nav-link">Inicio</a></li>
                         <li><a href="uldis.html" class="nav-link">Uldis López</a></li>
-                        <li><a href="run.html" class="nav-link">RUN Art Foundry</a></li>
+                        <li><a href="run.html" class="nav-link" title="RUN Art Foundry - Fundición Artística">RUN Art Foundry</a></li>
                         <li><a href="cronologia.html" class="nav-link">Cronología</a></li>
                         <li><a href="evidencias.html" class="nav-link">Evidencias</a></li>
                         <li><a href="casos/index.html" class="nav-link">Casos</a></li>
-                        <li><a href="lab/index.html" class="nav-link">RUN Lab</a></li>
+                        <li><a href="lab/index.html" class="nav-link" title="RUN Lab - Laboratorio de Innovación">RUN Lab</a></li>
                         <li><a href="acciones.html" class="nav-link">Acciones</a></li>
                         <li><a href="contacto.html" class="nav-link active" aria-current="page">Contacto</a></li>
                     </ul>
@@ -82,7 +78,7 @@
                 </p>
                 <div class="hero-stats">
                     <div class="stat">
-                        <strong>ðŸ“§ 24h</strong>
+                        <strong>🔧 24h</strong>
                         <span>Tiempo respuesta</span>
                     </div>
                     <div class="stat">
@@ -233,15 +229,15 @@
                         <h3>Información Directa</h3>
                         <div class="contact-info">
                             <div class="contact-item">
-                                <strong>ðŸ“§ Email:</strong>
+                                <strong>🔧 Email:</strong>
                                 <a href="mailto:uldis@runartfoundry.com">uldis@runartfoundry.com</a>
                             </div>
                             <div class="contact-item">
-                                <strong>ðŸ“± WhatsApp:</strong>
+                                <strong>📱 WhatsApp:</strong>
                                 <a href="https://wa.me/15551234567" target="_blank">+1 (555) 123-4567</a>
                             </div>
                             <div class="contact-item">
-                                <strong>ðŸ“ Ubicación:</strong>
+                                <strong>💡“ Ubicación:</strong>
                                 Miami, Florida, USA
                             </div>
                             <div class="contact-item">
@@ -265,10 +261,10 @@
                     <div class="card">
                         <h3>Documentos Útiles</h3>
                         <ul style="list-style: none; padding: 0;">
-                            <li><a href="assets/pdf/catalogo-servicios.pdf" target="_blank" class="download-link">ðŸ“„ Catálogo de Servicios</a></li>
-                            <li><a href="assets/pdf/proceso-transparente.pdf" target="_blank" class="download-link">ðŸ“„ Proceso Transparente</a></li>
-                            <li><a href="assets/pdf/portfolio-completo.pdf" target="_blank" class="download-link">ðŸ“„ Portfolio Completo</a></li>
-                            <li><a href="assets/pdf/precios-referenciales.pdf" target="_blank" class="download-link">ðŸ“„ Precios Referenciales</a></li>
+                            <li><a href="assets/pdf/catalogo-servicios.pdf" target="_blank" class="download-link">💡“„ Catálogo de Servicios</a></li>
+                            <li><a href="assets/pdf/proceso-transparente.pdf" target="_blank" class="download-link">💡“„ Proceso Transparente</a></li>
+                            <li><a href="assets/pdf/portfolio-completo.pdf" target="_blank" class="download-link">💡“„ Portfolio Completo</a></li>
+                            <li><a href="assets/pdf/precios-referenciales.pdf" target="_blank" class="download-link">💡“„ Precios Referenciales</a></li>
                         </ul>
                     </div>
                 </div>
@@ -285,7 +281,7 @@
                     <div class="accordion-item">
                         <button class="accordion-header" aria-expanded="false">
                             <span>¿Cuánto tiempo toma recibir una cotización?</span>
-                            <span class="accordion-icon">â–¼</span>
+                            <span class="accordion-icon">▼</span>
                         </button>
                         <div class="accordion-content">
                             <p>
@@ -299,7 +295,7 @@
                     <div class="accordion-item">
                         <button class="accordion-header" aria-expanded="false">
                             <span>¿Qué Información debo incluir en mi consulta?</span>
-                            <span class="accordion-icon">â–¼</span>
+                            <span class="accordion-icon">▼</span>
                         </button>
                         <div class="accordion-content">
                             <p><strong>Información esencial:</strong></p>
@@ -317,7 +313,7 @@
                     <div class="accordion-item">
                         <button class="accordion-header" aria-expanded="false">
                             <span>¿Ofrecen consultas virtuales?</span>
-                            <span class="accordion-icon">â–¼</span>
+                            <span class="accordion-icon">▼</span>
                         </button>
                         <div class="accordion-content">
                             <p>
@@ -334,7 +330,7 @@
                     <div class="accordion-item">
                         <button class="accordion-header" aria-expanded="false">
                             <span>¿Trabajan con artistas internacionales?</span>
-                            <span class="accordion-icon">â–¼</span>
+                            <span class="accordion-icon">▼</span>
                         </button>
                         <div class="accordion-content">
                             <p>
@@ -349,7 +345,7 @@
                     <div class="accordion-item">
                         <button class="accordion-header" aria-expanded="false">
                             <span>¿Hay costo por la consulta inicial?</span>
-                            <span class="accordion-icon">â–¼</span>
+                            <span class="accordion-icon">▼</span>
                         </button>
                         <div class="accordion-content">
                             <p>
@@ -365,7 +361,7 @@
                     <div class="accordion-item">
                         <button class="accordion-header" aria-expanded="false">
                             <span>¿Pueden visitar mi estudio/ubicación?</span>
-                            <span class="accordion-icon">â–¼</span>
+                            <span class="accordion-icon">▼</span>
                         </button>
                         <div class="accordion-content">
                             <p>

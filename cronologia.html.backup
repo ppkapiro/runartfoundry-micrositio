@@ -52,21 +52,17 @@
     <header class="header" role="banner">
         <div class="container">
             <div class="header-content">
-                <a href="index.html" class="logo" aria-label="RUN Art Foundry - Inicio">
-                    <span>RUN</span> Art Foundry
-                </a>
 
                 <nav class="nav-main" role="navigation" aria-label="Navegación principal">
                     <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">☰</button>
                     
                     <ul class="nav-list" id="nav-list">
-                        <li><a href="index.html" class="nav-link">Inicio</a></li>
                         <li><a href="uldis.html" class="nav-link">Uldis López</a></li>
-                        <li><a href="run.html" class="nav-link">RUN Art Foundry</a></li>
+                        <li><a href="run.html" class="nav-link" title="RUN Art Foundry - Fundición Artística">RUN Art Foundry</a></li>
                         <li><a href="cronologia.html" class="nav-link active" aria-current="page">Cronología</a></li>
                         <li><a href="evidencias.html" class="nav-link">Evidencias</a></li>
                         <li><a href="casos/index.html" class="nav-link">Casos</a></li>
-                        <li><a href="lab/index.html" class="nav-link">RUN Lab</a></li>
+                        <li><a href="lab/index.html" class="nav-link" title="RUN Lab - Laboratorio de Innovación">RUN Lab</a></li>
                         <li><a href="acciones.html" class="nav-link">Acciones</a></li>
                         <li><a href="contacto.html" class="nav-link">Contacto</a></li>
                     </ul>
@@ -174,7 +170,7 @@
                     <!-- === Q1: ENERO - MARZO === -->
                     <div class="timeline-item q1" data-quarter="q1">
                         <div class="timeline-date">Q1 - Enero 2025</div>
-                        <h3>ðŸ—ï¸ Fundación y Organización</h3>
+                        <h3>💡—ï¸ Fundación y Organización</h3>
                         <h4>Marca Personal - Uldis López</h4>
                         <ul>
                             <li><strong>Registrar dominio</strong> uldislopez.com y configurar hosting</li>
@@ -194,7 +190,7 @@
 
                     <div class="timeline-item q1" data-quarter="q1">
                         <div class="timeline-date">Q1 - Febrero 2025</div>
-                        <h3>ðŸ“ Contenido y Narrativa</h3>
+                        <h3>💡“ Contenido y Narrativa</h3>
                         <h4>Marca Personal - Uldis López</h4>
                         <ul>
                             <li><strong>Lanzar página personal</strong> uldislopez.com con portfolio</li>
@@ -235,7 +231,7 @@
                     <!-- === Q2: ABRIL - JUNIO === -->
                     <div class="timeline-item q2" data-quarter="q2" style="display: none;">
                         <div class="timeline-date">Q2 - Abril 2025</div>
-                        <h3>ðŸ“ˆ Consolidación y Crecimiento</h3>
+                        <h3>📈 Consolidación y Crecimiento</h3>
                         <h4>Marca Personal - Uldis López</h4>
                         <ul>
                             <li><strong>Grabar primer testimonio</strong> en video (Williams Carmona)</li>
@@ -309,14 +305,14 @@
                         <ul>
                             <li><strong>Lanzar programa</strong> de transparencia certificada</li>
                             <li><strong>Crear alianza</strong> con universidad local</li>
-                            <li><strong>Implementar tours</strong> virtuales 360Â°</li>
+                            <li><strong>Implementar tours</strong> virtuales 360°</li>
                             <li><strong>Desarrollar app móvil</strong> de seguimiento de proyectos</li>
                         </ul>
                     </div>
 
                     <div class="timeline-item q3" data-quarter="q3" style="display: none;">
                         <div class="timeline-date">Q3 - Agosto 2025</div>
-                        <h3>ðŸ“º Visibilidad Mediática</h3>
+                        <h3>💡“º Visibilidad Mediática</h3>
                         <h4>Marca Personal - Uldis López</h4>
                         <ul>
                             <li><strong>Aparecer en podcast</strong> especializado en arte latino</li>
@@ -336,7 +332,7 @@
 
                     <div class="timeline-item q3" data-quarter="q3" style="display: none;">
                         <div class="timeline-date">Q3 - Septiembre 2025</div>
-                        <h3>ðŸ† Posicionamiento Competitivo</h3>
+                        <h3>💡† Posicionamiento Competitivo</h3>
                         <h4>Marca Personal - Uldis López</h4>
                         <ul>
                             <li><strong>Recibir reconocimiento</strong> "Fundidor del Año 2025"</li>
@@ -377,7 +373,7 @@
 
                     <div class="timeline-item q4" data-quarter="q4" style="display: none;">
                         <div class="timeline-date">Q4 - Noviembre 2025</div>
-                        <h3>ðŸ“Š Consolidación y Evaluación</h3>
+                        <h3>📊 Consolidación y Evaluación</h3>
                         <h4>Marca Personal - Uldis López</h4>
                         <ul>
                             <li><strong>Publicar libro</strong> "Fundición Transparente"</li>
@@ -457,7 +453,7 @@
             <div class="grid grid-3">
                 
                 <div class="card">
-                    <h3>ðŸ“Š KPIs Mensuales</h3>
+                    <h3>📊 KPIs Mensuales</h3>
                     <ul>
                         <li>Reels publicados: 4/mes</li>
                         <li>Posts LinkedIn: 1/mes</li>
@@ -468,7 +464,7 @@
                 </div>
 
                 <div class="card">
-                    <h3>ðŸ“ˆ KPIs Trimestrales</h3>
+                    <h3>📈 KPIs Trimestrales</h3>
                     <ul>
                         <li>Menciones en medios: 3/trimestre</li>
                         <li>Nuevos backlinks: 5/trimestre</li>
@@ -481,11 +477,11 @@
                 <div class="card">
                     <h3>🎯 KPIs Anuales</h3>
                     <ul>
-                        <li>Cobertura internacional: â‰¥1 medio</li>
+                        <li>Cobertura internacional: ≥1 medio</li>
                         <li>Proyectos documentados: 30</li>
                         <li>Artículos técnicos: 12</li>
                         <li>Testimonios en video: 5-7</li>
-                        <li>Reconocimientos: â‰¥2</li>
+                        <li>Reconocimientos: ≥2</li>
                     </ul>
                 </div>
 

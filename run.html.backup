@@ -61,21 +61,17 @@
     <header class="header" role="banner">
         <div class="container">
             <div class="header-content">
-                <a href="index.html" class="logo" aria-label="RUN Art Foundry - Inicio">
-                    <span>RUN</span> Art Foundry
-                </a>
 
                 <nav class="nav-main" role="navigation" aria-label="Navegación principal">
                     <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">☰</button>
                     
                     <ul class="nav-list" id="nav-list">
-                        <li><a href="index.html" class="nav-link">Inicio</a></li>
                         <li><a href="uldis.html" class="nav-link">Uldis López</a></li>
                         <li><a href="run.html" class="nav-link active" aria-current="page">RUN Art Foundry</a></li>
                         <li><a href="cronologia.html" class="nav-link">Cronología</a></li>
                         <li><a href="evidencias.html" class="nav-link">Evidencias</a></li>
                         <li><a href="casos/index.html" class="nav-link">Casos</a></li>
-                        <li><a href="lab/index.html" class="nav-link">RUN Lab</a></li>
+                        <li><a href="lab/index.html" class="nav-link" title="RUN Lab - Laboratorio de Innovación">RUN Lab</a></li>
                         <li><a href="acciones.html" class="nav-link">Acciones</a></li>
                         <li><a href="contacto.html" class="nav-link">Contacto</a></li>
                     </ul>
@@ -176,7 +172,7 @@
                 
                 <!-- Fundición -->
                 <div class="card">
-                    <h3 class="card-title">ðŸ”¥ Fundición en Bronce</h3>
+                    <h3 class="card-title">🔥 Fundición en Bronce</h3>
                     <p class="card-content">
                         Proceso completo de Fundición a la cera perdida con la más alta precisión técnica. Desde piezas pequeñas hasta monumentos de gran formato.
                     </p>
@@ -208,7 +204,7 @@
 
                 <!-- Instalación -->
                 <div class="card">
-                    <h3 class="card-title">ðŸ—ï¸ Instalación Especializada</h3>
+                    <h3 class="card-title">💡—ï¸ Instalación Especializada</h3>
                     <p class="card-content">
                         Servicio completo de instalación con ingeniería estructural. Especialistas en monumentos y esculturas de gran formato.
                     </p>
@@ -224,7 +220,7 @@
 
                 <!-- Restauración -->
                 <div class="card">
-                    <h3 class="card-title">ðŸ”§ Restauración de Obras</h3>
+                    <h3 class="card-title">💡”§ Restauración de Obras</h3>
                     <p class="card-content">
                         Restauración especializada de esculturas en bronce y otros metales. Conservación de patrimonio artístico con Técnicas tradicionales.
                     </p>
@@ -390,12 +386,12 @@
             <div class="grid grid-2">
                 
                 <div>
-                    <h3>ðŸ” Transparencia Total</h3>
+                    <h3>💡” Transparencia Total</h3>
                     <p>
                         A diferencia de otras fundiciones, en RUN no hay procesos ocultos. Los clientes pueden visitar el taller, observar el progreso y participar en decisiones clave.
                     </p>
 
-                    <h3>ðŸ“¸ Documentación Completa</h3>
+                    <h3>💡“¸ Documentación Completa</h3>
                     <p>
                         Cada proyecto incluye documentación fotográfica y videográfica completa del proceso, desde el molde inicial hasta la instalación final.
                     </p>

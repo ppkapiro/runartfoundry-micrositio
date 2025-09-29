@@ -32,21 +32,17 @@
     <header class="header" role="banner">
         <div class="container">
             <div class="header-content">
-                <a href="index.html" class="logo" aria-label="RUN Art Foundry - Inicio">
-                    <span>RUN</span> Art Foundry
-                </a>
 
                 <nav class="nav-main" role="navigation" aria-label="Navegación principal">
                     <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">☰</button>
                     
                     <ul class="nav-list" id="nav-list">
-                        <li><a href="index.html" class="nav-link">Inicio</a></li>
                         <li><a href="uldis.html" class="nav-link">Uldis López</a></li>
-                        <li><a href="run.html" class="nav-link">RUN Art Foundry</a></li>
+                        <li><a href="run.html" class="nav-link" title="RUN Art Foundry - Fundición Artística">RUN Art Foundry</a></li>
                         <li><a href="cronologia.html" class="nav-link">Cronología</a></li>
                         <li><a href="evidencias.html" class="nav-link active" aria-current="page">Evidencias</a></li>
                         <li><a href="casos/index.html" class="nav-link">Casos</a></li>
-                        <li><a href="lab/index.html" class="nav-link">RUN Lab</a></li>
+                        <li><a href="lab/index.html" class="nav-link" title="RUN Lab - Laboratorio de Innovación">RUN Lab</a></li>
                         <li><a href="acciones.html" class="nav-link">Acciones</a></li>
                         <li><a href="contacto.html" class="nav-link">Contacto</a></li>
                     </ul>
@@ -103,7 +99,7 @@
                 
                 <!-- Apariciones en Prensa -->
                 <div class="mt-xl" aria-labelledby="prensa-title">
-                    <h2 id="prensa-title">ðŸ“° Apariciones en Prensa</h2>
+                    <h2 id="prensa-title">💡“° Apariciones en Prensa</h2>
                     <div class="grid grid-2">
                         
                         <article class="card">
@@ -251,7 +247,7 @@
 
                 <!-- Métricas -->
                 <div class="mt-xxl" aria-labelledby="metricas-title">
-                    <h2 id="metricas-title">ðŸ“Š Métricas y Datos Verificables</h2>
+                    <h2 id="metricas-title">📊 Métricas y Datos Verificables</h2>
                     <div class="grid grid-4">
                         
                         <div class="card text-center">
@@ -340,7 +336,7 @@
 
             <!-- Pestaña solo Prensa -->
             <div class="tab-content" id="prensa" style="display: none;">
-                <h2>ðŸ“° Cobertura en Medios Especializados</h2>
+                <h2>💡“° Cobertura en Medios Especializados</h2>
                 <div class="callout callout-info">
                     <p><strong>Criterio de selección:</strong> Solo medios especializados en arte, escultura o fundición con audiencia verificable y reputación establecida.</p>
                 </div>
@@ -358,7 +354,7 @@
 
             <!-- Pestaña solo Métricas -->
             <div class="tab-content" id="metricas" style="display: none;">
-                <h2>ðŸ“Š Datos y Métricas</h2>
+                <h2>📊 Datos y Métricas</h2>
                 <div class="callout callout-warning">
                     <p><strong>Metodología:</strong> Todas las métricas son verificables y se actualizan trimestralmente. Fuentes disponibles bajo solicitud.</p>
                 </div>
@@ -388,7 +384,7 @@
 
                 <div>
                     <div class="card">
-                        <h3>ðŸ” Cómo Verificar</h3>
+                        <h3>💡” Cómo Verificar</h3>
                         <ol>
                             <li>Todos los enlaces externos son directos a fuentes originales</li>
                             <li>Los testimonios incluyen información de contacto cuando es posible</li>
@@ -399,7 +395,7 @@
                     </div>
 
                     <div class="card mt-lg">
-                        <h3>ðŸ“§ Solicitar Verificación</h3>
+                        <h3>🔧 Solicitar Verificación</h3>
                         <p>
                             Para verificación adicional de cualquier evidencia, contacta con nosotros. Proporcionamos:
                         </p>

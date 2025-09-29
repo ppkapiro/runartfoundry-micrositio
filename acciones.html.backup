@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Acciones prácticas y ejecutables para el desarrollo de Uldis López y RUN Art Foundry. Roadmap operativo con ejemplos claros y plazos definidos.">
-    <meta name="keywords" content="acciones, prácticas, roadmap, desarrollo, organización, automatización, estrategia, implementación">
+    <meta name="description" content="Acciones prácticas y ejecutables para el desarrollo de Uldis López y RUN Art F                <h3>📖 3. Narrativa y Portafolio</h3>undry. Roadmap operativo con ejemplos claros y plazos def                <h3>🏢 5. Estrategia de Marca Corporativa (RUN)</h3>nidos.">
+    <meta name="keywords" content="acciones, prácticas, roadmap, desarrollo, organización, automatización, estrategia, implementac                    <h3>🏆 KPIs Anuales</h3>ón">
     <meta name="author" content="RUN Art Foundry">
     
     <!-- Open Graph -->
@@ -32,21 +32,17 @@
     <header class="header" role="banner">
         <div class="container">
             <div class="header-content">
-                <a href="index.html" class="logo" aria-label="RUN Art Foundry - Inicio">
-                    <span>RUN</span> Art Foundry
-                </a>
 
                 <nav class="nav-main" role="navigation" aria-label="Navegación principal">
                     <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">☰</button>
                     
                     <ul class="nav-list" id="nav-list">
-                        <li><a href="index.html" class="nav-link">Inicio</a></li>
                         <li><a href="uldis.html" class="nav-link">Uldis López</a></li>
-                        <li><a href="run.html" class="nav-link">RUN Art Foundry</a></li>
+                        <li><a href="run.html" class="nav-link" title="RUN Art Foundry - Fundición Artística">RUN Art Foundry</a></li>
                         <li><a href="cronologia.html" class="nav-link">Cronología</a></li>
                         <li><a href="evidencias.html" class="nav-link">Evidencias</a></li>
                         <li><a href="casos/index.html" class="nav-link">Casos</a></li>
-                        <li><a href="lab/index.html" class="nav-link">RUN Lab</a></li>
+                        <li><a href="lab/index.html" class="nav-link" title="RUN Lab - Laboratorio de Innovación">RUN Lab</a></li>
                         <li><a href="acciones.html" class="nav-link active" aria-current="page">Acciones</a></li>
                         <li><a href="contacto.html" class="nav-link">Contacto</a></li>
                     </ul>
@@ -127,7 +123,7 @@
 
             <!-- 1. organización de Activos -->
             <div class="card mb-xl">
-                <h3>ðŸ“‚ 1. organización de Activos</h3>
+                <h3>📂 1. organización de Activos</h3>
                 
                 <div class="accordion-item">
                     <button class="accordion-header" aria-expanded="false">
@@ -212,12 +208,12 @@
                                     <h4>Ejemplo de Estructura</h4>
                                     <p><strong>uldislopez.com/</strong></p>
                                     <ul style="font-family: monospace;">
-                                        <li>â”œâ”€â”€ Inicio (biografía + hero)</li>
-                                        <li>â”œâ”€â”€ Obras (galería + fichas)</li>
-                                        <li>â”œâ”€â”€ Trayectoria (timeline)</li>
-                                        <li>â”œâ”€â”€ RUN Art Foundry (enlace)</li>
-                                        <li>â”œâ”€â”€ Prensa (apariciones)</li>
-                                        <li>â””â”€â”€ Contacto</li>
+                                        <li>├── Inicio (biografía + hero)</li>
+                                        <li>├── Obras (galería + fichas)</li>
+                                        <li>├── Trayectoria (timeline)</li>
+                                        <li>├── RUN Art Foundry (enlace)</li>
+                                        <li>├── Prensa (apariciones)</li>
+                                        <li>└── Contacto</li>
                                     </ul>
                                 </div>
 
@@ -254,7 +250,7 @@
                                 <div class="callout callout-info">
                                     <h4>Ejemplo de Post</h4>
                                     <p style="font-style: italic;">
-                                        "ðŸ”¥ Hace 20 años en Pinar del Río, fundía con equipos básicos pero resultados sólidos. Hoy en Miami tengo tecnología avanzada, pero sigo aplicando las técnicas tradicionales que aprendí en Cuba. La tecnología amplifica la técnica, no la reemplaza. #Fundición #Arte #Cuba #Miami"
+                                        "🔥 Hace 20 años en Pinar del Río, fundía con equipos básicos pero resultados sólidos. Hoy en Miami tengo tecnología avanzada, pero sigo aplicando las técnicas tradicionales que aprendí en Cuba. La tecnología amplifica la técnica, no la reemplaza. #Fundición #Arte #Cuba #Miami"
                                     </p>
                                 </div>
 
@@ -271,7 +267,7 @@
 
             <!-- 3. Narrativa y Portafolio -->
             <div class="card mb-xl">
-                <h3>ðŸ“– 3. Narrativa y Portafolio</h3>
+                <h3>💡“– 3. Narrativa y Portafolio</h3>
                 
                 <div class="accordion-item">
                     <button class="accordion-header" aria-expanded="false">
@@ -381,7 +377,7 @@
 
             <!-- 5. Estrategia de Marca Corporativa -->
             <div class="card mb-xl">
-                <h3>ðŸ¢ 5. Estrategia de Marca Corporativa (RUN)</h3>
+                <h3>💡¢ 5. Estrategia de Marca Corporativa (RUN)</h3>
                 
                 <div class="accordion-item">
                     <button class="accordion-header" aria-expanded="false">
@@ -466,10 +462,10 @@
                                     <h4>Panel Mensual Automático</h4>
                                     <p><strong>Métricas que se mostrarán:</strong></p>
                                     <ul style="font-size: 0.9rem;">
-                                        <li>ðŸ“Š "Nuevas menciones/mes": 12</li>
-                                        <li>ðŸ“ˆ "Engagement promedio Reel": 8.5%</li>
+                                        <li>📊 "Nuevas menciones/mes": 12</li>
+                                        <li>📈 "Engagement promedio Reel": 8.5%</li>
                                         <li>🌍 "Visitas web": 2,340</li>
-                                        <li>ðŸ“§ "Leads generados": 15</li>
+                                        <li>🔧 "Leads generados": 15</li>
                                         <li>🎯 "Proyectos cerrados": 3</li>
                                     </ul>
                                 </div>
@@ -495,7 +491,7 @@
             
             <div class="grid grid-2">
                 <div class="card">
-                    <h3>ðŸ Acciones Inmediatas (0-30 días)</h3>
+                    <h3>💡 Acciones Inmediatas (0-30 días)</h3>
                     <div style="max-height: 300px; overflow-y: auto;">
                         <label style="display: flex; align-items: flex-start; gap: var(--space-xs); margin-bottom: var(--space-sm); cursor: pointer;">
                             <input type="checkbox" style="margin-top: 4px;">
@@ -567,7 +563,7 @@
             <div class="grid grid-3">
                 
                 <div class="card">
-                    <h3>ðŸ“Š KPIs Mensuales</h3>
+                    <h3>📊 KPIs Mensuales</h3>
                     <ul>
                         <li><strong>Reels publicados:</strong> 4/mes</li>
                         <li><strong>Posts LinkedIn:</strong> 1/mes</li>
@@ -578,7 +574,7 @@
                 </div>
 
                 <div class="card">
-                    <h3>ðŸ“ˆ KPIs Trimestrales</h3>
+                    <h3>📈 KPIs Trimestrales</h3>
                     <ul>
                         <li><strong>Menciones en medios:</strong> 3/trimestre</li>
                         <li><strong>Nuevos backlinks:</strong> 5/trimestre</li>
@@ -589,7 +585,7 @@
                 </div>
 
                 <div class="card">
-                    <h3>ðŸ† KPIs Anuales</h3>
+                    <h3>💡🏆 KPIs Anuales</h3>
                     <ul>
                         <li><strong>Cobertura internacional:</strong> ≥1 medio</li>
                         <li><strong>Proyectos documentados:</strong> 30</li>
